@@ -1,0 +1,334 @@
+.hsContainer{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    overflow: visible;
+    padding-top: 5%;
+    /*height: 100%*/
+}
+
+/**{
+        font-size: 16px;    //
+}*/
+#service{
+
+    position: absolute;
+    padding:20%; 
+    padding-top: 8em;
+    padding-right: 20%;
+    margin-left: -3%;
+    /*    perspective: 1000px;*/
+}
+#solution{
+
+    display: none;
+    position: absolute;
+    padding:20%; 
+    padding-top: 8em;
+    padding-right: 26%; /* Ratio of 1.2 must be maintained between the padding and middle tabs*/
+    padding-left: 23%;  /* i.e ratio of num. of tabs to allocated space(100%-L_padd%-R_padd%)  */
+    margin-left: -60px;
+    overflow: visible;
+}
+#product{
+
+    display: none;
+    position: absolute;
+    padding:20%; 
+    padding-top: 8em;
+    padding-right: 28%; /* Ratio of 1.2 must be maintained between the padding and middle tabs*/
+    padding-left: 31%;  /* i.e ratio of num. of tabs to allocated space(100%-L_padd%-R_padd%)  */
+    margin-left: -75px;
+    overflow: visible;
+}
+#career{
+
+    display: none;
+    position: absolute;
+    padding:20%; 
+    padding-top: 8em;
+    padding-right: 26%; /* Ratio of 1.2 must be maintained between the padding and middle tabs*/
+    padding-left: 23%;  /* i.e ratio of num. of tabs to allocated space(100%-L_padd%-R_padd%)  */
+    margin-left: -60px;
+    overflow: visible;
+}
+
+/* ----------------- TABS STYLE INDIVIDUAL-------------*/
+.service_1{
+    position: relative;
+    border: 3px solid rgba(220, 27, 133, 0.25);
+    background: rgba(255,255,255,0.7);
+    /*    transform: rotateY(15deg);*/
+    height: 15em;
+    /*min-height: 250px;*/
+    width: 155%;
+    /*	max-width: 130%;*/
+    cursor: pointer;
+    line-height: normal !important;
+    pointer-events: all;
+    -webkit-transition: background 0.25s ease-in-out;
+    -moz-transition: background 0.25s ease-in-out;
+    -o-transition: background 0.25s ease-in-out;
+    transition: box-shadow 0.8s ease-in-out;
+
+
+}
+.service_1:hover{
+    /*background: rgba(201, 244, 145, 0.6);*/
+    box-shadow: 0 0 155px 15px rgba(0, 190, 255, 0.57);
+    border-color: rgba(169, 233, 255, 0.71);
+}
+
+
+.service_1 div>h1{
+    text-align: center;
+    margin-top: 6.2em;  
+    font-size: 1em;
+    min-width: 10em;
+    max-width: 18em;
+    line-height: normal !important;
+    color: rgba(220, 27, 133, 0.50);
+    transition:all 0.8s ease-in-out;
+
+}
+
+
+.service_1 div>h2 , .service_2 h3 , .service_3 h3 , .service_4 h3, .service_5 h3{
+    text-align: center;
+    width: 100%;
+    margin-top: -25px;
+    font-size: 1em;
+    color: rgba(220, 27, 133, 0.55);
+    position: absolute;
+    transition:all 0.8s ease-in-out;
+
+}
+.service_1 div>a{
+    position: relative;
+    margin-left: 45%;
+    margin-top: 15%;	
+    opacity: 0.01;
+    transition:all 0.8s ease-in-out;
+}
+.service_1 div>p{
+    color: rgba(220, 27, 133, 0.40);
+    font-size: 0.8em;
+    text-align: center;
+    height: 2em;
+    transition:all 0.8s ease-in-out;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.service_1 div>a>img{
+    height: 2em;
+    margin-top: 1em;
+}
+
+
+
+.reflection
+{
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    transform: scaleY(-1);
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.65));
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(214, 255, 214, 0.65));
+    background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(214, 255, 214, 0.65)); /* For Opera 11.1 to 12.0 */
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.65)); /* Standard syntax */
+    height: 25%;
+    border: 0px;
+    width: 100%;
+    margin-top:2.3em;
+    position: relative;
+    pointer-events: none;
+
+}
+
+/* ------- MENU AT BOTTOM OF first PAGE -------------*/
+.menuBottom{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
+    /*	margin-top: 5px;*/
+    bottom: 9px;
+    position: absolute;
+    z-index: 1;
+}
+.menuItemB
+{
+    position: relative;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
+    text-align: -moz-center;
+    line-height: normal !important;
+    overflow-wrap: break-word;
+    color: rgba(255, 255, 255, 1);
+    /*font-size: 20px;*/
+    transition:all 0.41s ease-in-out;
+
+}
+.menuItemB:hover{
+    text-decoration: none;
+    color:rgba(220, 27, 133, 0.50);
+}
+
+/*--------------- MEnu AT TOP of Secod PAge-----------*/
+.menuTop{
+    position: fixed;
+    margin-top: 5em;
+    background: rgba(255,255,255,0.4);
+    padding: 0.8em;
+    box-shadow: 0px -3px 14px rgba(0,0,0,0.8);
+    top: 0;
+    height: 2em;
+    z-index: 1;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
+}
+.menuItem
+{
+    position: relative;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
+    text-align: -moz-center;
+    line-height: normal !important;
+    overflow-wrap: break-word;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 1);
+    transition:all 0.9s ease-in-out;
+    padding: 3px;
+    margin-right: 1.5em;
+}
+
+.menuItem >a:hover{
+    text-decoration: none;
+    color: rgba(220, 27, 133, 0.50);
+    transition:all 0.41s ease-in-out;
+}
+
+.sel {
+    background:rgba(83, 62, 101, 0.4)!important;
+    /*    box-shadow: -2px 6px 52px rgba(242, 11, 100, 0.63);*/
+}
+.sel>a{
+    color: rgba(255,255,255,1) ;
+    text-decoration: none;
+}
+
+
+
+/*-------  FOOTER STYLES AND Social Networking -----------*/
+#Footer{
+    position: relative;
+}
+#footer {
+    bottom:0px;    
+    width:100%;   
+    /*padding-bottom: 1.8em;  */ 
+    margin-top: -3em;
+    position: absolute;
+    overflow-wrap: break-word;
+    z-index: 3;
+
+}
+#footer .footer-below {
+    /*background: -webkit-radial-gradient(circle,rgba(215, 175, 230, 0.5), rgba(215, 175, 230, 0.8));
+            background: -moz-radial-gradient(circle,rgba(215, 175, 230, 0.5), rgba(215, 175, 230, 0.8));*/
+    background:rgba(83, 62, 103, 0.8);
+    color:white;
+    -webkit-box-shadow: -6px 5px 6px 5px rgba(0, 0, 0, 1);
+    box-shadow:0 0 9px -1px black;
+}
+#footer *>p{
+    font-size:0.7em !important;
+
+}
+#footer-border{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+#footer-border:hover{
+    text-decoration: none;
+    color: rgba(0,200,200,1);
+}
+.Inline{
+    padding-right: 1em;
+    /*padding-left: 1.5em;*/
+    /*font-size: 0.7em;*/
+}
+.max-inline-padding{
+    /*padding-right: 1.5em;*/
+    padding-left: 5.5em;
+    padding-top: 0.5em;
+    /*font-size: 0.7em;*/
+}
+.btn-outline {
+    margin-top: 0.4em;       /*2px=0.1em*/
+    margin-bottom: 0.75em;
+    border: solid 2px #fff;	
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
+}
+.btn-social {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1em; 
+    line-height: 1.8em;
+}
+.btn-social >i{
+    font-size:1em; }
+
+
+
+/* ----------------------------  Header Styles ---------------------------------*/
+.HeaderItem{
+    /*    padding-top: 10%;*/
+    color:rgba(255,255,255,1);
+    overflow-wrap: break-word;
+    line-height: normal !important;
+    text-align: center;
+    font-size: 0.9em;
+
+}
+.HeaderItem *>a{
+    font-size: 1em;
+    color:rgba(255,255,255,1);
+    transition :all 0.4s ease-in-out;
+
+}
+
+.HeaderItem *>img{
+    height: 3em;
+    width: 3em;
+    float: right;
+    border-radius: 1em;
+    padding: 0.5em;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.HeaderItem >div{
+    width: 5em;
+    /*word-break: break-all;*/
+
+}
+.HeaderItem *>a:hover{
+    color: rgba(220, 27, 133, 0.9) ;
+    text-decoration: none;
+}

@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Aug, 2014, 11:27:39 AM
+    Author     : sangeetac
+*/
+#careers .bcg{
+	
+    /*background-image:url('../img/BACK_careers.png');*/
+	background-color: #E7E7E7;
+
+}
+.careersContainer{
+
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+
+}
+#caption{
+
+    position: relative;
+
+}
+#caption p{
+    text-align: center;
+    font:  italic bold 12px/30px Georgia, serif;
+    font-size: 3em;
+    font-weight:bold;
+
+    color: green;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.whyVIT{
+
+    margin-top: 8%;
+
+}
+
+.whyVIT h4{
+    font:  italic bold 12px/30px Georgia, serif;
+
+    font-size: 3em;
+    font-weight:bold;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: green;
+    margin-left: 14%;
+
+}
+
+
+.careerContent
+{
+    width:100%;
+    height:100%;
+    background: transparent;
+    background-color: black;
+}
+.careerContent h1{
+    /*margin-top: 141px;*/
+    text-align: center;
+    font:  italic bold 12px/30px Georgia, serif;
+    text-transform: uppercase;
+    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight:bold;
+    color: #f04d5e;;
+}
+.careerContent p {
+
+    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    color: whitesmoke;
+    /*margin:2%;*/
+    margin-left:3%;
+    margin-right:3%;
+}
+
+.careerContent p b{
+    color: #f04d5e;
+    font-size: 20px;
+
+
+}
+.careerContent li{
+    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    color: whitesmoke;
+    /*margin:2%;*/
+    margin-left:3%;
+    margin-right:3%; 
+}
+
+.content{
+    padding-top: 5%;
+}
+
+

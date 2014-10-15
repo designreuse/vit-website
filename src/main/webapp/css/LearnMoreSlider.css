@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Oct, 2014, 3:36:17 PM
+    Author     : amitj
+*/
+#LMcontentContainer {
+    width: 96%;
+    margin: 2%;
+    overflow: hidden;
+}
+
+.LMwrapper{
+    left: 0px;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+
+#LMwrapperSolutions{
+    perspective: 1500px;
+    width: 410%;
+
+}
+#LMwrapperAbout{
+
+    perspective: 1500px;
+    width: 410%;
+
+}
+#LMwrapperServices{
+    perspective: 1875px;
+    width: 512%;
+}
+
+.LMcontent {
+    position: relative;
+    float:left;
+    margin-top: 8em;
+    padding: 1.5em;
+    pointer-events: all;
+    transition: all 2s ease-in-out;
+
+}
+.LMcontent>div{
+    padding: 1em;
+    border: 3px solid rgba(215, 175, 230, 0.8);
+    background: rgba(255,255,255,0.3);
+    font-size: 16px;
+}
+.LMcontent *>h1,h2,h3,h4,h5{
+    margin-top:20px !important;
+    margin: 10px;
+    line-height: normal !important;
+}
+.LMcontent *>p{
+    margin: 10px;
+    margin-top:5px !important;
+    margin-bottom: 15px !important;
+    line-height: normal !important;
+}
+
+.SlideAct{
+    border-top-color: rgba(238, 147, 238, 1);
+    border-right-color: rgba(238, 147, 238, 1);
+}
+/*--------------- MEnu AT TOP of Secod PAge-----------*/
+.LMmenuTop{
+    /*	position: absolute;*/
+    position: fixed;
+    margin-top: 5em;
+    background: rgba(255,255,255,0.4);
+    padding: 10px;
+    box-shadow: 0px -3px 14px rgba(0,0,0,0.8);
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+.LMmenuItem
+{
+    position: relative;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
+    text-align: -moz-center;
+    line-height: normal !important;
+    overflow-wrap: break-word;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 1);
+    /*font-size: 20px;*/
+    transition:box-shadow 0.81s ease-in-out;
+    padding: 3px;
+}
+
+.LMmenuItem >a:hover{
+    text-decoration: none;
+    color: rgba(220, 27, 133, 0.50);
+    transition:all 0.41s ease-in-out;
+}
+
+.LMsel {
+    background:rgba(83, 62, 101, 0.4);
+    box-shadow: -2px 6px 52px rgba(242, 34, 155, 0.35);
+}
+
+.LMsel>a{
+    color: rgba(255,255,255,1) ! important;
+    text-decoration: none;
+}
+
+#backToHome{
+    position: fixed;
+    margin-left: 0;
+    bottom: 4em;
+    padding: 4px;
+    background:linear-gradient(to right,rgba(255, 255, 255, 0.5) 55%,rgba(255,255,255,0.0));
+    height: 2em;
+    width: 9em;
+    z-index: 2;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+#backToHome >a{
+    color: white;
+}
+#backToHome:hover{
+
+    background: linear-gradient(to right,rgba(83, 62, 101, 0.6) 55%,rgba(255,255,255,0.1));
+}
+#backToHome >a:hover{
+
+   text-decoration: none;
+}

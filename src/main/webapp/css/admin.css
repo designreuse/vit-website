@@ -1,0 +1,32 @@
+/* 
+    Document   : admin
+    Created on : 27 Aug, 2014, 4:27:13 PM
+    Author     : mrudular
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+/* 
+    Document   : admin
+    Created on : 27 Aug, 2014, 4:27:13 PM
+    Author     : mrudular
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+@import url('bootstrap.css');
+@import url('bootstrap.min.css');
+@import url('jquery.fullPage.css');
+@import url('service.css');
+@import url('font.css');
+@import url('new.css');
+@import url('animate.min.css');
+@import url('yaml/core/base.min.css');
+@import url('bootstrap-responsive.min.css');
+@import url('slider1.css');
+@import url('slider2.css');
+@import url('slider3.css');
+@import url('slick.css');
+
