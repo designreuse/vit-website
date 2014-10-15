@@ -188,7 +188,7 @@
                         <div class="service_1" id="service1" style="margin-top: -6%;">
                             <div>  <h1>Onsit/Offshore</h1>
                                 <p>Global services delivery model</p>
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#Onsite-Offshore">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
 
                                 </a>		
@@ -202,7 +202,7 @@
                         <div class="service_1" id="service2"style="margin-top: -2%;">
                             <div > <h1>Testing Services</h1>
                                 <p>Integration with build and test automation</p>
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#Testing">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -216,7 +216,7 @@
                                 <h1>EAD</h1> 
                                 <p>Delivering value with  development and quality assurance</p>
                                 <!--<img src="images/cms2.jpg" height="100px"width="100px"/>-->
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#EAD">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>
                             <div class="reflection"> </div>
@@ -228,7 +228,7 @@
                             <div ><h2>Product </h2>
                                 <h1> Development</h1>
                                 <p>Better product leads better market share</p>
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#PD">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>
@@ -239,7 +239,7 @@
                         <div class=" service_1" id="service5" style="margin-top: 10%;">
                             <div ><h1>Our Expertise</h1>
                                 <p>Strong team of skilled developers and managers</p>
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#PD">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>
