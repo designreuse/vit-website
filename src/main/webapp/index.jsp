@@ -53,10 +53,9 @@
 
     </head>
     <body >
-        <!-- HEADER-->
 
         <div id="singlePage"> 
-            <div id="Header"></div>
+            <div id="Header"></div><!-- HEADER-->
             <!--****************************First PAGE**************************************-->
             <div class="section clearfix" id="home" data-anchor="home" style="">
                 <div class="demo-1" >
@@ -169,19 +168,20 @@
                  radial-gradient(circle 55em, rgba(18, 216, 248, 0.670588),
                  rgba(159, 93, 209, 0.592157), rgba(16, 15, 18, 0.670588)) !important;">
 
-                <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <!--                    <div class="ym-g20 ym-gl" >
-                                            <li class="menuItem" data-menuanchor="home"  id="home_t" ><a href="#home">Home</a></li></div>-->
-                    <div class="ym-g25 ym-gl">
-                        <li class="menuItem " data-menuanchor="services"  id="services_t" ><a href="#firstPage">Services</a></li></div>
-                    <div class="ym-g25 ym-gl">
-                        <li class="menuItem"data-menuanchor="solutions" id="solutions_t" ><a href="#firstPage">Solutions</a></li></div>
-                    <div class="ym-g25 ym-gl">
-                        <li class="menuItem"data-menuanchor="products"  id="products_t" ><a href="#firstPage">Products</a></li></div>
-                    <div class="ym-g25 ym-gl">
-                        <li  class="menuItem" data-menuanchor="careers"  id="careers_t" ><a href="#firstPage">Careers</a></li></div>
+                <div class="ym-grid  menuTop" >
+                    <div class="ym-grid  "style="padding: 0.8em;" > <!-- Menu at Top of Second Page -->
+                        <!--                    <div class="ym-g20 ym-gl" >
+                                                <li class="menuItem" data-menuanchor="home"  id="home_t" ><a href="#home">Home</a></li></div>-->
+                        <div class="ym-g25 ym-gl">
+                            <li class="menuItem " data-menuanchor="services"  id="services_t" ><a href="#firstPage">Services</a></li></div>
+                        <div class="ym-g25 ym-gl">
+                            <li class="menuItem"data-menuanchor="solutions" id="solutions_t" ><a href="#firstPage">Solutions</a></li></div>
+                        <div class="ym-g25 ym-gl">
+                            <li class="menuItem"data-menuanchor="products"  id="products_t" ><a href="#firstPage">Products</a></li></div>
+                        <div class="ym-g25 ym-gl">
+                            <li  class="menuItem" data-menuanchor="careers"  id="careers_t" ><a href="#firstPage">Careers</a></li></div>
+                    </div>
                 </div>
-
                 <div class="ym-grid ym-equalize" id="service"> <!-- service -->
 
                     <div class="ym-g20 ym-gl" style="pointer-events: none;">
