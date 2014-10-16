@@ -162,11 +162,7 @@
             </div>
 
             <!--****************************Second PAGE**************************************-->
-            <div class="section clearfix" id="services" data-anchor="services"      
-
-                 style="background: 
-                 radial-gradient(circle 55em, rgba(18, 216, 248, 0.670588),
-                 rgba(159, 93, 209, 0.592157), rgba(16, 15, 18, 0.670588)) !important;">
+            <div class="section clearfix" id="services" data-anchor="services"  >
 
                 <div class="ym-grid  menuTop" >
                     <div class="ym-grid  "style="padding: 0.8em;" > <!-- Menu at Top of Second Page -->
@@ -225,8 +221,8 @@
 
                     <div class="ym-g20 ym-gl" style="pointer-events: none;">
                         <div class=" service_1" id="service4" style="margin-top: 6%;">
-                            <div ><h2>Product </h2>
-                                <h1> Development</h1>
+                            <div >
+                                <h1>Product Dev.</h1>
                                 <p>Better product leads better market share</p>
                                 <a href="#home">
                                     <img src="images/learnSym.png" />

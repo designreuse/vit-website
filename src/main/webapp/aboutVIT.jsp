@@ -58,7 +58,7 @@
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
         <script>
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $('#singlePage').fullpage({
                     anchors: ['firstPage'],
                     menu: "#menus"
@@ -67,7 +67,7 @@
             });
         </script>
         <script>
-            $(function() {
+            $(function () {
                 $("#Header").load("header.jsp");
                 $("#Footer").load("footer.jsp");
 
@@ -82,12 +82,14 @@
                  style="background-image: url('images/back2.jpg') !important;background-size: cover;">
 
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-g33 ym-gl">
-                        <li class="menuItem  sel" data-menuanchor="about"  id="LMmenuOpt1" ><a href="#">About Us</a></li></div>
-                    <div class="ym-g33 ym-gl">
-                        <li class="menuItem"data-menuanchor="contact" id="LMmenuOpt2" ><a href="#">Contact Us</a></li></div>
-                    <div class="ym-g33 ym-gl">
-                        <li class="menuItem"data-menuanchor="find"  id="LMmenuOpt3" ><a href="#">Find Us</a></li></div>
+                    <div class="ym-grid  "style="padding: 0.8em;" >
+                        <div class="ym-g33 ym-gl">
+                            <li class="menuItem  sel" data-menuanchor="about"  id="LMmenuOpt1" ><a href="#">About Us</a></li></div>
+                        <div class="ym-g33 ym-gl">
+                            <li class="menuItem"data-menuanchor="contact" id="LMmenuOpt2" ><a href="#">Contact Us</a></li></div>
+                        <div class="ym-g33 ym-gl">
+                            <li class="menuItem"data-menuanchor="find"  id="LMmenuOpt3" ><a href="#">Find Us</a></li></div>
+                    </div>
                 </div>
                 <div id ="backToHome">
                     <a href="<%=request.getContextPath()%>">Home</a> 
