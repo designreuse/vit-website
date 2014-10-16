@@ -59,7 +59,7 @@ and open the template in the editor.
     margin: 10px;
     margin-top:5px !important;
     margin-bottom: 15px !important;
-    line-height: normal !important;
+    line-height: 1em !important;
 }
 
 .SlideAct{

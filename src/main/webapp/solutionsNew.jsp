@@ -24,12 +24,7 @@
                     menu: "#menus"
 
                 });
-
-
-                var currentUrl = window.location.hash;
-                var curr = $(" [href$='" + currentUrl + "'] >.menuItem").addClass('sel');
-                //$(".LMwrapper").css("left", 0 ); 
-               // console.log(curr.data());
+               FirstExe();
 
             });
         </script>
@@ -37,7 +32,6 @@
             $(function () {
                 $("#Header").load("header.jsp");
                 $("#Footer").load("footer.jsp");
-
             });
         </script> 
         <script>
@@ -51,14 +45,16 @@
                  style="background-image: url('images/back2.jpg') !important;background-size: cover;">
 
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-g25 ym-gl">
-                        <a href="#Onsite-Offshore" data-bind="val:0" ><li class="menuItem "   id="LMmenuOpt1" >Onsite/Offshore</li></a></div>
-                    <div class="ym-g25 ym-gl">
-                        <a href="#Testing"><li class="menuItem" id="LMmenuOpt2" >Testing Services</li></a></div>
-                    <div class="ym-g25 ym-gl">
-                        <a href="#EAD"><li class="menuItem"  id="LMmenuOpt3" >EAD</li></a></div>
-                    <div class="ym-g25 ym-gl">
-                        <a href="#PD"><li  class="menuItem"   id="LMmenuOpt4" >Product Dev.</li></a></div>
+                    <div class="ym-grid  "style="padding: 0.8em;" >
+                        <div class="ym-g25 ym-gl">
+                            <a href="#Onsite-Offshore"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >Onsite/Offshore</li></a></div>
+                        <div class="ym-g25 ym-gl">
+                            <a href="#Testing" ><li class="menuItem" data-val="1" id="LMmenuOpt2" >Testing Services</li></a></div>
+                        <div class="ym-g25 ym-gl">
+                            <a href="#EAD"  ><li class="menuItem"  data-val="2" id="LMmenuOpt3" >EAD</li></a></div>
+                        <div class="ym-g25 ym-gl">
+                            <a href="#PD"  ><li  class="menuItem"   data-val="3" id="LMmenuOpt4" >Product Dev.</li></a></div>
+                    </div>
                 </div>
                 <div id ="backToHome">
                     <a href="<%=request.getContextPath()%>">Home</a> 
