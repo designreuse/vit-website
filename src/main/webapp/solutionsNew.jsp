@@ -144,7 +144,7 @@
 
                         <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="CMS">
                             <div >  
-                                <!--<img src="images/SoftDev.png" width="100%" style="height: 14em; margin-bottom: 12px;">-->
+                                <img src="images/cms-solutions.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
                                 <p>Content Management System refers to the system of managing the information from creation to its destruction. It includes the management of process for updates, approvals, indexing, publishing, storage, archival etc.</p>
 
                                 <p>Information typically passes through this lifecycle for a finite period of time. A content management system (CMS) provides the necessary infrastructure for multiple persons to effectively contribute content and collaborate throughout these lifecycles Content Management System essentially consists of Document Management, Records Management and Document Capture.</p>
@@ -188,6 +188,6 @@
             </div>
 
             <div id="Footer"></div>
-
+        </div>
     </body>
 </html>

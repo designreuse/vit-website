@@ -9,7 +9,6 @@
 <script>
     var currentUrl = window.location.hash;
     var selCurr=$(" [href$='"+currentUrl+"']").css("color", "rgba(255, 107, 188, 1)");
-    console.log("heeader script executed.");
 </script>
 <!--<script>
     $(function() {      

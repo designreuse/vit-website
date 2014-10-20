@@ -3,7 +3,9 @@
     Created on : 22 Sep, 2014, 4:11:55 PM
     Author     : mrudular
 --%>
-
+<script>
+    AdjustTheLMElements();
+</script>
 
 <div class="text-center" id="footer">
 
