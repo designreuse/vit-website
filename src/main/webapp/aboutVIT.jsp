@@ -74,7 +74,7 @@
             });
         </script> 
     </head>
-    <body style="overflow-y: scroll!important;">
+    <body>
 
         <div id="singlePage"> 
             <div id="Header"></div>
@@ -177,7 +177,7 @@
 
                         <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) scale(0.7);" >
                             <div >
-                                <div id="googleMap" style="width:100%;height:380px;"></div>
+                                <div id="googleMap" style="width:100%;height:100%;"></div>
                             </div>                            
                         </div>
                     </div>

@@ -70,12 +70,16 @@
 
                                 <p>Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
 
-                                <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery</p> and improve logistics and communication.
+                                <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery and improve logistics and communication.</p> 
 
-                                <a href="#home">
-                                    <!--                                    <img src="images/learnSym.png" />-->
-
-                                </a>		
+                                <p>Through our application development and systems integration services, you can gain consulting and delivery expertise in both end-to-end systems integration and custom application development.</p>	
+                                <p>Centered on the needs of your organization, our onsite/offshore model is designed specifically to help you quickly reduce IT budgets, revamp IT operations and re-deploy freed-up assets to more strategic initiatives that generate business value. We work in lockstep to ensure that our team operates as an extension of your organization.</p>
+                                <p>Our unique onsite/offshore global services delivery model is designed for speed, cost savings and client satisfaction.</p>
+                                <p>You are assured the best result through dedicated resources that work on your project from start to finish. The VIT Client Manager is available to work with you onsite to for planning, requirements definition and project management. This resource is paired with the Delivery Manager who may be located at any of our offshore development centers. One team is assigned to work on your project from start to finish, becoming an extension of your staff.</p>
+                                <p>With an advanced global delivery capability, we efficiently manage projects, availing your staff to focus on more strategic activities. Our model allows us to provide you with comprehensive, end-to-end, advanced solutions, in many cases at a fraction of the time and cost of other firms.</p>
+                                <p>As client needs dictate, VIT can access the specialized skills of our deep talent pool to solve any challenge. Enhanced project collaboration tools and our company-wide processes assure consistent, well-planned, measurable and reliable delivery from any and all locations.</p>
+                                <p>Let VIT use our IT, business-process and SharePoint consulting capabilities to help you transform your business, with minimal risk and disruption.</p>
+                                
                             </div> 
                             <!--                                                    <div class="LMreflection"> </div>-->
                         </div>

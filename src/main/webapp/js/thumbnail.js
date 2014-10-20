@@ -92,6 +92,7 @@ function AdjustTheElements() {
 
 function eventtobeexecuted(e) {
     if (e.which === 17) {
+        FirstExe();
         AdjustTheElements();
     }
 }
