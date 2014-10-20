@@ -24,7 +24,7 @@
                     menu: "#menus"
 
                 });
-               FirstExe();
+                FirstExe();
 
             });
         </script>
@@ -47,13 +47,13 @@
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
                     <div class="ym-grid  "style="padding: 0.8em;" >
                         <div class="ym-g25 ym-gl">
-                            <a href="#Onsite-Offshore"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >Onsite/Offshore</li></a></div>
+                            <a href="#Sharepoint"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >SharePoint Solutions</li></a></div>
                         <div class="ym-g25 ym-gl">
-                            <a href="#Testing" ><li class="menuItem" data-val="1" id="LMmenuOpt2" >Testing Services</li></a></div>
+                            <a href="#BPM" ><li class="menuItem" data-val="1" id="LMmenuOpt2" >BPM solutions</li></a></div>
                         <div class="ym-g25 ym-gl">
-                            <a href="#EAD"  ><li class="menuItem"  data-val="2" id="LMmenuOpt3" >EAD</li></a></div>
+                            <a href="#CMS"  ><li class="menuItem"  data-val="2" id="LMmenuOpt3" >CMS</li></a></div>
                         <div class="ym-g25 ym-gl">
-                            <a href="#PD"  ><li  class="menuItem"   data-val="3" id="LMmenuOpt4" >Product Dev.</li></a></div>
+                            <a href="#Mobility"  ><li  class="menuItem"   data-val="3" id="LMmenuOpt4" >Mobility Sol.</li></a></div>
                     </div>
                 </div>
                 <div id ="backToHome">
@@ -62,17 +62,58 @@
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
                     <div class ="LMwrapper"id="LMwrapperSolutions">
-                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="Onsite-Offshore">
-                            <div >  <h1>Onsit/Offshore</h1>
+                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="Sharepoint">
+                            <div > 
+                                <img src="images/ShareD.png" width="100%" style="height: 14em; margin-bottom: 12px;">
 
-                                <p>Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
+                                <p>VIT provides a full array of Microsoft SharePoint consulting services to assist clients in leveraging their SharePoint investments. Our SharePoint consulting expertise includes SharePoint and planning, implementation and configuration, migration, customization and branding, development, training, and support.</p>
 
-                                <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery</p> and improve logistics and communication.
+                                <p>Our team of more than 180 consultants has the technical skills required to meet your SharePoint needs and understands what’s needed to utilize SharePoint effectively. The team is well versed in SharePoint best practices and have the skills and experience to not only deliver more quickly but by leveraging our unique onsite/offshore project model, at a cost significantly lower than other firms.</p>
+                                <p>We work with companies across industries and sizes as a trusted advisor to help clients leverage the power of Microsoft SharePoint. VIT recognizes that every situation and client is unique which is why we gear our SharePoint consulting services towards meeting your organization's unique needs. We are dedicated to working collaboratively with clients to deliver individually tailored SharePoint services that meet their exact SharePoint and business needs.
 
-                                <a href="#home">
-                                    <!--                                    <img src="images/learnSym.png" />-->
+                                </p>
 
-                                </a>		
+                                <p>SharePoint Assessment and Planning:</p>
+                                <p>VIT can help you by conducting a detailed assessment and analysis of your needs and developing the best strategy to meet those needs. The assessment and planning activities ensure the best possible outcome for your SharePoint initiative.</p>
+                                <p>Our SharePoint assessment and planning services include:</p>
+                                <p><ul style="list-style-type: disc;">
+                                    <li>Assessment of your current Knowledge Management System, Document Management System, etc.</li>
+                                    <li>Conducting detailed requirements analysis</li>
+                                    <li>Conducting interviews with end-users, IT personnel, management, and key stakeholders</li>
+                                    <li>Development of actionable recommendations and a sound strategy for SharePoint implementation</li>
+                                </ul></p>
+
+                                <p>SharePoint Migration:</p>
+                                <p>VIT has extensive experience assisting companies in complex SharePoint migrations. Whether you need to transition from your legacy systems to SharePoint or migrate content from Microsoft Office SharePoint Server (MOSS) 2007 to Microsoft SharePoint Server 2010 or Microsoft SharePoint Server 2013, our experienced team can ensure a risk-managed, seamless migration. We work closely with you to analyze your business and technical needs, develop and implement a migration strategy that is right for your organization, implement customizations and new requirements in your migrated SharePoint system, and ensure that your migrated system works in full accordance with your needs.
+
+                                </p>
+
+                                <p>Our SharePoint migration services include:</p>
+                                <p>Migration to Microsoft SharePoint Server 2013</p>
+                                <p><ul style="list-style-type: disc;">
+                                    <li>Migration to Microsoft SharePoint Server 2010</li>
+                                    <li>Migration from Microsoft Office SharePoint Server (MOSS) 2007 and Microsoft SharePoint Server 2010</li>
+                                    <li>Migration from Microsoft Office SharePoint Portal Server 2003.
+                                    </li>
+                                </ul></p>
+                                <p>Custom SharePoint Development:</p>
+                                <p>We believe that SharePoint's out-of-the-box features can adequately meet most of many clients' requirements. We recommend thoroughly using and exploring SharePoint out-of-the box before considering custom development, as this will often save you unnecessary time and money spent.</p>
+                                <p>However, if you do realize, as many organizations do, that you have a need to extend the functionality of your SharePoint system above and beyond what the built-in features offer, we can work collaboratively with you to develop custom SharePoint solutions to meet your unique needs. Our SharePoint consultants can analyze your needs, provide recommendations in regard to which and how much SharePoint customization may be necessary and worth applying, and then implement such customizations.</p>
+                                <p>VIT Infortech’s custom SharePoint development services help clients realize the full capabilities of SharePoint. Our team of consultants is experienced in delivering customized solutions that are individually tailored to your business processes and that scale your solutions to meet your unique business needs.</p>
+                                <p>Our SharePoint application development services include developing custom:</p>
+                                <p>Workflows</p>
+                                <p><ul>
+                                    <li>Web parts</li>
+                                    <li>Extranets</li>
+                                    <li>Project Management Systems</li>
+                                    <li>Enterprise search</li>
+                                    <li>Dashboards</li>
+                                    <li>Reporting</li>
+                                    <li>Public facing sites</li>
+                                </ul></p>
+                                <p>SharePoint Maintenance and Support:</p>
+                                <p>If you find yourself trying to maintain SharePoint, or are running into issues using the tool, our consultants can provide you with timely help with anything within the SharePoint infrastructure. We provide ongoing SharePoint maintenance, troubleshooting, and support to enable your firm to be able to utilize SharePoint in accordance with its full capabilities. From investigating and resolving any SharePoint related problems, to providing general SharePoint advice and general maintenance, our consultants can provide the support you need.</p>
+
                             </div> 
                             <!--                                                    <div class="LMreflection"> </div>-->
                         </div>
@@ -80,59 +121,62 @@
 
 
 
-                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="Testing">
-                            <div > <h1>Testing Services</h1>
-                                <p>Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
+                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="BPM">
+                            <div > 
+                                <img src="images/BPMFinal.png" width="100%" style="height: 14em; margin-bottom: 12px;">
 
-                                <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery</p> and improve logistics and communication.
+                                <p>BPM is essentially the practice of managing a company by focusing on defining business processes, describing them in detail, monitoring them with appropriate metrics, and then using this improved understanding coupled with automation to optimize the performance of the business. It is focused on aligning all operational aspects of an organization with the wants and needs of clients. It is a holistic management approach that promotes business effectiveness and efficiency while striving for innovation, flexibility, and integration with technology.</p>                               
 
-                                <p> Through our application development and systems integration services, you can gain consulting and delivery expertise in both end-to-end systems integration and custom application development.</p>
+                                <p>BPM attempts to improve processes continuously and promotes a shift in the organizational culture. It is argued that BPM enables organizations to be more efficient, more effective and more capable of change than organizations that use functionally focused, traditional hierarchical management approaches.</p>                               
 
-                                <p>Centered on the needs of your organization, our onsite/offshore model is designed specifically to help you quickly reduce IT budgets, revamp IT operations and re-deploy freed-up assets to more strategic initiatives that generate business value. We work in lockstep to ensure that our team operates as an extension of your organization.</p>
+                                <p>Companies that have reached a higher level of maturity with their BPM initiative see significant cost savings, improved customer service/satisfaction, and revenue increases as a result of refined and automated processes shows near and long term benefit.</p>
 
-                                <p>Our unique onsite/offshore global services delivery model is designed for speed, cost savings and client satisfaction.</p>
+                                <p>Workflow consists of a sequence of connected steps where each step follows without delay or gap and ends just before the subsequent step may begin. It is a depiction of a sequence of operations, declared as work of a person or group an organization of staff, or one or more simple or complex mechanisms.</p>
 
-                                <p>With an advanced global delivery capability, we efficiently manage projects, availing your staff to focus on more strategic activities. Our model allows us to provide you with comprehensive, end-to-end, advanced solutions, in many cases at a fraction of the time and cost of other firms.</p>
+                                <p>VIT is a recognized leader in workflow and BPM and automation of solutions that promote process improvement and collaboration. Utilizing a myriad of technology frameworks, our staff helps our clients to understand the best process and technologies needed to support a well-rounded initiative.</p>
+                                <p>VIT provides BPM solutions for the Third Party BPM products like Nintex®, AgilePoint® etc. and also open source BPM products like jBPM and Activiti.</p>
+
                             </div>	
                             <!--                                                  <div class="LMreflection"> </div>		 -->
                         </div>
 
 
 
-                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="EAD">
+                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="CMS">
                             <div >  
-                                <h1>EAD</h1> 
-                                <p>Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
+                                <!--<img src="images/SoftDev.png" width="100%" style="height: 14em; margin-bottom: 12px;">-->
+                                <p>Content Management System refers to the system of managing the information from creation to its destruction. It includes the management of process for updates, approvals, indexing, publishing, storage, archival etc.</p>
 
-                                <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery</p> and improve logistics and communication.
+                                <p>Information typically passes through this lifecycle for a finite period of time. A content management system (CMS) provides the necessary infrastructure for multiple persons to effectively contribute content and collaborate throughout these lifecycles Content Management System essentially consists of Document Management, Records Management and Document Capture.</p>
+                                <p> VIT has the expertise in implementing Content Management systems based on the following technology stacks:</p>
 
-                                <p> Through our application development and systems integration services, you can gain consulting and delivery expertise in both end-to-end systems integration and custom application development.</p>
-
-                                <p>Centered on the needs of your organization, our onsite/offshore model is designed specifically to help you quickly reduce IT budgets, revamp IT operations and re-deploy freed-up assets to more strategic initiatives that generate business value. We work in lockstep to ensure that our team operates as an extension of your organization.</p>
-
-                                <p>Our unique onsite/offshore global services delivery model is designed for speed, cost savings and client satisfaction.</p>
-
-                                <p>With an advanced global delivery capability, we efficiently manage projects, availing your staff to focus on more strategic activities. Our model allows us to provide you with comprehensive, end-to-end, advanced solutions, in many cases at a fraction of the time and cost of other firms.</p>
+                                <p><ul style="ist-style-type:disc;">
+                                    <li>Microsoft Technology stack using Microsoft SharePoint and commercial capture tools like Kofax Capture or KnowledgeLake Capture.</li>
+                                    <li>Open source stack using Alfresco and Tesseract OCR.</li>
+                                    </p>
                             </div>
                             <!--                            <div class="reflection"> </div>-->
                         </div>
 
 
 
-                        <div class=" LMcontent" id="slide4" style="transform: rotateY(-80deg) " data-anchor="PD">
+                        <div class=" LMcontent" id="slide4" style="transform: rotateY(-80deg) " data-anchor="Mobility">
                             <div >
-                                <h1> Product  Development</h1>
-                                <p>Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
+                                <img src="images/MobApps.png" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                <p>Using VITMobile(TM) framework several world class application and solutions has been developed few of which are listed below:</p>
 
-                                <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery</p> and improve logistics and communication.
 
-                                <p> Through our application development and systems integration services, you can gain consulting and delivery expertise in both end-to-end systems integration and custom application development.</p>
+                                <p><ul style="ist-style-type:disc;">
+                                    <li>Depot Management Application – This application is used to manage end to end operations of a depot by collecting information right from the point where the truck enters to the point where the commodities are dumped. Due to the remoteness of the locations, network connectivity in depots is a challenge, so till date depot staff relies on manual way of stock keeping. VITMobile framework resolves this issue and allows user to collect the informations at the point of occurrence in both connected as well as disconnected mode. Using this application only new information needs to be entered at different stage of depot operations. The depot in charge can view any kind of reports or generate receipts at a click of a button and if needed print them via portable Bluetooth printers.</li>
 
-                                <p>Centered on the needs of your organization, our onsite/offshore model is designed specifically to help you quickly reduce IT budgets, revamp IT operations and re-deploy freed-up assets to more strategic initiatives that generate business value. We work in lockstep to ensure that our team operates as an extension of your organization.</p>
+                                    <li>Smart Inspection – This application is used for performing field inspections. This application will help the inspectors to collect the inspection relation information directly in the device and sync them with the server. The application can also pre-fetch any information that may be required during the inspection. Each inspection records are encoded with GPS coordinates and date/time stamp in the background so that the location of inspection site can be verified. User can also click multiple pictures at inspection site and write notes related to each picture. The inspection can also be performed in disconnected mode in which case the inspection records are saved locally and pushed to server when the network is restored.
+                                    </li>
 
-                                <p>Our unique onsite/offshore global services delivery model is designed for speed, cost savings and client satisfaction.</p>
+                                    <li>Sales Management & Automation – This application is used by industries where sales department needs to visit their vendors on frequent basis. Using this application, sales representative can view the past orders given by the vendor along with the current status of delivery & payment. They can also take the new order and check their inventory before committing a delivery date. The disconnected framework makes sure that the salesman performs the job uninterrupted even if the vendor is remotely located with limited or no network connectivity. The interface with the external Bluetooth printer comes handy to print the order or payment receipt.</li>
+                                    </p>
 
-                                <p>With an advanced global delivery capability, we efficiently manage projects, availing your staff to focus on more strategic activities. Our model allows us to provide you with comprehensive, end-to-end, advanced solutions, in many cases at a fraction of the time and cost of other firms.</p>
+
+
                             </div>	
                             <!--                            <div class="reflection"> </div>-->
                         </div>
