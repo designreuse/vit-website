@@ -340,7 +340,7 @@
                         <div class="service_1" id="career1" style="margin-top: -6%;">
                             <div>  <h1>Why VIT</h1>
                                 <p>Reasons why you should join VIT</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/careers.jsp">
                                     <img src="images/learnSym.png" />
                                 </a></div> 
                             <div class="reflection"> </div>
@@ -352,7 +352,7 @@
                         <div class="service_1" id="career2"style="margin-top: -2%;">
                             <div > <h1>IT Openings</h1>
                                 <p>Search for jobs at VIT</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/careers.jsp">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -363,7 +363,7 @@
                         <div class="service_1" id="career3" style="margin-top: 2%;">
                             <div >  <h1>JOB Code & Profiles</h1> 
                                 <p>Know our job descriptions</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/careers.jsp">
                                     <img src="images/learnSym.png"/>
                                 </a></div>
                             <div class="reflection"> </div>
@@ -374,7 +374,7 @@
                         <div class=" service_1" id="career4" style="margin-top: 6%;">
                             <div ><h1> Apply </h1>
                                 <p>How to apply</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/careers.jsp">
                                     <img src="images/learnSym.png"/>
                                 </a></div>	
                             <div class="reflection"> </div>
