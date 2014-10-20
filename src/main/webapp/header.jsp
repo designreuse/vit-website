@@ -6,11 +6,12 @@
 
 
 
-<!--<script>
-    var currentUrl = window.location.pathname;
-    $(" [href$='"+currentUrl+"']").css("color", "rgba(255, 107, 188, 1)");
-</script>-->
 <script>
+    var currentUrl = window.location.hash;
+    var selCurr=$(" [href$='"+currentUrl+"']").css("color", "rgba(255, 107, 188, 1)");
+    console.log("heeader script executed.");
+</script>
+<!--<script>
     $(function() {      
 
         var url = "<%=request.getHeader("Referer").toString()%>";
@@ -19,7 +20,7 @@
             $('#main-div > div#about-menu').addClass('selected-menu');
         }
     });
-</script>                                               
+</script>                                               -->
 
 
 <div class="navbar-header" ><!-- id="header">  --> <!-- HEADER -->
@@ -42,20 +43,20 @@
                         <!--<img src="images/Microsoft_white.png" style="height: 3em;width: 12em;"></li>-->
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="e-gov-menu">
-                    <div class="ym-g50 " ><a href="#"><img src="images/fa-university.png"/></a></div>
-                    <div class="ym-g50"><a href="#"> E-Gov </a></div>
+                    <div class="ym-g50 " ><a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob"><img src="images/fa-university.png"/></a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob"> E-Gov </a></div>
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="sharepoint-menu">
-                    <div class="ym-g50 "><a href="#"><img src="images/sp.png"/></a></div>
-                    <div class="ym-g50"><a href="#">Sharepoint</a></div>
+                    <div class="ym-g50 "><a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint"><img src="images/sp.png"/></a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint">Sharepoint</a></div>
                 </div> 
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="testing-menu">
-                    <div class="ym-g50"><a href="#"><img src="images/fa-search.png"/></a></div>
-                    <div class="ym-g50"> <a href="#">Testing</a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing"><img src="images/fa-search.png"/></a></div>
+                    <div class="ym-g50"> <a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing">Testing</a></div>
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize " id="about-menu">
-                    <div class="ym-g50 main-menu"><a href="<%=request.getContextPath()%>/aboutVIT.jsp"><img src="images/fa-users.png"/></a></div>
-                    <div class="ym-g50 main-menu"><a href="<%=request.getContextPath()%>/aboutVIT.jsp">About Us</a></div>
+                    <div class="ym-g50 main-menu"><a href="<%=request.getContextPath()%>/aboutVIT.jsp#About"><img src="images/fa-users.png"/></a></div>
+                    <div class="ym-g50 main-menu"><a href="<%=request.getContextPath()%>/aboutVIT.jsp#About">About Us</a></div>
                 </div>
             </div>		
 

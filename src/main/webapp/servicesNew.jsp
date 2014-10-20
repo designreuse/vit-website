@@ -37,7 +37,7 @@
         <script>
         </script>
     </head>
-    <body>
+    <body style="overflow-y: scroll!important;">
 
         <div id="singlePage"> 
             <div id="Header"></div>
@@ -203,7 +203,6 @@
                 </div>
             </div>
 
-        </div>
         <div id="Footer"></div>
     </body>
 </html>
