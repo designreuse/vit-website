@@ -8,7 +8,8 @@
 
 <script>
     var currentUrl = window.location.hash;
-    var selCurr=$(" [href$='"+currentUrl+"']").css("color", "rgba(255, 107, 188, 1)");
+    var selCurr = $(" [href$='" + currentUrl + "']"); 
+    selCurr.parent().filter(".ym-g50").css("background", "rgb(213, 45, 103)");
 </script>
 <!--<script>
     $(function() {      
@@ -37,7 +38,7 @@
                     <li  data-menuanchor="services">
                         <img src="images/Microsoft_white.png" style="height: 3em;width: 12em;"></li>
                 </div>
-                <div class="ym-g10 ym-gl" >
+                <div class="ym-g20 ym-gl" >
                     <li  data-menuanchor="services">
                         <!--<img src="images/Microsoft_white.png" style="height: 3em;width: 12em;"></li>-->
                 </div>

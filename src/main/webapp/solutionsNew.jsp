@@ -34,8 +34,7 @@
                 $("#Footer").load("footer.jsp");
             });
         </script> 
-        <script>
-        </script>
+  
     </head>
     <body>
 
