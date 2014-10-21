@@ -44,19 +44,19 @@
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="e-gov-menu">
                     <div class="ym-g50 " ><a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob"><img src="images/fa-university.png"/></a></div>
-                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob"> E-Gov </a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob"> <p>E-Gov</p> </a></div>
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="sharepoint-menu">
                     <div class="ym-g50 "><a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint"><img src="images/sp.png"/></a></div>
-                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint">Sharepoint</a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint"><p>Sharepoint</p></a></div>
                 </div> 
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="testing-menu">
                     <div class="ym-g50"><a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing"><img src="images/fa-search.png"/></a></div>
-                    <div class="ym-g50"> <a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing">Testing</a></div>
+                    <div class="ym-g50"> <a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing"><p>Testing</p></a></div>
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize " id="about-menu">
                     <div class="ym-g50 main-menu"><a href="<%=request.getContextPath()%>/aboutVIT.jsp#About"><img src="images/fa-users.png"/></a></div>
-                    <div class="ym-g50 main-menu"><a href="<%=request.getContextPath()%>/aboutVIT.jsp#About">About Us</a></div>
+                    <div class="ym-g50 main-menu"><a href="<%=request.getContextPath()%>/aboutVIT.jsp#About"><p>About Us</p></a></div>
                 </div>
             </div>		
 

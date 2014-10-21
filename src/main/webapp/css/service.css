@@ -354,3 +354,8 @@
     color: rgba(220, 27, 133, 0.9) ;
     text-decoration: none;
 }
+
+.HeaderItem *>p{
+    margin: 0;
+    text-align: left;
+}
