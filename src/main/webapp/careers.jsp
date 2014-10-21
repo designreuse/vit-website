@@ -41,7 +41,7 @@
             });
         </script> 
     </head>
-    <body style="overflow-y: scroll!important;">
+    <body>
 
         <div id="singlePage"> 
             <div id="Header"></div>
@@ -70,80 +70,79 @@
                         <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg);" data-anchor="why">
                             <div >
                                 <div class="ym-grid ym-equalize">
-                                    <div style="float: left;" class="ym-g50 ym-gr">
+                                    <div style="float: left;" class="ym-g50 ym-gr" >
                                         <img src="images/breakthrough-plant.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
 
                                         <p style="margin-top: -6em;margin-left: 7em ! important; ">
-                                            <span style="font-weight: bold;color: rgb(255, 10, 90);">Breakthrough Technologies</span> VIT keeps constant focus on innovation and continuous development of technology to achieve a quick breakthrough in technology and the projects on which you will be working will provide total support for you to live with the world.</p>                            
+                                            <span>Breakthrough Technologies</span> VIT keeps constant focus on innovation and continuous development of technology to achieve a quick breakthrough in technology and the projects on which you will be working will provide total support for you to live with the world.</p>                            
                                     </div>
                                     <div style="float: right;" class="ym-g50 ym-gr">
                                         <img src="images/Business-is-more-exciting-than-any-game.png" style="height: 100px;width: 100px;opacity: 0.9;">
 
                                         <p style="margin-top: -6em;margin-left: 7em ! important; ">
-                                            <span style="font-weight: bold;color: rgb(255, 10, 90);">Exciting Business</span> As VIT is engaged with many product development companies, VIT works on State of the Art technology, be it be .NET, MOSS, Infopath, or J2EE platform. This ensure adding high-value to your profile in the competitive world.</p>                            
+                                            <span>Exciting Business</span> As VIT is engaged with many product development companies, VIT works on State of the Art technology, be it be .NET, MOSS, Infopath, or J2EE platform. This ensure adding high-value to your profile in the competitive world.</p>                            
                                     </div>
-                                </div>                                
-                                <div class="ym-grid ym-equalize ym-gr" style="margin-top:1em;">
-                                    <img src="images/HiRes.jpg" style="height: 100px;width: 100px;opacity: 0.9;float: left;">
+                                </div> 
+                                <div class="ym-grid ym-equalize">
+                                    <div style="float: left;" class="ym-g50 ym-gr" >
+                                        <img src="images/HiRes.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
 
-                                    <p style="margin-left: 7em ! important; ">
-                                        <span style="font-weight: bold;color: rgb(255, 10, 90);">Continuous Learning</span> VIT believes in providing total support to its people in providing opportunities to enhance their skill sets and also for acquisition of innovative skills by way of training and development programs to meet the growing needs of the industry.</br>
-                                        <span style="font-weight: bold;color: rgb(255, 10, 90);">Training & Development</span> VIT is very proud of the quality of training it offer to the employees, as well as the comfortable, relaxed environment we create for our employees. Our employees reflect the value they place on attending training classes and how they will use the information learned to improve workforce performance when they put hands on the projects.</br>
-                                        <span style="font-weight: bold;color: rgb(255, 10, 90);">Self-Directed Career Path</span> VIT has tools and process rigor that facilitate personal and professional development. These include:</p>
-                                    <ul style="list-style: cross-fade;margin-left: 7em ! important;">
-                                        <li>A 360-Degree Feedback program, in which your teammates, peers and customers provide feedback on all aspects of your performance.</li>
-                                        <li>An annual organizational and developmental review, where your strengths and development needs are reviewed with your immediate manager, along with your individual career plan. This annual process also drives VIT’s succession planning.</li>
-                                    </ul>
-                                </div>  
-                                <div class="ym-grid ym-equalize" style="margin-top:1em;">
-                                    <div style="float: left;" class="ym-g60 ym-gr">
-                                        <img src="images/development_culture1.jpg" style="height: 100px;width: 100px;float: left;">
-
-                                        <p style="margin-left: 7em ! important; ">
-                                            <span style="font-weight: bold;color: rgb(255, 10, 90);">Our Culture</span> At VIT, you work with some of the brightest people. We believe it's a place where you can live your dreams and pursue a career that reflects your skills and passions. Our culture is built on core values that promote learning and inclusiveness. Fair and equitable opportunities are given to each performer for their career growth.</br>
-                                            <span style="font-weight: bold;color: rgb(255, 10, 90);">VIT Values</span> At the heart of our company is a belief system that embraces eight core values.
-                                        </p>
-                                    </div>  
-                                    <div style="float: right;" class="ym-g40 ym-gr">
-                                        <img src="images/our-people.jpg" style="height: 80px;width: 120px;">
-
-                                        <p style="margin-top: -5em;margin-left: 8em ! important; ">
-                                            <span style="font-weight: bold;color: rgb(255, 10, 90);">Our People</span> VIT people are some of the best in the world with a desire to learn and stretch beyond their limits. Our people make VIT a great company and an exciting place to work.
-                                        </p>
-                                    </div>  
-                                    <div style="float: left;margin-top:1em; " class="ym-grid ym-equalize ym-gr">
+                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                            <span>Continuous Learning</span> VIT believes in providing total support to its people in providing opportunities to enhance their skill sets and also for acquisition of innovative skills by way of training and development programs to meet the growing needs of the industry.</p>                            
+                                    </div>
+                                    <div style="float: right;" class="ym-g50 ym-gr">
                                         <img src="images/growth-paln.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
 
                                         <p style="margin-top: -6em;margin-left: 7em ! important; ">
-                                            <span style="font-weight: bold;color: rgb(255, 10, 90);">Plan for Growth</span> Our people and our culture drive us to achieve greater success. We look for new and exciting ways to return value to our customers.</br>
-
-                                            Our growth strategy is to build positions in new markets where we can achieve superior growth and returns.</br>
-
-                                            We see our size as a strength, not a deterrent and we encourage our employees to take risks and think outside the box. Learn more about VIT's Growth Initiatives</p>
-                                    </div> 
-                                     <div style="float: left;margin-top:1em; " class="ym-grid ym-equalize ym-gr">
-                                        <img src="images/1team-growth.jpg" style="height: 100px;width: 100px;opacity: 0.9;margin-top: 1.5em;">
+                                            <span>Plan for Growth</span> Our people and our culture drive us to achieve greater success.
+                                            Our growth strategy is to build positions in new markets where we can achieve superior growth and returns.<br>
+                                            We see our size as a strength, not a deterrent and we encourage our employees to take risks and think outside the box.</p>                            
+                                    </div>
+                                </div> 
+                                <div class="ym-grid ym-equalize">
+                                    <div style="float: left;" class="ym-g50 ym-gr" >
+                                        <img src="images/training.png" style="height: 100px;width: 100px;opacity: 0.9;">
 
                                         <p style="margin-top: -6em;margin-left: 7em ! important; ">
-                                            <span style="font-weight: bold;color: rgb(255, 10, 90);">Key Growth Initiatives</span> VIT's ongoing business strategy centers on four key growth initiatives:</p>
+                                            <span>Training & Development</span> VIT believes in providing total support to its people in providing opportunities to enhance their skill sets and also for acquisition of innovative skills by way of training and development programs to meet the growing needs of the industry.</p>                            
+                                    </div>
+                                    <div style="float: right;" class="ym-g50 ym-gr">
+                                        <img src="images/1team-growth.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                            <span>Key Growth Initiatives</span> VIT's ongoing business strategy centers on four key growth initiatives as
+                                            Technical Leadership, 
+                                            Customer Focus, 
+                                            Growth Platforms, 
+                                            Globalization.</p>                       
+                                    </div>
+                                </div>  
+                                <div class="ym-grid ym-equalize">
+                                    <div style="float: left;" class="ym-g50 ym-gr" >
+                                        <img src="images/development_culture1.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+
+                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                            <span>Our Culture</span> At VIT, you work with some of the brightest people. We believe it's a place where you can live your dreams and pursue a career that reflects your skills and passions. Our culture is built on core values that promote learning and inclusiveness. Fair and equitable opportunities are given to each performer for their career growth.</p>                            
+                                    </div>
+                                    <div style="float: right;" class="ym-g50 ym-gr">
+                                        <img src="images/our-people.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+
+                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                            <span>Our People</span> VIT people are some of the best in the world with a desire to learn and stretch beyond their limits. Our people make VIT a great company and an exciting place to work.</p>                            
+                                    </div>
+                                </div>  
+                                <div class="ym-grid ym-equalize">
+                                    <div style="float: left;" class="ym-g50 ym-gr" >
+                                        <img src="images/self-career.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                            <span>Self-Directed Career Path</span> VIT has tools and process rigor that facilitate personal and professional development. These include:</p>
                                         <ul style="list-style: cross-fade;margin-left: 7em ! important;">
-                                            <li>Technical Leadership</li>
-                                            <li>Customer Focus</li>
-                                            <li>Growth Platforms</li>
-                                            <li>Globalization</li>
-                                        </ul>
-
-                                        <p style="margin-left: 7em ! important; ">VIT is committed to leadership in the "next generation" of technology. We are well-positioned to drive growth for the future with technical excellence in each business by developing a technical capability, and investing in research.</br>
-
-                                            Customer Focus is ensuring that everything we do provides value to our customers. It means creating a partnership that - combined with our expertise in technology - maximizes customer profitability and ensures quality.</br>
-
-                                            A key VIT strength is our ability to conceptualize the future, identify "unstoppable" trends and develop new ways to grow. Growth is the initiative, the core competency we are building at VIT.</br>
-
-                                            Globalization is not only striving to grow revenues. It also means globalizing every activity of the company. Globalization especially means finding and attracting the unlimited pool of intellectual capital - the very best people - from all around the globe.</p>
-                                    </div> 
+                                            <li>A 360-Degree Feedback program, in which your teammates, peers and customers provide feedback on all aspects of your performance.</li>
+                                            <li>An annual organizational and developmental review, where your strengths and development needs are reviewed with your immediate manager, along with your individual career plan.</li>
+                                        </ul> 
+                                    </div>                                    
                                 </div>
-                            </div>  
-                        </div>
+                            </div>
+                        </div>                     
                         <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg); " data-anchor="rewards">
                             <div>
                                 <p>Whether you are considering a career move or looking for your first job opportunity, we understand that you will weigh the rewards and benefits a company has to offer.</p>
@@ -160,7 +159,7 @@
                                     <li>Career Guidance etc.</li>
                                 </ul>
                                 <p><span style="color: rgb(255, 10, 90);font-weight: bold;">Providing Security for Your Family</span> All employees and their family members are protected under various Social Security Laws like</p>
-                                 <ul style="list-style: cross-fade">
+                                <ul style="list-style: cross-fade">
                                     <li>Provident Fund Scheme.</li>
                                     <li>Employees Pension Scheme.</li>
                                     <li>Family Pension Scheme.</li>

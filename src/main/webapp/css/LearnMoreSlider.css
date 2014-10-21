@@ -114,9 +114,9 @@ and open the template in the editor.
 #backToHome{
     position: fixed;
     margin-left: 0;
-    bottom: 4em;
+    bottom: 3.5em;
     padding: 4px;
-    background:linear-gradient(to right,rgba(255, 255, 255, 0.5) 55%,rgba(255,255,255,0.0));
+    background:linear-gradient(to right,rgba(178, 11, 66, 0.5) 55%,rgba(136, 37, 228, 0.53));
     height: 2em;
     width: 9em;
     z-index: 2;
@@ -128,7 +128,7 @@ and open the template in the editor.
 }
 #backToHome:hover{
 
-    background: linear-gradient(to right,rgba(83, 62, 101, 0.6) 55%,rgba(255,255,255,0.1));
+    background: linear-gradient(to right,rgba(178, 11, 66, 1),rgba(178, 11, 66, 0.5));
 }
 #backToHome >a:hover{
 
