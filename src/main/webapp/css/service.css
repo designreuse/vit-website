@@ -338,7 +338,7 @@
 .HeaderItem *>img{
     height: 3em;
     width: 3em;
-    /*float: right;*/
+    float: inside;
     border-radius: 1em;
     padding: 0.5em;
     transition: all 0.5s ease-in-out;
@@ -355,7 +355,6 @@
     text-decoration: none;
 }
 
-.HeaderItem *>p{
-    margin: 0;
-    text-align: left;
+.adjustHeaderElements{
+    margin-left: -2.7em;
 }

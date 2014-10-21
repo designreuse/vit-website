@@ -27,7 +27,7 @@
         <title>VIT-Infotech</title>
         <script>
 
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#singlePage').fullpage({
                     anchors: ['home', 'firstPage'],
                     menu: "#menus"
@@ -44,7 +44,7 @@
             });
         </script>
         <script>
-            $(function () {
+            $(function() {
                 $("#Header").load("header.jsp");
                 $("#Footer").load("footer.jsp");
 
@@ -184,7 +184,7 @@
                         <div class="service_1" id="service1" style="margin-top: -6%;">
                             <div>  <h1>Onsit/Offshore</h1>
                                 <p>Global services delivery model</p>
-                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#Onsite-Offshore">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
 
                                 </a>		
@@ -198,7 +198,7 @@
                         <div class="service_1" id="service2"style="margin-top: -2%;">
                             <div > <h1>Testing Services</h1>
                                 <p>Integration with build and test automation</p>
-                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -212,7 +212,7 @@
                                 <h1>EAD</h1> 
                                 <p>Delivering value with  development and quality assurance</p>
                                 <!--<img src="images/cms2.jpg" height="100px"width="100px"/>-->
-                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#EAD">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>
                             <div class="reflection"> </div>
@@ -224,7 +224,7 @@
                             <div >
                                 <h1>Product Dev.</h1>
                                 <p>Better product leads better market share</p>
-                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#PD">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>
@@ -235,7 +235,7 @@
                         <div class=" service_1" id="service5" style="margin-top: 10%;">
                             <div ><h1>Our Expertise</h1>
                                 <p>Strong team of skilled developers and managers</p>
-                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#OE">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>
@@ -250,7 +250,7 @@
                         <div class="service_1" id="solution1" style="margin-top: -6%;">
                             <div>  <h1>SharePoint Solutions</h1>
                                 <p>Migration,development and support</p>
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div> 
                             <div class="reflection"> </div>
@@ -262,7 +262,7 @@
                         <div class="service_1" id="solution2"style="margin-top: -2%;">
                             <div > <h1>BPM Solutions</h1>
                                 <p>Leader in workflow, BPM and automation</p>
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#BPM">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -273,7 +273,7 @@
                         <div class="service_1" id="solution3" style="margin-top: 2%;">
                             <div >  <h1>CMS</h1> 
                                 <p>Expertise in  content management systems</p>
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#CMS">
+                                <a href="#home">
                                     <img src="images/learnSym.png"/>
                                 </a></div>
                             <div class="reflection"> </div>
@@ -284,7 +284,7 @@
                         <div class=" service_1" id="solution4" style="margin-top: 6%;">
                             <div ><h1> Mobility Solution</h1>
                                 <p>World class application and solutions</p>
-                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#Mobility">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>
@@ -297,7 +297,7 @@
                         <div class="service_1" id="product1" style="margin-top: -6%;">
                             <div>  <h1>VIT Mobile FrameWork</h1>
                                 <p>Mobile middleware disconnected technology</p>
-                                <a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a>
 
@@ -310,7 +310,7 @@
                         <div class="service_1" id="product2"style="margin-top: -2%;">
                             <div > <h1>VIT CamPoint</h1>
                                 <p>Collaboration suite for CMMI® level 4 processes</p>
-                                <a href="<%=request.getContextPath()%>/productsNew.jsp#VITCam">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -322,7 +322,7 @@
                             <div >
                                 <h1> GPS Fleet Managment </h1>
                                 <p>Managing and tracking a fleet </p>
-                                <a href="<%=request.getContextPath()%>/productsNew.jsp#GPSFleet">
+                                <a href="#home">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -336,19 +336,18 @@
                         <div class="service_1" id="career1" style="margin-top: -6%;">
                             <div>  <h1>Why VIT</h1>
                                 <p>Reasons why you should join VIT</p>
-                                <a href="<%=request.getContextPath()%>/careers.jsp">
+                                <a href="<%=request.getContextPath()%>/careers.jsp#why">
                                     <img src="images/learnSym.png" />
                                 </a></div> 
                             <div class="reflection"> </div>
                         </div>
 
                     </div>
-
                     <div class="ym-g25 ym-gl" style="pointer-events: none;">
                         <div class="service_1" id="career2"style="margin-top: -2%;">
-                            <div > <h1>IT Openings</h1>
-                                <p>Search for jobs at VIT</p>
-                                <a href="<%=request.getContextPath()%>/careers.jsp">
+                            <div > <h1>Rewards & Benefits</h1>
+                                <p>Know our Rewards and Benefits</p>
+                                <a href="<%=request.getContextPath()%>/careers.jsp#rewards">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -356,10 +355,21 @@
                     </div>
 
                     <div class="ym-g25 ym-gl" style="pointer-events: none;">
-                        <div class="service_1" id="career3" style="margin-top: 2%;">
+                        <div class="service_1" id="career3"style="margin-top: -2%;">
+                            <div > <h1>IT Openings</h1>
+                                <p>Search for jobs at VIT</p>
+                                <a href="<%=request.getContextPath()%>/careers.jsp#openings">
+                                    <img src="images/learnSym.png" />
+                                </a></div>	
+                            <div class="reflection"> </div>		 
+                        </div>
+                    </div>
+
+                    <div class="ym-g25 ym-gl" style="pointer-events: none;">
+                        <div class="service_1" id="career4" style="margin-top: 2%;">
                             <div >  <h1>JOB Code & Profiles</h1> 
                                 <p>Know our job descriptions</p>
-                                <a href="<%=request.getContextPath()%>/careers.jsp">
+                                <a href="<%=request.getContextPath()%>/careers.jsp#job-code">
                                     <img src="images/learnSym.png"/>
                                 </a></div>
                             <div class="reflection"> </div>
@@ -367,10 +377,10 @@
                     </div>
 
                     <div class="ym-g25 ym-gl" style="pointer-events: none;">
-                        <div class=" service_1" id="career4" style="margin-top: 6%;">
+                        <div class=" service_1" id="career5" style="margin-top: 6%;">
                             <div ><h1> Apply </h1>
                                 <p>How to apply</p>
-                                <a href="<%=request.getContextPath()%>/careers.jsp">
+                                <a href="<%=request.getContextPath()%>/careers.jsp#apply">
                                     <img src="images/learnSym.png"/>
                                 </a></div>	
                             <div class="reflection"> </div>
@@ -403,9 +413,9 @@
     <script defer="defer" src="js/custom.js"></script>
     <script type="text/javascript">
 
-            $(function () {
+            $(function() {
 
-                var Page = (function () {
+                var Page = (function() {
 
                     var $navArrows = $('#nav-arrows'),
                             $nav = $('#nav-dots > span'),
@@ -413,19 +423,19 @@
                             $mousetimeoutid = 10000,
                             $playing = true,
                             slitslider = $('#slider').slitslider({
-                        onBeforeChange: function (slide, pos) {
+                        onBeforeChange: function(slide, pos) {
 
                             $nav.removeClass('nav-dot-current');
                             $nav.eq(pos).addClass('nav-dot-current');
 
                         }
                     }),
-                            init = function () {
+                    init = function() {
 
-                                initEvents();
+                        initEvents();
 
-                            },
-                            initEvents = function () {
+                    },
+                            initEvents = function() {
 
 //                                $('#slider').on('mousemove', function (event) {
 //                                    if (!$playing)
@@ -454,41 +464,41 @@
 //                                });
 //
 
-                                $navArrows.children(':last').on('click', function () {
-                                    $playing = false;
-                                    slitslider.next();
-                                    return false;
+                        $navArrows.children(':last').on('click', function() {
+                            $playing = false;
+                            slitslider.next();
+                            return false;
 
-                                });
+                        });
 
-                                $navArrows.children(':first').on('click', function () {
-                                    $playing = false;
-                                    slitslider.previous();
-                                    return false;
+                        $navArrows.children(':first').on('click', function() {
+                            $playing = false;
+                            slitslider.previous();
+                            return false;
 
-                                });
+                        });
 
-                                $nav.each(function (i) {
+                        $nav.each(function(i) {
 
-                                    $(this).on('click', function (event) {
-                                        $playing = false;
-                                        var $dot = $(this);
+                            $(this).on('click', function(event) {
+                                $playing = false;
+                                var $dot = $(this);
 
-                                        if (!slitslider.isActive()) {
+                                if (!slitslider.isActive()) {
 
-                                            $nav.removeClass('nav-dot-current');
-                                            $dot.addClass('nav-dot-current');
+                                    $nav.removeClass('nav-dot-current');
+                                    $dot.addClass('nav-dot-current');
 
-                                        }
+                                }
 
-                                        slitslider.jump(i + 1);
-                                        return false;
+                                slitslider.jump(i + 1);
+                                return false;
 
-                                    });
+                            });
 
-                                });
+                        });
 
-                            };
+                    };
 
                     return {init: init};
 
