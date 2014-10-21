@@ -66,7 +66,7 @@
                     <div class ="LMwrapper"id="LMwrapperServices">
                         <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="Onsite-Offshore">
                             <div > 
-                                <img src="images/SoftDev.png" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                <img src="images/onsite-offshore.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
 
                                 <p>Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
 
@@ -79,7 +79,7 @@
                                 <p>With an advanced global delivery capability, we efficiently manage projects, availing your staff to focus on more strategic activities. Our model allows us to provide you with comprehensive, end-to-end, advanced solutions, in many cases at a fraction of the time and cost of other firms.</p>
                                 <p>As client needs dictate, VIT can access the specialized skills of our deep talent pool to solve any challenge. Enhanced project collaboration tools and our company-wide processes assure consistent, well-planned, measurable and reliable delivery from any and all locations.</p>
                                 <p>Let VIT use our IT, business-process and SharePoint consulting capabilities to help you transform your business, with minimal risk and disruption.</p>
-                                
+
                             </div> 
                             <!--                                                    <div class="LMreflection"> </div>-->
                         </div>
@@ -149,7 +149,7 @@
 
                         <div class=" LMcontent" id="slide4" style="transform: rotateY(-80deg) " data-anchor="PD">
                             <div >
-                                <h1> Product  Development</h1>
+                                <img src="images/productDev.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
                                 <p>VIT offers professional services for companies that need product differentiation to get better market share and wider product acceptance. Such services help rationalize their product portfolio in accordance with fluctuating technology and market needs.</p>
 
                                 <p>VIT's pool of certified professionals work with our clients to understand their specific needs and help them develop products from ground up. The experience and knowledge gained from products developed for our previous clients brings you a number of benefits:</p>
@@ -166,10 +166,10 @@
                             </div>	
                             <!--                            <div class="reflection"> </div>-->
                         </div>
-                        
+
                         <div class=" LMcontent" id="slide5" style="transform: rotateY(-80deg) " data-anchor="OE">
                             <div >
-                                <h1> Our Expertise</h1>
+                                <img src="images/expertise_banner.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
                                 <p>VIT has a strong team of skilled developers and managers with the following Domain and Technology Expertise.</p>
 
                                 <p>Domain Expertise</p>
@@ -183,30 +183,30 @@
                                     <li>Web Applications</li>
                                     <li>Computer Graphics</li>
                                     </p>
-                                    
-                                        <p>Technology Expertise</p>
-                                        <p><ul style="ist-style-type:disc;">
-                                    <li>Java/J2EE Technologies : Java, JSP, EJB, Hibernate, Ajax, jQuery, JavaScript, SWT, Websphere, Weblogic, JBoss, JUnit</li>
 
-                                    <li>.NET Technologies: C#, VB.NET, ASP.NET, ADO.NET, .NET Framework, .NET Compact Framework, WPF, WCF, Silverlight, WinForms, BizTalk Server, Visual Studio.NET</li>
+                                    <p>Technology Expertise</p>
+                                    <p><ul style="ist-style-type:disc;">
+                                        <li>Java/J2EE Technologies : Java, JSP, EJB, Hibernate, Ajax, jQuery, JavaScript, SWT, Websphere, Weblogic, JBoss, JUnit</li>
 
-                                    <li>Mobile Applications: Android, iOS, Windows Phone, J2ME</li>
-                                    <li>Open Source Technologies: LAMP, Mason, Mod_Perl, PostgresSQL, Lighttpd</li>
-                                    <li>SharePoint: Workflows, InfoPath, Enterprise Content Management, Business Connectivity Services, Variations</li>
-                                   
-                                    </p>
+                                        <li>.NET Technologies: C#, VB.NET, ASP.NET, ADO.NET, .NET Framework, .NET Compact Framework, WPF, WCF, Silverlight, WinForms, BizTalk Server, Visual Studio.NET</li>
 
+                                        <li>Mobile Applications: Android, iOS, Windows Phone, J2ME</li>
+                                        <li>Open Source Technologies: LAMP, Mason, Mod_Perl, PostgresSQL, Lighttpd</li>
+                                        <li>SharePoint: Workflows, InfoPath, Enterprise Content Management, Business Connectivity Services, Variations</li>
 
-                            </div>	
-                            <!--                            <div class="reflection"> </div>-->
-                        </div>
-
-                    </div>
+                                        </p>
 
 
-                </div>
-            </div>
+                                        </div>	
+                                        <!--                            <div class="reflection"> </div>-->
+                                        </div>
 
-        <div id="Footer"></div>
-    </body>
-</html>
+                                        </div>
+
+
+                                        </div>
+                                        </div>
+
+                                        <div id="Footer"></div>
+                                        </body>
+                                        </html>

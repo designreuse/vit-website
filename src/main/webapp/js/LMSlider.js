@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 var currentUrl = window.location.hash;
-var angle = '80deg';
-var sclDwn = 0.7;
+var angle = '72deg';
+var sclDwn = 0.6;
 var sclUp = 1;
 function FirstExe() {
     var curr = $(" [href$='" + currentUrl + "'] >.menuItem").addClass('sel');
@@ -49,11 +49,11 @@ function FirstExe() {
             break
         case 4:
             $(".LMwrapper").css("left", -4 * WidthContainer);
-            $("#slide1").css("transform", "rotateY(" + angle + ") scaleY(" + sclDwn + ")");
-            $("#slide2").css("transform", "rotateY(" + angle + ") scaleY(" + sclDwn + ")");
-            $("#slide3").css("transform", "rotateY(" + angle + ") scaleY(" + sclDwn + ")");
-            $("#slide4").css("transform", "rotateY(" + angle + ") scaleY(" + sclDwn + ")");
-            $("#slide5").css("transform", "rotateY(0deg) scaleY(" + sclUp + ")");
+            $("#slide1").css("transform", "rotateY(" + angle + ") scale(" + sclDwn + ")");
+            $("#slide2").css("transform", "rotateY(" + angle + ") scale(" + sclDwn + ")");
+            $("#slide3").css("transform", "rotateY(" + angle + ") scale(" + sclDwn + ")");
+            $("#slide4").css("transform", "rotateY(" + angle + ") scale(" + sclDwn + ")");
+            $("#slide5").css("transform", "rotateY(0deg) scale(" + sclUp + ")");
             break
     }
 }
