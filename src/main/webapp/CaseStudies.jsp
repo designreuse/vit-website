@@ -57,7 +57,7 @@
                         <div class="ym-g20 ym-gl">
                             <a href="#CS5"  ><li  class="menuItem"   data-val="4" id="LMmenuOpt5" >Case Study 5</li></a></div>
                         <!--<div class="ym-g15 ym-gl">-->
-                            <!--<a href="#CS6"  ><li  class="menuItem"   data-val="5" id="LMmenuOpt5" >Case Study 6</li></a></div>-->
+                        <!--<a href="#CS6"  ><li  class="menuItem"   data-val="5" id="LMmenuOpt5" >Case Study 6</li></a></div>-->
                     </div>
                 </div>
                 <div id ="backToHome">
@@ -68,33 +68,44 @@
                     <div class ="LMwrapper"id="LMwrapperServices">
                         <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="CS1">
                             <div > 
-                                <!--<img src="images/onsite-offshore.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">-->
                                 <h5>GPS Tracking for Mining/Manufacturing industries: Case Studies</h5>
-                                <p>Business Case</p>
+                                <div class="ym-grid">
+                                    <div class="ym-grid ym-equalize">
 
-                                <p>During the several Mining/Manufacturing operations, typically data is captured on a piece of paper, which is then propagated to the ledgers or system later. Tracking of valuable goods transportation/ vehicle itself done through phone calls or messaging. This is inherently because a Desktop cannot be made available at the places where the data is captured. No GPS system is in place to enable runtime tracking of the vehicles. With the emergence of new portable mobile devices, it is prudent that this practice is replaced with a more efficient way where the redundancies can be eliminated and the accuracy of data capture and tracking can be improved.</p> 
+                                        <p>Business Case</p>
 
-                                <p>The Challenge</p>	
+                                        <p>During the several Mining/Manufacturing operations, typically data is captured on a piece of paper, which is then propagated to the ledgers or system later. Tracking of valuable goods transportation/ vehicle itself done through phone calls or messaging. This is inherently because a Desktop cannot be made available at the places where the data is captured. No GPS system is in place to enable runtime tracking of the vehicles. With the emergence of new portable mobile devices, it is prudent that this practice is replaced with a more efficient way where the redundancies can be eliminated and the accuracy of data capture and tracking can be improved.</p> 
 
-                                <p>Major challenges in the Field Data capture and reporting are</p>
-                                <p><ul style="list-style-type:disc;">
-                                    <li>Data Capture and Synchronization back to system for records.</li>
-                                    <li>Preventive maintenance planning, schedule and notifications.</li>
-                                    <li>Vehicle monitoring/Tracking.</li>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g50">
+                                            <p>The Challenge</p>	
 
-                                </ul>
-                                </p>
+                                            <p>Major challenges in the Field Data capture and reporting are</p>
+                                            <p><ul style="list-style-type:disc;">
+                                                <li>Data Capture and Synchronization back to system for records.</li>
+                                                <li>Preventive maintenance planning, schedule and notifications.</li>
+                                                <li>Vehicle monitoring/Tracking.</li>
 
-                                <p>The Solution</p>
-                                <p>To address the challenges in mining/manufacturing industries to capture data on the field and to track vehicles for various purposes VIT has developed VITMobile™ framework. Framework would become one point solution and would help organization in following solutions</p>
-                                <p><ul style="list-style-type:disc;">
-                                    <li>VITMobile™ consists of out-of-the box Mobile solutions that can be integrated with the legacy software system to increase the efficiency of the mobile workers and reduce the redundancies in Field Data Capture and Reporting. Helps in capture of data at the point of occurrence.</li>
-                                    <li>GPS based Fleet Management product can be used to monitor/track the Vehicles and alerts.</li>
-                                    <li>Preventive maintenance plan can be scheduled and assigned to respective service department and Check list for maintenance is recorded in a smart & efficient way using mobile devices. Alerts are sent prior to maintenance and maintenance details and outcomes can be recorded and sync back to the system as required.</li>
-                                    <li>Record Vehicle check-in and check-out information. Can manage internal and external vehicle list. Helps in capturing details of driver, goods carrying, and more details as per requirements.</li>
-                                </ul>
-                                </p>
-
+                                            </ul>
+                                            </p>
+                                        </div>
+                                        <div class="ym-g50">
+                                            <img src="images/gps-tag.png" width="70%" style="height: 10em; margin-bottom: 12px;">
+                                        </div>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <p>The Solution</p>
+                                        <p>To address the challenges in mining/manufacturing industries to capture data on the field and to track vehicles for various purposes VIT has developed VITMobile™ framework. Framework would become one point solution and would help organization in following solutions</p>
+                                        <p><ul style="list-style-type:disc;">
+                                            <li>VITMobile™ consists of out-of-the box Mobile solutions that can be integrated with the legacy software system to increase the efficiency of the mobile workers and reduce the redundancies in Field Data Capture and Reporting. Helps in capture of data at the point of occurrence.</li>
+                                            <li>GPS based Fleet Management product can be used to monitor/track the Vehicles and alerts.</li>
+                                            <li>Preventive maintenance plan can be scheduled and assigned to respective service department and Check list for maintenance is recorded in a smart & efficient way using mobile devices. Alerts are sent prior to maintenance and maintenance details and outcomes can be recorded and sync back to the system as required.</li>
+                                            <li>Record Vehicle check-in and check-out information. Can manage internal and external vehicle list. Helps in capturing details of driver, goods carrying, and more details as per requirements.</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
                             </div> 
                             <!--                                                    <div class="LMreflection"> </div>-->
                         </div>
@@ -104,86 +115,101 @@
 
                         <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="CS2">
                             <div > 
-                                <!--<img src="images/TestAuto.png" width="100%" style="height: 14em; margin-bottom: 12px;">-->
-                                <h5>Business Process Management for Automobile Industry: Case Studies</h5>
-                                <p>Business Case</p>
+                                <div class="ym-grid">
+                                    <div class="ym-grid ym-equalize">
 
-                                <p>A customer of VIT who is Automobile major having deployed a legacy SharePoint application was looking to integrate an external BPM solution to enhance the functionality of the deployed application. This enhancement had to respect the existing user experience and integrate seamlessly by continuing to honor the existing SharePoint workflow functionality (e.g., Initiating on Demand and Canceling).</p>
+                                        <h5>Business Process Management for Automobile Industry: Case Studies</h5>
+                                        <p>Business Case</p>
 
-                                <p>The Challenge</p>
-                                <p>Some of the major constraints placed on this solution were as follows:</p>
-                                <p><ul style="list-style-type:disc;">
-                                    <li>The custom workflow in SharePoint should integrate with the external BPMS workflow in a seamless way.</li>
-                                    <li>The solution has to respect existing user experience.</li>
-                                    <li>Security Trimming: Needs to regard user access rights to either see or initiate actions/task.</li>
-                                    <li>Configuration information can be stored in SharePoint, but some specific fields need to be encrypted.</li>
-                                    <li>Proposed Solution must adhere to Microsoft SharePoint Customization Policy - Gold Service Level.</li>
-                                </ul></p>
-                                <p>Design</p>
-                                <p>To ensure a seamless integration of the external BPMS product into SharePoint infrastructure, the following design decisions/goals were charted out by VIT:</p>
-                                <p><ul style="list-style-type:disc;">
-                                    <li>Solution was developed using SharePoint web services and designed to not limit the solution using the SharePoint object model..</li>
-                                    <li>Designed a custom SharePoint workflow that can be used against any SharePoint object.</li>
-                                    <li>Built a custom workflow activity to enable integration into the external workflow solution.</li>
-                                    <li>The user interface associated with the custom workflow had to be based on a SharePoint master page so as to retain the existing user experience</li>
-                                    <li>A two-way integration between the external workflow solution and the SharePoint workflow was built to enable cancellation, initiation and other common operations using SharePoint enabled web services.</li>
-                                </ul></p>
-                                <p>In order to provide users with an ability to work with the external BPMS solution from within SharePoint, we designed a Task Management Web Part with following Design considerations:</p>
-                                <p><ul>
-                                    <li>A dashboard like user experience for End Users to perform actions on the external BPMS workflow.</li>
-                                    <li>Provided support paging, Sorting and other grid operations.</li>
-                                    <li>Provided security trimming to ensure that the Web Part shows only actions to the appropriate user</li>
-                                    <li>Created a reusable Web Part in an ASP.NET application.</li>
+                                        <p>A customer of VIT who is Automobile major having deployed a legacy SharePoint application was looking to integrate an external BPM solution to enhance the functionality of the deployed application. This enhancement had to respect the existing user experience and integrate seamlessly by continuing to honor the existing SharePoint workflow functionality (e.g., Initiating on Demand and Canceling).</p>
 
-                                    <p>SharePoint custom list was created to stores the configuration information for the following design considerations:</p>
-                                    <ul>
-                                        <li>Encryption/Decryption of the protected information (e.g., passwords) must be seamless and shouldn't involve any extra administrative effort.</li>
-                                        <li>System must respect the existing user experience.</li>
-                                    </ul>
-                                </ul>
-                                </p>
-                                <p>Implementation</p>
-                                <p>Custom SharePoint Workflow Solution</p>
-                                <p>
-                                <ul>
-                                    <li>A dashboard like user experience for End Users to perform actions on the external BPMS workflow.</li>
-                                    <li>Provided support paging, Sorting and other grid operations.</li>
-                                    <li>Provided security trimming to ensure that the Web Part shows only actions to the appropriate user</li>
-                                    <li>Created a reusable Web Part in an ASP.NET application.</li>
+                                        <p>The Challenge</p>
+                                        <p>Some of the major constraints placed on this solution were as follows:</p>
+                                        <p><ul style="list-style-type:disc;">
+                                            <li>The custom workflow in SharePoint should integrate with the external BPMS workflow in a seamless way.</li>
+                                            <li>The solution has to respect existing user experience.</li>
+                                            <li>Security Trimming: Needs to regard user access rights to either see or initiate actions/task.</li>
+                                            <li>Configuration information can be stored in SharePoint, but some specific fields need to be encrypted.</li>
+                                            <li>Proposed Solution must adhere to Microsoft SharePoint Customization Policy - Gold Service Level.</li>
+                                        </ul></p>
 
-                                    <p>SharePoint custom list was created to stores the configuration information for the following design considerations:</p>
-                                    <ul>
-                                        <li>Encryption/Decryption of the protected information (e.g., passwords) must be seamless and shouldn't involve any extra administrative effort.</li>
-                                        <li>System must respect the existing user experience.</li>
-                                    </ul>
-                                </ul><ul>
-                                    <li>Implemented a Windows Workflow Foundation activity to take care of integration with external BPMS solution</li>
-                                    <li>Implemented a status page to provide an in-detail view of the BPMS process from within the SharePoint framework.</li>
 
-                                    <p>Task Management Web Part</p>
-                                    <ul>
-                                        <li>Implemented custom ASP.NET pages for the common actions like Approve, Reject, Reassign, etc.</li>
-                                        <li>Deployed the pages to the layouts folder to enable integration with Web Part</li>
-                                        <li>Used AJAX to ensure that the actions are decided dynamically based on logged in user.</li>
-                                    </ul>
-                                </ul>
-                                </p>
-                                <p>Deployment</p>
-                                <p>VIT used the SharePoint standard Solution/Feature deployment architecture to package the various components as a solution. Developed a wizard based installation utility to undertake large scale deployment across multiple web applications. The deployment methodology was formulated considering more complex environments which may involve multi-server farms and NLB based SharePoint farm topologies. Additionally, options were provided to allow manual installation of solution through easy steps.</p>
-                                <p>Benefits</p>
-                                <ul>
-                                    <li>External strong BPM within SharePoint gives more robust environment for business process requirements</li>
-                                    <li>Handy deployment tools</li>
-                                    <li>Utilization of SharePoint Service models extensively to ensure that the infrastructure costs are kept down</li>
-                                    <li>User experience will not change even after adapting external BPM</li>
-                                </ul>
-                                <p>Return on Investments</p>
-                                <ul>
-                                    <li>No additional cost in managing two different solutions for content, documents and BPM</li>
-                                    <li>Increases productivity by providing user friendly environment</li>
-                                    <li>Enables continuous process improvement capability and integration capabilities with other LOB systems.</li>
+                                        <p>Design</p>
+                                        <p>To ensure a seamless integration of the external BPMS product into SharePoint infrastructure, the following design decisions/goals were charted out by VIT:</p>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g50">
+                                            <p><ul style="list-style-type:disc;">
+                                                <li>Solution was developed using SharePoint web services and designed to not limit the solution using the SharePoint object model..</li>
+                                                <li>Designed a custom SharePoint workflow that can be used against any SharePoint object.</li>
+                                                <li>Built a custom workflow activity to enable integration into the external workflow solution.</li>
+                                                <li>The user interface associated with the custom workflow had to be based on a SharePoint master page so as to retain the existing user experience</li>
+                                                <li>A two-way integration between the external workflow solution and the SharePoint workflow was built to enable cancellation, initiation and other common operations using SharePoint enabled web services.</li>
+                                            </ul></p>
+                                        </div>
+                                        <div class="ym-g50">
+                                            <img src="images/bpm2.jpg" width="100%" style="height: 18em; margin-bottom: 12px;">
+                                        </div>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <p>In order to provide users with an ability to work with the external BPMS solution from within SharePoint, we designed a Task Management Web Part with following Design considerations:</p>
+                                        <p><ul>
+                                            <li>A dashboard like user experience for End Users to perform actions on the external BPMS workflow.</li>
+                                            <li>Provided support paging, Sorting and other grid operations.</li>
+                                            <li>Provided security trimming to ensure that the Web Part shows only actions to the appropriate user</li>
+                                            <li>Created a reusable Web Part in an ASP.NET application.</li>
 
-                                </ul>
+                                            <p>SharePoint custom list was created to stores the configuration information for the following design considerations:</p>
+                                            <ul>
+                                                <li>Encryption/Decryption of the protected information (e.g., passwords) must be seamless and shouldn't involve any extra administrative effort.</li>
+                                                <li>System must respect the existing user experience.</li>
+                                            </ul>
+                                        </ul>
+                                        </p>
+                                        <p>Implementation</p>
+                                        <p>Custom SharePoint Workflow Solution</p>
+                                        <p>
+                                        <ul>
+                                            <li>A dashboard like user experience for End Users to perform actions on the external BPMS workflow.</li>
+                                            <li>Provided support paging, Sorting and other grid operations.</li>
+                                            <li>Provided security trimming to ensure that the Web Part shows only actions to the appropriate user</li>
+                                            <li>Created a reusable Web Part in an ASP.NET application.</li>
+
+                                            <p>SharePoint custom list was created to stores the configuration information for the following design considerations:</p>
+                                            <ul>
+                                                <li>Encryption/Decryption of the protected information (e.g., passwords) must be seamless and shouldn't involve any extra administrative effort.</li>
+                                                <li>System must respect the existing user experience.</li>
+                                            </ul>
+                                        </ul><ul>
+                                            <li>Implemented a Windows Workflow Foundation activity to take care of integration with external BPMS solution</li>
+                                            <li>Implemented a status page to provide an in-detail view of the BPMS process from within the SharePoint framework.</li>
+
+                                            <p>Task Management Web Part</p>
+                                            <ul>
+                                                <li>Implemented custom ASP.NET pages for the common actions like Approve, Reject, Reassign, etc.</li>
+                                                <li>Deployed the pages to the layouts folder to enable integration with Web Part</li>
+                                                <li>Used AJAX to ensure that the actions are decided dynamically based on logged in user.</li>
+                                            </ul>
+                                        </ul>
+                                        </p>
+                                        <p>Deployment</p>
+                                        <p>VIT used the SharePoint standard Solution/Feature deployment architecture to package the various components as a solution. Developed a wizard based installation utility to undertake large scale deployment across multiple web applications. The deployment methodology was formulated considering more complex environments which may involve multi-server farms and NLB based SharePoint farm topologies. Additionally, options were provided to allow manual installation of solution through easy steps.</p>
+                                        <p>Benefits</p>
+                                        <ul>
+                                            <li>External strong BPM within SharePoint gives more robust environment for business process requirements</li>
+                                            <li>Handy deployment tools</li>
+                                            <li>Utilization of SharePoint Service models extensively to ensure that the infrastructure costs are kept down</li>
+                                            <li>User experience will not change even after adapting external BPM</li>
+                                        </ul>
+                                        <p>Return on Investments</p>
+                                        <ul>
+                                            <li>No additional cost in managing two different solutions for content, documents and BPM</li>
+                                            <li>Increases productivity by providing user friendly environment</li>
+                                            <li>Enables continuous process improvement capability and integration capabilities with other LOB systems.</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>	
                             <!--                                                  <div class="LMreflection"> </div>		 -->
                         </div>
@@ -192,28 +218,40 @@
 
                         <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="CS3">
                             <div >  
-                                <!--<img src="images/SoftDev.png" width="100%" style="height: 14em; margin-bottom: 12px;">-->
-                                <h5>GPS based solution for Municipal Solid Waste Management: Case Studies</h5>
-                                <p>Business Case</p>
+                                <div class="ym-grid">
+                                    <div class="ym-grid ym-equalize">
 
-                                <p>An Environment major, based in India required an end-to-end system for managing the solid waste management operations. This includes managing the flow of solid waste from the community bins to the central processing center/ composting plant, GPS based Fleet Management system for the garbage collection trucks, management of the personnel and the assets involved in the operations etc.</p>
-                                <p>Challenges </p>
+                                        <h5>GPS based solution for Municipal Solid Waste Management: Case Studies</h5>
+                                        <p>Business Case</p>
 
-                                <p>Some of the major constraints placed on this solution were as follows:</p>
+                                        <p>An Environment major, based in India required an end-to-end system for managing the solid waste management operations. This includes managing the flow of solid waste from the community bins to the central processing center/ composting plant, GPS based Fleet Management system for the garbage collection trucks, management of the personnel and the assets involved in the operations etc.</p>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g50">
+                                            <p>Challenges </p>
 
-                                <p>Service Areas</p>
+                                            <p>Some of the major constraints placed on this solution were as follows:</p>
 
-                                <p><ul style="ist-style-type:disc;">
-                                    <li> Locating Waste to be collected.</li>
-                                    <li>Communicating to the truck driver who is already on duty.</li>
-                                    <li>Reporting details of waste collected and disposed.</li>
+                                            <p>Service Areas</p>
 
-                                </ul></p>
-                                <p>Solution</p>
-                                <p>The solution was built using VIT's GPS Based Fleet Management and VITMobile framework. There are two different Mobile applications one for Ward Supervisor and another for driver of the garbage collection truck were built using the VITMobile framework. The Truck Driver uses the mobile application to receive the list of Community Bins from where the solid waste needs to be picked up and also update the status of the pickup back to the server. The mobile application periodically transmits the GPS coordinates of the truck to the server which tracks the locations of all the trucks. The Ward Supervisor uses the mobile application to track and report the status of the community bins in his ward to the server and also report the attendance of the Community Workers. VIT GPS Application has been configured to trigger a workflow when a Community Bin is reported full, which creates a task for the Operator at the central processing station to process the pickup of that Community Bin. The Operator uses the GPS Web application to track a garbage collection truck near to the Community Bin and assign the pickup job to it. This is immediately notified to the corresponding Truck Driver's mobile application, so that the Truck Driver can act on it. Similarly another workflow is triggered, when the Ward Supervisor reports a wear and tear of the Community Bin, which creates the tasks for the maintenance personnel for the maintenance of the Community Bin.</p>
-                                <p>Deployment</p>
-                                <p>VIT provided hand held devices along with the application deployed on the mobile devices. Mobile application can also be deployed on different hand held devices that has pre-requisites for the application. Web application will be host on server system. Both server and mobile devices required to have internet connectivity to be communicated with each other.</p>
+                                            <p><ul style="ist-style-type:disc;">
+                                                <li> Locating Waste to be collected.</li>
+                                                <li>Communicating to the truck driver who is already on duty.</li>
+                                                <li>Reporting details of waste collected and disposed.</li>
 
+                                            </ul></p>
+                                        </div>
+                                        <div class="ym-g50">
+                                            <img src="images/recucle.jpg" width="80%" style="height: 14em; margin-bottom: 12px;">
+                                        </div>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <p>Solution</p>
+                                        <p>The solution was built using VIT's GPS Based Fleet Management and VITMobile framework. There are two different Mobile applications one for Ward Supervisor and another for driver of the garbage collection truck were built using the VITMobile framework. The Truck Driver uses the mobile application to receive the list of Community Bins from where the solid waste needs to be picked up and also update the status of the pickup back to the server. The mobile application periodically transmits the GPS coordinates of the truck to the server which tracks the locations of all the trucks. The Ward Supervisor uses the mobile application to track and report the status of the community bins in his ward to the server and also report the attendance of the Community Workers. VIT GPS Application has been configured to trigger a workflow when a Community Bin is reported full, which creates a task for the Operator at the central processing station to process the pickup of that Community Bin. The Operator uses the GPS Web application to track a garbage collection truck near to the Community Bin and assign the pickup job to it. This is immediately notified to the corresponding Truck Driver's mobile application, so that the Truck Driver can act on it. Similarly another workflow is triggered, when the Ward Supervisor reports a wear and tear of the Community Bin, which creates the tasks for the maintenance personnel for the maintenance of the Community Bin.</p>
+                                        <p>Deployment</p>
+                                        <p>VIT provided hand held devices along with the application deployed on the mobile devices. Mobile application can also be deployed on different hand held devices that has pre-requisites for the application. Web application will be host on server system. Both server and mobile devices required to have internet connectivity to be communicated with each other.</p>
+                                    </div>
+                                </div>
                             </div>
                             <!--                            <div class="reflection"> </div>-->
                         </div>
@@ -222,16 +260,22 @@
 
                         <div class=" LMcontent" id="slide4" style="transform: rotateY(-80deg) " data-anchor="CS4">
                             <div >
-                                <!--<img src="images/productDev.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">-->
-                                <h5>Android based Mobile-server application for integrated chronic disease management system: Case Studies</h5>
-                                <p>Description</p>
+                                <div class="ym-grid">
+                                    <div class="ym-grid ym-equalize">
+                                        <h5>Android based Mobile-server application for integrated chronic disease management system: Case Studies</h5>
+                                        <p>Description</p>
 
-                                <p>A Health-care provider required an easy to use disease management system for managing patients at risk of congestive heart failures. The Doctors can remotely monitor the vital statistics of these patients continuously and suggest remedies / precautions or even advise them to visit him, whenever they notice any anomaly and wherever the patient is located.</p>
-                                <p>Solution Description</p>
-                                <p>The solution consists of a web application and an Android based mobile application. The Doctor(s) can use the web application to configure the vital statistics that are required to be sent by each patient. The patient then uses the mobile application to record these vital statistics periodically and send to the server. The Doctor can monitor the vital statistics of the patient using the web application and send the health instructions to the patient when necessary. The mobile application periodically pulls these instructions from the server and alerts the patient accordingly. The mobile application implements a SOAP based web service client for accessing the web application. The UI of the mobile application is designed with high usability, so that it can be operated easily by the patients who are mostly Senior citizens and might have problems seeing things clearly and operating. </p>
-                                <p>VIT's strength in increasing the platform availability, enhancing the features, quality performance, maintainability, portability, usability and security of the product.</p>
-                                <p>Technologies</p>
-                                <p>LAMP (Linux, Apache, MySQL and PHP) for server, Android SDK for mobile application, Eclipse</p>
+                                        <p>A Health-care provider required an easy to use disease management system for managing patients at risk of congestive heart failures. The Doctors can remotely monitor the vital statistics of these patients continuously and suggest remedies / precautions or even advise them to visit him, whenever they notice any anomaly and wherever the patient is located.</p>
+                                        <p>Solution Description</p>
+                                        <p>The solution consists of a web application and an Android based mobile application. The Doctor(s) can use the web application to configure the vital statistics that are required to be sent by each patient. The patient then uses the mobile application to record these vital statistics periodically and send to the server. The Doctor can monitor the vital statistics of the patient using the web application and send the health instructions to the patient when necessary. The mobile application periodically pulls these instructions from the server and alerts the patient accordingly. The mobile application implements a SOAP based web service client for accessing the web application. The UI of the mobile application is designed with high usability, so that it can be operated easily by the patients who are mostly Senior citizens and might have problems seeing things clearly and operating. </p>
+                                        <p>VIT's strength in increasing the platform availability, enhancing the features, quality performance, maintainability, portability, usability and security of the product.</p>
+                                        <p>Technologies</p>
+                                        <p>LAMP (Linux, Apache, MySQL and PHP) for server, Android SDK for mobile application, Eclipse</p>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <img src="images/android_banner.png" width="100%" style="height: 16em; margin-bottom: 12px;">
+                                    </div>
+                                </div>
                             </div>	
                             <!--                            <div class="reflection"> </div>-->
                         </div>

@@ -49,7 +49,7 @@ and open the template in the editor.
     border: 3px solid rgba(215, 175, 230, 0.8);
     background: rgba(255,255,255,0.3);
     font-size: 16px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .LMcontent *>h1,h2,h3,h4,h5{
     margin-top:20px !important;
