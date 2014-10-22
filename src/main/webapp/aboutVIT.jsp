@@ -92,7 +92,7 @@
                     </div>
                 </div>
                 <div id ="backToHome">
-                    <a href="<%=request.getContextPath()%>">Home</a> 
+                    <a href="<%=request.getContextPath()%>"><i class="fa fa-fw fa-home fa-2x"></i></a> 
                 </div>
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
