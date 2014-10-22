@@ -366,6 +366,19 @@
 .LMcontent >div >div >div>p>span{
     font-weight: bold;color: rgb(255, 10, 90);
 }
+
+.LMcontent >div >div >div>div>p>span{
+    font-weight: bold;color: rgb(255, 10, 90);
+}
+
+.LMcontent >div >div>p>span{
+    font-weight: bold;color: rgb(255, 10, 90);
+}
+
+.LMcontent >div >ul>li>span{
+    font-weight: bold;color: rgb(255, 10, 90);
+}
+
 .LMcontent >div >div >div>img{
    height: 100px;width: 100px;
 }

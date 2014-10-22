@@ -115,10 +115,11 @@ and open the template in the editor.
     position: fixed;
     margin-left: 0;
     bottom: 3.5em;
-    padding: 4px;
-    background:linear-gradient(to right,rgba(178, 11, 66, 0.5) 55%,rgba(136, 37, 228, 0.53));
-    height: 2em;
-    width: 9em;
+    padding: 15px;
+    right: 0;
+    background:linear-gradient(to right,rgba(228, 33, 114, 0.8) 55%,rgba(136, 37, 228, 0.53));
+    height: 2.5em;
+    width: 7em;
     z-index: 2;
     text-align: center;
     transition: all 1s ease-in-out;
