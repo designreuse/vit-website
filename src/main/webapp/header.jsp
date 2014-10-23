@@ -64,8 +64,8 @@
                     <div class="ym-g50"> <a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing"><p>Testing</p></a></div>
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="e-gov-menu">
-                    <div class="ym-g50 " ><a href="#"><img src="images/fa-briefcase.png"/></a></div>
-                    <div class="ym-g50"><a href="#"> <p>Clients</p> </a></div>
+                    <div class="ym-g50 " ><a href="<%=request.getContextPath()%>/CaseStudies.jsp#CS1"><img src="images/fa-briefcase.png"/></a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/CaseStudies.jsp#CS1"> <p>Clients</p> </a></div>
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize " id="about-menu">
                     <div class="ym-g50 main-menu"><a href="<%=request.getContextPath()%>/aboutVIT.jsp#About"><img src="images/fa-users.png"/></a></div>
