@@ -12,12 +12,21 @@
     selCurr.parent().filter(".ym-g50").css("background", "rgba(137, 109, 161, 0.73)");
 </script>
 <!--<script>
-    $(function() {      
+    $(function() {
 
         var url = "<%=request.getHeader("Referer").toString()%>";
 
-        if (url.indexOf("about") != -1) {           
+        if (url.indexOf("about") != -1) {
             $('#main-div > div#about-menu').addClass('selected-menu');
+        }
+        else if (url.indexOf("products") != -1) {
+            $('#main-div > div#e-gov-menu').addClass('selected-menu');
+        }
+       else if (url.indexOf("solutions") != -1) {
+            $('#main-div > div#sharepoint-menu').addClass('selected-menu');
+        }
+       else if (url.indexOf("services") != -1) {
+            $('#main-div > div#testing-menu').addClass('selected-menu');
         }
     });
 </script>                                               -->
