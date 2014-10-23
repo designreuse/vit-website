@@ -91,7 +91,7 @@
                                             </p>
                                         </div>
                                         <div class="ym-g50">
-                                            <img src="images/gps-tag.png" width="70%" style="height: 10em; margin-bottom: 12px;">
+                                            <img src="images/gps-tag.png" width="70%" style="height: 12em; margin-bottom: 12px;">
                                         </div>
                                     </div>
                                     <div class="ym-grid ym-equalize">
@@ -273,7 +273,7 @@
                                         <p>LAMP (Linux, Apache, MySQL and PHP) for server, Android SDK for mobile application, Eclipse</p>
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                        <img src="images/android_banner.png" width="100%" style="height: 16em; margin-bottom: 12px;">
+                                        <img src="images/android_banner.png" width="100%" style="width:100%; height: 16em; margin-bottom: 12px;">
                                     </div>
                                 </div>
                             </div>	
@@ -282,8 +282,9 @@
 
                         <div class=" LMcontent" id="slide5" style="transform: rotateY(-80deg) " data-anchor="CS5">
                             <div >
-                                <!--<img src="images/expertise_banner.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">-->
+                                
                                 <h5>Firmware Upload Utility & Diagnostic tool for Removable eSATA Hard Disk Drives: Case Studies</h5>
+                                <img src="images/harddisk.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
                                 <p>Overview</p>
                                 <p>The world's leading provider of removable data storage products designed to help customers create, protect and retrieve valuable digital assets. They have more than 50 years of data storage leadership, beginning with the development of the world's first computer tape.</p>
 
