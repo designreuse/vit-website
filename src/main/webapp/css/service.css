@@ -67,7 +67,7 @@
     padding:20%; 
     padding-top: 8em;
     padding-right: 26%; /* Ratio of 1.2 must be maintained between the padding and middle tabs*/
-    padding-left: 23%;  /* i.e ratio of num. of tabs to allocated space(100%-L_padd%-R_padd%)  */
+    padding-left: 18%;  /* i.e ratio of num. of tabs to allocated space(100%-L_padd%-R_padd%)  */
     margin-left: -60px;
     overflow: visible;
 }
