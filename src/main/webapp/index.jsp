@@ -27,7 +27,7 @@
         <title>VIT-Infotech</title>
         <script>
 
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $('#singlePage').fullpage({
                     anchors: ['home', 'firstPage'],
                     menu: "#menus"
@@ -184,7 +184,7 @@
                         <div class="service_1" id="service1" style="margin-top: -6%;">
                             <div>  <h1>Onsit/Offshore</h1>
                                 <p>Global services delivery model</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#Onsite-Offshore">
                                     <img src="images/learnSym.png" />
 
                                 </a>		
@@ -198,7 +198,7 @@
                         <div class="service_1" id="service2"style="margin-top: -2%;">
                             <div > <h1>Testing Services</h1>
                                 <p>Integration with build and test automation</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -212,7 +212,7 @@
                                 <h1>EAD</h1> 
                                 <p>Delivering value with  development and quality assurance</p>
                                 <!--<img src="images/cms2.jpg" height="100px"width="100px"/>-->
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#EAD">
                                     <img src="images/learnSym.png" />
                                 </a></div>
                             <div class="reflection"> </div>
@@ -224,7 +224,7 @@
                             <div >
                                 <h1>Product Dev.</h1>
                                 <p>Better product leads better market share</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#PD">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>
@@ -235,7 +235,7 @@
                         <div class=" service_1" id="service5" style="margin-top: 10%;">
                             <div ><h1>Our Expertise</h1>
                                 <p>Strong team of skilled developers and managers</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/servicesNew.jsp#OE">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>
@@ -250,7 +250,7 @@
                         <div class="service_1" id="solution1" style="margin-top: -6%;">
                             <div>  <h1>SharePoint Solutions</h1>
                                 <p>Migration,development and support</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint">
                                     <img src="images/learnSym.png" />
                                 </a></div> 
                             <div class="reflection"> </div>
@@ -262,7 +262,7 @@
                         <div class="service_1" id="solution2"style="margin-top: -2%;">
                             <div > <h1>BPM Solutions</h1>
                                 <p>Leader in workflow, BPM and automation</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#BPM">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -273,7 +273,7 @@
                         <div class="service_1" id="solution3" style="margin-top: 2%;">
                             <div >  <h1>CMS</h1> 
                                 <p>Expertise in  content management systems</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#CMS">
                                     <img src="images/learnSym.png"/>
                                 </a></div>
                             <div class="reflection"> </div>
@@ -284,7 +284,7 @@
                         <div class=" service_1" id="solution4" style="margin-top: 6%;">
                             <div ><h1> Mobility Solution</h1>
                                 <p>World class application and solutions</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/solutionsNew.jsp#Mobility">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>
@@ -297,7 +297,7 @@
                         <div class="service_1" id="product1" style="margin-top: -6%;">
                             <div>  <h1>VIT Mobile FrameWork</h1>
                                 <p>Mobile middleware disconnected technology</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob">
                                     <img src="images/learnSym.png" />
                                 </a>
 
@@ -310,7 +310,7 @@
                         <div class="service_1" id="product2"style="margin-top: -2%;">
                             <div > <h1>VIT CamPoint</h1>
                                 <p>Collaboration suite for CMMI® level 4 processes</p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/productsNew.jsp#VITCam">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -322,7 +322,7 @@
                             <div >
                                 <h1> GPS Fleet Managment </h1>
                                 <p>Managing and tracking a fleet </p>
-                                <a href="#home">
+                                <a href="<%=request.getContextPath()%>/productsNew.jsp#GPSFleet">
                                     <img src="images/learnSym.png" />
                                 </a></div>	
                             <div class="reflection"> </div>		 
@@ -336,7 +336,7 @@
                         <div class="service_1" id="career1" style="margin-top: -6%;">
                             <div>  <h1>Why VIT</h1>
                                 <p>Reasons why you should join VIT</p>
-                                <a href="<%=request.getContextPath()%>/careers.jsp#why">
+                                <a href="<%=request.getContextPath()%>/careers.jsp">
                                     <img src="images/learnSym.png" />
                                 </a></div> 
                             <div class="reflection"> </div>
