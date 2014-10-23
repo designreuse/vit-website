@@ -124,7 +124,7 @@ and open the template in the editor.
 #backToHome{
     position: fixed;
     margin-left: 0;
-    top:17em;
+    top:45%;
     padding: 15px;    
     background: rgba(96, 68, 123, 1);
     width:50px;
