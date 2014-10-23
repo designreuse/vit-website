@@ -69,6 +69,7 @@
                     <div class ="LMwrapper"id="LMwrapperServices">
                         <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg);" data-anchor="why">
                             <div >
+                                <img src="images/why_us_banner.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
                                 <div class="ym-grid ym-equalize">
                                     <div style="float: left;" class="ym-g50 ym-gr" >
                                         <img src="images/breakthrough-plant.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
@@ -145,6 +146,7 @@
                         </div>                     
                         <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg); " data-anchor="rewards">
                             <div>
+                                <img src="images/banner_benefits.jpg" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <p>Whether you are considering a career move or looking for your first job opportunity, we understand that you will weigh the rewards and benefits a company has to offer.</p>
 
 
@@ -189,6 +191,7 @@
                         </div>                    
                         <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg); " data-anchor="openings">
                             <div >
+                                <img src="images/banner-CurrentOpenings.gif" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <div class="ym-grid">
                                     <div class="ym-grid ym-equalize">
                                         <p> We believe that workplace is the seedbed of creativity. The facilities we give to our team shall pave the way for overall development of the company. We provide freedom to grow in pace with aspirations and capabilities and the opportunity to switch tracks and build a new professional profile. We are always on look out for talented, enthusiastic, and strongly focused individuals. Presently we are in persuit of filling up the following job positions for India, USA and Canada location.</p>
@@ -269,6 +272,7 @@
                         </div>
                         <div class="LMcontent" id="slide4" style="transform:rotateY(-80deg);" data-anchor="job-code">                                        
                             <div >
+                                <img src="images/banner-job.png" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <table class="table table-striped">
                                     <tr>
                                         <!--                                       #CC3399-->
@@ -360,11 +364,12 @@
                             </div> 
                         </div>
                         <div class="LMcontent" id="slide5" style="transform:rotateY(-80deg);" data-anchor="apply">
-                            <div >                                
+                            <div >  
+                                <img src="images/apply-job-banner1.jpg" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <p>We prefer to receive resumes electronically. You may submit your resume and covering letter to the following email address: jobs@vitinfotech.com If you do not have access to email, you may use the following alternative methods:</p>
                                 <ul>
-                                    <li><span>Fax</span>: (080) 2224-9715,Attention: Human Resources Department</li>
-                                    <li><span>Mail</span>: 
+                                    <li><i class="fa fa-fw fa-fax fa-1x"></i>: (080) 2224-9715,Attention: Human Resources Department</li>
+                                    <li><i class="fa fa-fw fa-inbox fa-1x"></i>: 
                                         5th floor, Janardhan Towers,</br>                                    
                                         #133/1, Residency Road,</br>
                                         Bangalore - 560 025, INDIA.</br>
