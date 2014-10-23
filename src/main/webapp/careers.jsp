@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div id ="backToHome">
-                    <a href="<%=request.getContextPath()%>"><i class="fa fa-fw fa-home fa-2x"></i></a> 
+                    <a href="<%=request.getContextPath()%>"  title="Back To Home"><i class="fa fa-fw fa-home fa-2x" ></i></a> 
                 </div>
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
@@ -181,9 +181,9 @@
                                     <img src="images/work-life-balance.jpg" style="width: 120px;height: 140px;margin-left: 0.5em;"/>
                                     <p style="margin-top: -8em;margin-left: 9em;"><span >Achieving Work/Life Balance</span> In order to achieve balance between work and personal life, employees are encouraged to take vacations during year-end to be away from their work stress and to spend their time in relaxed mood with their family members away from all their daily hastes. VIT allocates substantial amount in the employee's compensation package towards leave travel assistance which can be utilized for making tours and trips to places of interest, tourist locations, hill stations, resorts etc. with their family members during vacations, which also provides substantial relief from payment of income tax.</p>
                                 </div>
-                                <div class="ym-grid ym-equalize">
+                                <div class="ym-grid ym-equalize" style="margin-top: 1.3em;">
                                     <img src="images/cartoons-birthday-party-4.jpg" style="width: 120px;height: 100px;margin-left: 0.5em;"/>
-                                    <p style="margin-top: -4em;margin-left: 9em;"><span>Other Benefits and Programs</span> VIT also believes in arranging lot of recreational and vocational programmes by way of providing sports kits to play table tennis, carom and other indoor games. We also provide news papers and periodicals for refreshing employees during their leisure hours. VIT hosts birthday parties, month end lunch and also annual picnic to all employees.</p>
+                                    <p style="margin-top: -6em;margin-left: 9em;padding-bottom: 1.5em;"><span>Other Benefits and Programs</span> VIT also believes in arranging lot of recreational and vocational programmes by way of providing sports kits to play table tennis, carom and other indoor games. We also provide news papers and periodicals for refreshing employees during their leisure hours. VIT hosts birthday parties, month end lunch and also annual picnic to all employees.</p>
                                 </div>
                             </div>
                         </div>                    

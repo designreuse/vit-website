@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div id ="backToHome">
-                    <a href="<%=request.getContextPath()%>"><i class="fa fa-fw fa-home fa-2x"></i></a> 
+                    <a href="<%=request.getContextPath()%>"  title="Back To Home"><i class="fa fa-fw fa-home fa-2x"></i></a> 
                 </div>
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
@@ -68,7 +68,7 @@
 
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g50">
-                                            <p>VITMobile™ framework is a mobile middleware disconnected technology that is used for rapid development of efficient & smart B2B, B2E and B2C mobile applications. VITMobile framework provides integration, authentication, security and management capabilities to the mobile applications. VITMobile applications can work effectively even with limited or no network connectivity. VITMobile framework enables Mobile solutions to be effective in disconnected mode using the state of the art synchronization technology of the runtime engine. This advanced synchronization technology enables VITMobile framework to be used even in 3 tier architectures, where there is no direct access to the database. The engine intelligently pre-fetches required data when in connected mode so that it can be presented to the user when required in disconnected mode. The engine also stores the data updated in disconnected mode locally in a structured manner, and synchronized with the server when connectivity is available. The data stored locally can be accessed by the Mobile application for subsequent operations. Also, the data can be exchanged with another device using short range communications like Bluetooth, NFC etc.</p>
+                                <p>VITMobile™ framework is a mobile middleware disconnected technology that is used for rapid development of efficient & smart B2B, B2E and B2C mobile applications. VITMobile framework provides integration, authentication, security and management capabilities to the mobile applications. VITMobile applications can work effectively even with limited or no network connectivity. VITMobile framework enables Mobile solutions to be effective in disconnected mode using the state of the art synchronization technology of the runtime engine. This advanced synchronization technology enables VITMobile framework to be used even in 3 tier architectures, where there is no direct access to the database. The engine intelligently pre-fetches required data when in connected mode so that it can be presented to the user when required in disconnected mode. The engine also stores the data updated in disconnected mode locally in a structured manner, and synchronized with the server when connectivity is available. The data stored locally can be accessed by the Mobile application for subsequent operations. Also, the data can be exchanged with another device using short range communications like Bluetooth, NFC etc.</p>
                                         </div>
                                         <div class="ym-g50">
                                             <img src="images/mobile-fmw.jpg" width="100%" style="height: 19em; margin-bottom: 12px;">
@@ -76,17 +76,17 @@
 
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                        <p>With VITMobile framework, creating a mobile application is a matter of aggregating UI extensions and user configurations. VITMobile framework integrates with Apache Cordova and JQuery Mobile for multichannel app development to support multiple operating systems and multiple deployment methods (Native, HTML5/mobile web, mixed mode).</p>
-                                        <p>Key Differentiators</p>
+                                <p>With VITMobile framework, creating a mobile application is a matter of aggregating UI extensions and user configurations. VITMobile framework integrates with Apache Cordova and JQuery Mobile for multichannel app development to support multiple operating systems and multiple deployment methods (Native, HTML5/mobile web, mixed mode).</p>
+                                <p>Key Differentiators</p>
 
-                                        <p>VITMobile based solutions are unique in nature and following are some of the key differentiators from other traditional mobile frameworks available in market.</p>
+                                <p>VITMobile based solutions are unique in nature and following are some of the key differentiators from other traditional mobile frameworks available in market.</p>
 
-                                        <p><ul style="list-style-type: disc;">
-                                            <li>Smartly stores data locally for easy access in disconnected mode.</li>
-                                            <li>Rules based configuration to manage local data</li>
-                                            <li>Ability to fetch information from past operations performed in disconnected mode in the same device.</li>
-                                            <li>Ability to share local data with a different device in proximity.</li>
-                                        </ul></p>
+                                <p><ul style="list-style-type: disc;">
+                                    <li>Smartly stores data locally for easy access in disconnected mode.</li>
+                                    <li>Rules based configuration to manage local data</li>
+                                    <li>Ability to fetch information from past operations performed in disconnected mode in the same device.</li>
+                                    <li>Ability to share local data with a different device in proximity.</li>
+                                </ul></p>
                                     </div>
                                 </div>
 
