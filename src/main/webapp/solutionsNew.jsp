@@ -79,7 +79,7 @@
                                     </div>   
                                     <div class="ym-grid ym-equalize">
 
-                                        <p>SharePoint Assessment and Planning:</p>
+                                        <p id="sub-h">SharePoint Assessment and Planning:</p>
                                         <p>VIT can help you by conducting a detailed assessment and analysis of your needs and developing the best strategy to meet those needs. The assessment and planning activities ensure the best possible outcome for your SharePoint initiative.</p>
                                         <p>Our SharePoint assessment and planning services include:</p>
                                         <p><ul style="list-style-type: disc;">
@@ -89,12 +89,12 @@
                                             <li>Development of actionable recommendations and a sound strategy for SharePoint implementation</li>
                                         </ul></p>
 
-                                        <p>SharePoint Migration:</p>
+                                        <p id="sub-h">SharePoint Migration:</p>
                                         <p>VIT has extensive experience assisting companies in complex SharePoint migrations. Whether you need to transition from your legacy systems to SharePoint or migrate content from Microsoft Office SharePoint Server (MOSS) 2007 to Microsoft SharePoint Server 2010 or Microsoft SharePoint Server 2013, our experienced team can ensure a risk-managed, seamless migration. We work closely with you to analyze your business and technical needs, develop and implement a migration strategy that is right for your organization, implement customizations and new requirements in your migrated SharePoint system, and ensure that your migrated system works in full accordance with your needs.
 
                                         </p>
 
-                                        <p>Our SharePoint migration services include:</p>
+                                        <p id="sub-h">Our SharePoint migration services include:</p>
                                         <p>Migration to Microsoft SharePoint Server 2013</p>
                                         <p><ul style="list-style-type: disc;">
                                             <li>Migration to Microsoft SharePoint Server 2010</li>
@@ -107,7 +107,7 @@
                                         <p>However, if you do realize, as many organizations do, that you have a need to extend the functionality of your SharePoint system above and beyond what the built-in features offer, we can work collaboratively with you to develop custom SharePoint solutions to meet your unique needs. Our SharePoint consultants can analyze your needs, provide recommendations in regard to which and how much SharePoint customization may be necessary and worth applying, and then implement such customizations.</p>
                                         <p>VIT Infortech’s custom SharePoint development services help clients realize the full capabilities of SharePoint. Our team of consultants is experienced in delivering customized solutions that are individually tailored to your business processes and that scale your solutions to meet your unique business needs.</p>
                                         <p>Our SharePoint application development services include developing custom:</p>
-                                        <p>Workflows</p>
+                                        <p id="sub-h">Workflows</p>
                                         <p><ul>
                                             <li>Web parts</li>
                                             <li>Extranets</li>
@@ -117,7 +117,7 @@
                                             <li>Reporting</li>
                                             <li>Public facing sites</li>
                                         </ul></p>
-                                        <p>SharePoint Maintenance and Support:</p>
+                                        <p id="sub-h">SharePoint Maintenance and Support:</p>
                                         <p>If you find yourself trying to maintain SharePoint, or are running into issues using the tool, our consultants can provide you with timely help with anything within the SharePoint infrastructure. We provide ongoing SharePoint maintenance, troubleshooting, and support to enable your firm to be able to utilize SharePoint in accordance with its full capabilities. From investigating and resolving any SharePoint related problems, to providing general SharePoint advice and general maintenance, our consultants can provide the support you need.</p>
                                     </div> 
                                 </div>
@@ -196,7 +196,7 @@
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <p><ul style="list-style-type:disc;">
-                                            <li>Smart Inspection – This application is used for performing field inspections. This application will help the inspectors to collect the inspection relation information directly in the device and sync them with the server. The application can also pre-fetch any information that may be required during the inspection. Each inspection records are encoded with GPS coordinates and date/time stamp in the background so that the location of inspection site can be verified. User can also click multiple pictures at inspection site and write notes related to each picture. The inspection can also be performed in disconnected mode in which case the inspection records are saved locally and pushed to server when the network is restored.</li></ul></p>                                            
+                                            <li><p id="sub-h">Smart Inspection</p> – This application is used for performing field inspections. This application will help the inspectors to collect the inspection relation information directly in the device and sync them with the server. The application can also pre-fetch any information that may be required during the inspection. Each inspection records are encoded with GPS coordinates and date/time stamp in the background so that the location of inspection site can be verified. User can also click multiple pictures at inspection site and write notes related to each picture. The inspection can also be performed in disconnected mode in which case the inspection records are saved locally and pushed to server when the network is restored.</li></ul></p>                                            
 
                                     </div>
                                     <div class="ym-grid ym-equalize">
@@ -205,12 +205,12 @@
                                         </div>
                                         <div class="ym-g50">
                                             <p><ul style="list-style-type:disc;">
-                                                <li>Depot Management Application – This application is used to manage end to end operations of a depot by collecting information right from the point where the truck enters to the point where the commodities are dumped. Due to the remoteness of the locations, network connectivity in depots is a challenge, so till date depot staff relies on manual way of stock keeping. VITMobile framework resolves this issue and allows user to collect the informations at the point of occurrence in both connected as well as disconnected mode. Using this application only new information needs to be entered at different stage of depot operations. The depot in charge can view any kind of reports or generate receipts at a click of a button and if needed print them via portable Bluetooth printers.</li></ul></p>                                           
+                                                <li><p id="sub-h">Depot Management Application</p> – This application is used to manage end to end operations of a depot by collecting information right from the point where the truck enters to the point where the commodities are dumped. Due to the remoteness of the locations, network connectivity in depots is a challenge, so till date depot staff relies on manual way of stock keeping. VITMobile framework resolves this issue and allows user to collect the informations at the point of occurrence in both connected as well as disconnected mode. Using this application only new information needs to be entered at different stage of depot operations. The depot in charge can view any kind of reports or generate receipts at a click of a button and if needed print them via portable Bluetooth printers.</li></ul></p>                                           
                                         </div>
 
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                        <li>Sales Management & Automation – This application is used by industries where sales department needs to visit their vendors on frequent basis. Using this application, sales representative can view the past orders given by the vendor along with the current status of delivery & payment. They can also take the new order and check their inventory before committing a delivery date. The disconnected framework makes sure that the salesman performs the job uninterrupted even if the vendor is remotely located with limited or no network connectivity. The interface with the external Bluetooth printer comes handy to print the order or payment receipt.</li>
+                                        <li><p id="sub-h">Sales Management & Automation</p> – This application is used by industries where sales department needs to visit their vendors on frequent basis. Using this application, sales representative can view the past orders given by the vendor along with the current status of delivery & payment. They can also take the new order and check their inventory before committing a delivery date. The disconnected framework makes sure that the salesman performs the job uninterrupted even if the vendor is remotely located with limited or no network connectivity. The interface with the external Bluetooth printer comes handy to print the order or payment receipt.</li>
                                         </p>
                                     </div>
                                 </div>

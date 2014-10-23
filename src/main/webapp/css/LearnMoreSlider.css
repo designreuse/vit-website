@@ -56,6 +56,10 @@ and open the template in the editor.
     margin: 10px;
     line-height: normal !important;
 }
+#sub-h{
+    font-weight: bold;
+    color: rgb(255, 10, 90);
+}
 .LMcontent *>p{
     margin: 10px;
     margin-top:5px ;
@@ -132,7 +136,7 @@ and open the template in the editor.
     border-bottom-right-radius:50px;
     z-index: 2;
     text-align: center;
-/*    transition: all 1s ease-in-out;*/
+    /*    transition: all 1s ease-in-out;*/
 }
 #backToHome >a{
     color: white;

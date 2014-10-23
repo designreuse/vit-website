@@ -180,7 +180,7 @@
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g40">
-                                <p>Service Areas</p>
+                                <p id="sub-h">Service Areas</p>
                                             <p>
                                             <ul style="ist-style-type:disc;">
                                     <li> New Application Development</li>
@@ -191,7 +191,7 @@
                                             </p>
                             </div>
                                         <div class="ym-g60">
-                                            <img src="images/EAD_Mindmap1.png" width="90%" style="height: 11em; margin-bottom: 12px;">
+                                            <img src="images/EAD_Mindmap1.png" width="60%" style="height: 11em; margin-bottom: 12px;">
                                         </div>
                                         <!--<div class="ym-g10"></div>-->
                                     </div>
@@ -233,7 +233,7 @@
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g50">
-                                <p>Domain Expertise</p>
+                                <p id="sub-h">Domain Expertise</p>
                                 <p><ul style="ist-style-type:disc;">
                                     <li>Enterprise & Collaborative Applications</li>
 
@@ -250,7 +250,7 @@
                                         </div>
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                        <p>Technology Expertise</p>
+                                        <p id="sub-h">Technology Expertise</p>
                                         <p><ul style="ist-style-type:disc;">
                                     <li>Java/J2EE Technologies : Java, JSP, EJB, Hibernate, Ajax, jQuery, JavaScript, SWT, Websphere, Weblogic, JBoss, JUnit</li>
 

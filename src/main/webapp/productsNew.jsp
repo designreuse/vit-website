@@ -77,7 +77,7 @@
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                 <p>With VITMobile framework, creating a mobile application is a matter of aggregating UI extensions and user configurations. VITMobile framework integrates with Apache Cordova and JQuery Mobile for multichannel app development to support multiple operating systems and multiple deployment methods (Native, HTML5/mobile web, mixed mode).</p>
-                                <p>Key Differentiators</p>
+                                <p id="sub-h">Key Differentiators</p>
 
                                 <p>VITMobile based solutions are unique in nature and following are some of the key differentiators from other traditional mobile frameworks available in market.</p>
 
@@ -99,7 +99,7 @@
 
                         <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="VITCam">
                             <div > <h1>VIT CaMPoint</h1>
-                                <!--<img src="images/BPMFinal.png" width="100%" style="height: 14em; margin-bottom: 12px;">-->
+                                <img src="images/campoint.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
 
                                 <p>VITCaMPoint is a collaboration suite that helps organizations implement the CMMI® Level 4 Processes. It is built on top of Microsoft SharePoint and is designed to integrate with different BPM implementations. Capability Maturity Model® Integration (CMMI) is a process improvement approach that provides organizations with the essential elements of effective processes.</p>                               
 
@@ -111,8 +111,9 @@
 
 
                         <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="GPSFleet">
-                            <div >  
-                                <img src="images/VT.png" width="100%" style="height: 20em; margin-bottom: 12px;">
+                            <div > 
+                                <h1>GPS Fleet Management System</h1>
+                                <img src="images/VT.png" width="100%" style="height: 24em; margin-bottom: 12px;">
                                 <p>GPS Based Fleet Management System is a solution to managing and tracking a fleet of trucks / vehicles in real-time using the GPS system. The tracking relies on Global Positioning Satellites (GPS) and cellular data service such as GPRS.</p>
 
                                 <p>The GPS Based Fleet Management system essentially contains of the following two components:</p>
