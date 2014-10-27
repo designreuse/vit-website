@@ -63,7 +63,7 @@
                     <div class ="LMwrapper"id="LMwrapperSolutions">
                         <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="Sharepoint">
                             <div > 
-                                <h1>Sharepont Solutions</h1>
+                                <h1>SharePoint Solutions</h1>
                                 <div class="ym-grid">
 
                                     <div class="ym-grid ym-equalize">
