@@ -70,20 +70,20 @@
                                 <div class="ym-grid">
 
                                     <div class="ym-grid ym-equalize">
-                                        <div class="ym-g50">
+                                        <div class="ym-g45">
                                             <img src="images/onsite-offshore.jpg" width="100%" style="height: 16em; margin-bottom: 12px;">
                                         </div>
-                                        <div class="ym-g50">
+                                        <div class="ym-g55">
                                             <p style="margin-top: -2em;">Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
                                             <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery and improve logistics and communication.</p> 
                                         </div>
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                        <div class="ym-g50">
+                                        <div class="ym-g55">
                                             <p>Through our application development and systems integration services, you can gain consulting and delivery expertise in both end-to-end systems integration and custom application development.</p>	
                                             <p>Centered on the needs of your organization, our onsite/offshore model is designed specifically to help you quickly reduce IT budgets, revamp IT operations and re-deploy freed-up assets to more strategic initiatives that generate business value. We work in lockstep to ensure that our team operates as an extension of your organization.</p>
                                         </div>
-                                        <div class="ym-g50"><img src="images/Delivery-Model-V1.jpg" width = "100%" style="height: 16em; margin-bottom: 12px;">
+                                        <div class="ym-g45"><img src="images/Delivery-Model-V1.jpg" width = "100%" style="height: 16em; margin-bottom: 12px;">
                                         </div>
                                     </div>
                                     <div class="ym-grid">

@@ -332,7 +332,7 @@
                 </div>  										
                 <div class="ym-grid ym-equalize" id="career"> <!-- career -->					     		
 
-                    <div class="ym-g25 ym-gl" style="pointer-events: none;">
+                    <div class="ym-g20 ym-gl" style="pointer-events: none;">
                         <div class="service_1" id="career1" style="margin-top: -6%;">
                             <div>  <h1>Why VIT</h1>
                                 <p>Reasons why you should join VIT</p>
@@ -343,7 +343,7 @@
                         </div>
 
                     </div>
-                    <div class="ym-g25 ym-gl" style="pointer-events: none;">
+                    <div class="ym-g20 ym-gl" style="pointer-events: none;">
                         <div class="service_1" id="career2"style="margin-top: -2%;">
                             <div > <h1>Rewards & Benefits</h1>
                                 <p>Know our Rewards and Benefits</p>
@@ -354,7 +354,7 @@
                         </div>
                     </div>
 
-                    <div class="ym-g25 ym-gl" style="pointer-events: none;">
+                    <div class="ym-g20 ym-gl" style="pointer-events: none;">
                         <div class="service_1" id="career3"style="margin-top: 2%;">
                             <div > <h1>IT Openings</h1>
                                 <p>Search for jobs at VIT</p>
@@ -365,7 +365,7 @@
                         </div>
                     </div>
 
-                    <div class="ym-g25 ym-gl" style="pointer-events: none;">
+                    <div class="ym-g20 ym-gl" style="pointer-events: none;">
                         <div class="service_1" id="career4" style="margin-top: 6%;">
                             <div >  <h1>JOB Code & Profiles</h1> 
                                 <p>Know our job descriptions</p>
@@ -376,7 +376,7 @@
                         </div>
                     </div>
 
-                    <div class="ym-g25 ym-gl" style="pointer-events: none;">
+                    <div class="ym-g20 ym-gl" style="pointer-events: none;">
                         <div class=" service_1" id="career5" style="margin-top: 10%;">
                             <div ><h1> Apply </h1>
                                 <p>How to apply</p>
