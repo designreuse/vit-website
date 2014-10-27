@@ -194,7 +194,7 @@
                                 <img src="images/banner-CurrentOpenings.gif" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <div class="ym-grid">
                                     <div class="ym-grid ym-equalize">
-                                        <p> We believe that workplace is the seedbed of creativity. The facilities we give to our team shall pave the way for overall development of the company. We provide freedom to grow in pace with aspirations and capabilities and the opportunity to switch tracks and build a new professional profile. We are always on look out for talented, enthusiastic, and strongly focused individuals. Presently we are in persuit of filling up the following job positions for India, USA and Canada location.</p>
+                                        <p> We believe that workplace is the seedbed of creativity. The facilities we give to our team shall pave the way for overall development of the company. We provide freedom to grow in pace with aspirations and capabilities and the opportunity to switch tracks and build a new professional profile. We are always on look out for talented, enthusiastic, and strongly focused individuals. Presently we are in pursuit of filling up the following job positions for India, USA and Canada location.</p>
 
                                         <p>Since knowledge base is the main asset for VIT to meet customer's requirements VIT will always believe in associating with dynamic, result oriented, committed people to fulfill the dreams of VIT to fly as one of the flag-ship companies in IT sector.</p>
                                         <p> Search for Jobs at VIT</p>
