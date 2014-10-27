@@ -16,6 +16,7 @@ and open the template in the editor.
 .LMwrapper{
     left: 0px;
     position: relative;
+    -webkit-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out;
 }
 
@@ -41,6 +42,7 @@ and open the template in the editor.
     margin-top: 7em;
     padding: 1.5em;
     pointer-events: all;
+    -webkit-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out;
 
 }
