@@ -117,6 +117,28 @@
                             <div >
                                 <img src="images/Contact-us1.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
                                 <div class="ym-grid">
+                                    <div class="ym-grid ym-equalize">  
+                                        <div class="ym-g20 ym-gr"></div>
+                                        <div class="ym-g30">
+                                            <h4>Bangalore Development Center:</h4>
+                                            <p>5th Floor, Janardhan Towers,</br>
+                                                Residency Road, </br>
+                                                Bangalore - 560 025,</br>
+                                                INDIA.</br>
+                                                <i class="fa fa-fw fa-phone"></i>(+91)(80) 2224-9715
+                                            </p></div> 
+
+
+                                        <div class="ym-g30 ym-gr">
+                                            <h4>Pune Development Center:</h4>
+                                            <p>Pride Purple Accord, Office No.3,</br>
+                                                Baner, </br>
+                                                Pune - 411 045,</br>
+                                                INDIA.</br>
+                                                <i class="fa fa-fw fa-phone"></i>(+91)(20) 2729-8921
+                                            </p></div> 
+                                        <div class="ym-g20 ym-gr"></div>
+                                    </div>
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g10 ym-gr"></div>
                                         <div class="ym-g25 ym-gr">
@@ -144,28 +166,6 @@
                                                 <i class="fa fa-fw fa-phone"></i> 408.454.6218</br>
                                                 </br></p></div> 
                                         <div class="ym-g10 ym-gr"></div>
-                                    </div>
-                                    <div class="ym-grid ym-equalize">  
-                                        <div class="ym-g20 ym-gr"></div>
-                                        <div class="ym-g30">
-                                            <h4>Bangalore Development Center:</h4>
-                                            <p>5th Floor, Janardhan Towers,</br>
-                                                Residency Road, </br>
-                                                Bangalore - 560 025,</br>
-                                                INDIA.</br>
-                                                <i class="fa fa-fw fa-phone"></i>(+91)(80) 2224-9715
-                                            </p></div> 
-
-
-                                        <div class="ym-g30 ym-gr">
-                                            <h4>Pune Development Center:</h4>
-                                            <p>Pride Purple Accord, Office No.3,</br>
-                                                Baner, </br>
-                                                Pune - 411 045,</br>
-                                                INDIA.</br>
-                                                <i class="fa fa-fw fa-phone"></i>(+91)(20) 2729-8921
-                                            </p></div> 
-                                        <div class="ym-g20 ym-gr"></div>
                                     </div>
 
                                 </div>

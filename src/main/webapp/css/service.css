@@ -29,7 +29,7 @@
         font-size: 16px;    //
 }*/
 #service{
-
+    z-index: 1;
     position: absolute;
     padding:20%; 
     padding-top: 8em;
@@ -39,7 +39,7 @@
     /*    perspective: 1000px;*/
 }
 #solution{
-
+    z-index: 1;
     display: none;
     position: absolute;
     padding:20%; 
@@ -50,7 +50,7 @@
     overflow: visible;
 }
 #product{
-
+    z-index: 1;
     display: none;
     position: absolute;
     padding:20%; 
@@ -61,7 +61,7 @@
     overflow: visible;
 }
 #career{
-
+    z-index: 1;
     display: none;
     position: absolute;
     padding:20%; 
@@ -383,5 +383,5 @@
 }
 
 .LMcontent >div >div >div>img{
-   height: 100px;width: 100px;
+    height: 100px;width: 100px;
 }

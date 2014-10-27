@@ -74,7 +74,7 @@
                                             <img src="images/onsite-offshore.jpg" width="100%" style="height: 16em; margin-bottom: 12px;">
                                         </div>
                                         <div class="ym-g50">
-                                            <p>Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
+                                            <p style="margin-top: -2em;">Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
                                             <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery and improve logistics and communication.</p> 
                                         </div>
                                     </div>
