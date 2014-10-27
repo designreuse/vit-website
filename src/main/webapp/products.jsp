@@ -85,43 +85,29 @@
                                         </ul></p>
                                     </div>
                                 </div>
-
-                            </div> 
-                            <!--                                                    <div class="LMreflection"> </div>-->
+                            </div>                             
                         </div>
-
-
-
-
                         <div class="LMcontent" id="slide2" data-anchor="VITCam">
                             <div > <h1>VIT CaMPoint</h1>
-                                <img src="images/campoint.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
-
+                                <img src="images/campoint.jpg" class="products-slide2-img">
                                 <p>VITCaMPoint is a collaboration suite that helps organizations implement the CMMI® Level 4 Processes. It is built on top of Microsoft SharePoint and is designed to integrate with different BPM implementations. Capability Maturity Model® Integration (CMMI) is a process improvement approach that provides organizations with the essential elements of effective processes.</p>                               
-
-
                             </div>	
                             <!--                                                  <div class="LMreflection"> </div>		 -->
                         </div>
-
-
-
                         <div class="LMcontent" id="slide3" data-anchor="GPSFleet">
                             <div > 
                                 <h1>GPS Fleet Management System</h1>
-                                <img src="images/VT.png" width="100%" style="height: 24em; margin-bottom: 12px;">
+                                <img src="images/VT.png" class="products-slide3-img">
                                 <p>GPS Based Fleet Management System is a solution to managing and tracking a fleet of trucks / vehicles in real-time using the GPS system. The tracking relies on Global Positioning Satellites (GPS) and cellular data service such as GPRS.</p>
-
                                 <p>The GPS Based Fleet Management system essentially contains of the following two components:</p>
-                                <p><ul style="ist-style-type:disc;">
+                                <p><ul class="li-style-disc">
                                     <li>GPS Tracking Device: This is a device that is mounted in the truck that continuously picks up the GPS co-ordinates and transmits the coordinates to the server in real-time. This could also be implemented as a mobile application that is installed on the vehicle’s driver mobile.</li>
                                     <li>GPS Fleet Management Web Application is a central web application that monitors the real-time GPS coordinates of all the trucks /vehicles. The Web Application will be able to show the location of all the trucks in a map in real-time. The following picture is a snapshot of the page that visualizes the real-time location of two trucks in the map:</li>
                                 </ul>
                                 </p>
                                 <p>The following are the benefits of the GPS based Fleet Management System:</p>
-                                <ul style="ist-style-type:disc;">
+                                <ul class="li-style-disc">
                                     <li>Increased Productivity eliminates discrepancies between hours worked and hours claimed by driver.</li>
-
                                     <li>Reduced Overtime provides detailed real time vehicle tracking that gives accurate start and stops times as well as recorded idling and extended stops.</li>
                                     <li>Lower Fuel Costs reduce your fuel bill by eliminating unapproved or extended journeys.</li>
                                     <li>Reduce Private Use alerts will instantly flag any moment of the vehicle outside working hours.</li>
@@ -129,19 +115,11 @@
                                     <li>Reduce Communication Costs constant real time GPS analysis shows you at a glance where your vehicles are at all times so we can reduce cell phone calls to drivers.</li>
 
                                 </ul>
-                            </div>
-                            <!--                            <div class="reflection"> </div>-->
+                            </div>                                             
                         </div>
-
-
-
                     </div>
-
-
                 </div>
             </div>
-
             <div id="Footer"></div>
-
     </body>
 </html>

@@ -80,7 +80,7 @@
                                             <p id="sub-h">The Challenge</p>	
 
                                             <p>Major challenges in the Field Data capture and reporting are</p>
-                                            <p><ul style="list-style-type:disc;">
+                                            <p><ul class="li-style-disc">
                                                 <li>Data Capture and Synchronization back to system for records.</li>
                                                 <li>Preventive maintenance planning, schedule and notifications.</li>
                                                 <li>Vehicle monitoring/Tracking.</li>
@@ -89,13 +89,13 @@
                                             </p>
                                         </div>
                                         <div class="ym-g50">
-                                            <img src="images/gps-tag.png" width="70%" style="height: 12em; margin-bottom: 12px;">
+                                            <img src="images/gps-tag.png" class="caseStudies-img">
                                         </div>
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <p id="sub-h">The Solution</p>
                                         <p>To address the challenges in mining/manufacturing industries to capture data on the field and to track vehicles for various purposes VIT has developed VITMobile™ framework. Framework would become one point solution and would help organization in following solutions</p>
-                                        <p><ul style="list-style-type:disc;">
+                                        <p><ul class="li-style-disc">
                                             <li>VITMobile™ consists of out-of-the box Mobile solutions that can be integrated with the legacy software system to increase the efficiency of the mobile workers and reduce the redundancies in Field Data Capture and Reporting. Helps in capture of data at the point of occurrence.</li>
                                             <li>GPS based Fleet Management product can be used to monitor/track the Vehicles and alerts.</li>
                                             <li>Preventive maintenance plan can be scheduled and assigned to respective service department and Check list for maintenance is recorded in a smart & efficient way using mobile devices. Alerts are sent prior to maintenance and maintenance details and outcomes can be recorded and sync back to the system as required.</li>
@@ -123,7 +123,7 @@
 
                                         <p id="sub-h">The Challenge</p>
                                         <p>Some of the major constraints placed on this solution were as follows:</p>
-                                        <p><ul style="list-style-type:disc;">
+                                        <p><ul class="li-style-disc">
                                             <li>The custom workflow in SharePoint should integrate with the external BPMS workflow in a seamless way.</li>
                                             <li>The solution has to respect existing user experience.</li>
                                             <li>Security Trimming: Needs to regard user access rights to either see or initiate actions/task.</li>
@@ -137,7 +137,7 @@
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g50">
-                                            <p><ul style="list-style-type:disc;">
+                                            <p><ul class="li-style-disc">
                                                 <li>Solution was developed using SharePoint web services and designed to not limit the solution using the SharePoint object model..</li>
                                                 <li>Designed a custom SharePoint workflow that can be used against any SharePoint object.</li>
                                                 <li>Built a custom workflow activity to enable integration into the external workflow solution.</li>
@@ -146,7 +146,7 @@
                                             </ul></p>
                                         </div>
                                         <div class="ym-g50">
-                                            <img src="images/bpm2.jpg" width="100%" style="height: 18em; margin-bottom: 12px;">
+                                            <img src="images/bpm2.jpg" class="caseStudies-img4">
                                         </div>
                                     </div>
                                     <div class="ym-grid ym-equalize">
@@ -232,7 +232,7 @@
 
                                             <p id="sub-h">Service Areas</p>
 
-                                            <p><ul style="ist-style-type:disc;">
+                                            <p><ul class="li-style-disc">
                                                 <li> Locating Waste to be collected.</li>
                                                 <li>Communicating to the truck driver who is already on duty.</li>
                                                 <li>Reporting details of waste collected and disposed.</li>
@@ -240,7 +240,7 @@
                                             </ul></p>
                                         </div>
                                         <div class="ym-g50">
-                                            <img src="images/recucle.jpg" width="80%" style="height: 14em; margin-bottom: 12px;">
+                                            <img src="images/recucle.jpg" class="caseStudies-img2">
                                         </div>
                                     </div>
                                     <div class="ym-grid ym-equalize">
@@ -261,7 +261,7 @@
                                 <div class="ym-grid">
                                     <h3>Android based Mobile-server application for integrated chronic disease management system: Case Studies</h3>
                                     <div class="ym-grid ym-equalize">
-                                        <img src="images/android_banner.png" width="100%" style="width:100%; height: 16em; margin-bottom: 12px;">
+                                        <img src="images/android_banner.png" class="caseStudies-img3">
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <p  id="sub-h">Description</p>
@@ -283,7 +283,7 @@
                             <div >
 
                                 <h3>Firmware Upload Utility & Diagnostic tool for Removable eSATA Hard Disk Drives: Case Studies</h3>
-                                <img src="images/harddisk.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                <img src="images/harddisk.jpg" class="products-slide2-img">
                                 <p id="sub-h">Overview</p>
                                 <p>The world's leading provider of removable data storage products designed to help customers create, protect and retrieve valuable digital assets. They have more than 50 years of data storage leadership, beginning with the development of the world's first computer tape.</p>
 

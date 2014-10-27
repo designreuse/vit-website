@@ -67,75 +67,75 @@
                     <div class ="LMwrapper"id="LMwrapperServices">
                         <div class="LMcontent" id="slide1" data-anchor="why">
                             <div >
-                                <img src="images/why_us_banner.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                <img src="images/why_us_banner.jpg" class="products-slide2-img">
                                 <div class="ym-grid ym-equalize">
-                                    <div style="float: left;" class="ym-g50 ym-gr" >
-                                        <img src="images/breakthrough-plant.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+                                    <div class="ym-g50 ym-gr left-float" >
+                                        <img src="images/breakthrough-plant.jpg" class="careers-slide1-img">
 
-                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                        <p class="margin-top-neg6 margin-left-7">
                                             <span>Breakthrough Technologies</span> VIT keeps constant focus on innovation and continuous development of technology to achieve a quick breakthrough in technology and the projects on which you will be working will provide total support for you to live with the world.</p>                            
                                     </div>
-                                    <div style="float: right;" class="ym-g50 ym-gr">
-                                        <img src="images/Business-is-more-exciting-than-any-game.png" style="height: 100px;width: 100px;opacity: 0.9;">
+                                    <div class="ym-g50 ym-gr right-float">
+                                        <img src="images/Business-is-more-exciting-than-any-game.png" class="careers-slide1-img">
 
-                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                        <p class="margin-top-neg6 margin-left-7">
                                             <span>Exciting Business</span> As VIT is engaged with many product development companies, VIT works on State of the Art technology, be it be .NET, MOSS, Infopath, or J2EE platform. This ensure adding high-value to your profile in the competitive world.</p>                            
                                     </div>
                                 </div> 
                                 <div class="ym-grid ym-equalize">
-                                    <div style="float: left;" class="ym-g50 ym-gr" >
-                                        <img src="images/HiRes.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+                                    <div class="ym-g50 ym-gr left-float" >
+                                        <img src="images/HiRes.jpg" >
 
-                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                        <p class="margin-top-neg6 margin-left-7">
                                             <span>Continuous Learning</span> VIT believes in providing total support to its people in providing opportunities to enhance their skill sets and also for acquisition of innovative skills by way of training and development programs to meet the growing needs of the industry.</p>                            
                                     </div>
-                                    <div style="float: right;" class="ym-g50 ym-gr">
-                                        <img src="images/growth-paln.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+                                    <div class="ym-g50 ym-gr right-float">
+                                        <img src="images/growth-paln.jpg" class="careers-slide1-img">
 
-                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                        <p class="margin-top-neg6 margin-left-7">
                                             <span>Plan for Growth</span> Our people and our culture drive us to achieve greater success.
                                             Our growth strategy is to build positions in new markets where we can achieve superior growth and returns.<br>
                                             We see our size as a strength, not a deterrent and we encourage our employees to take risks and think outside the box.</p>                            
                                     </div>
                                 </div> 
                                 <div class="ym-grid ym-equalize">
-                                    <div style="float: left;" class="ym-g50 ym-gr" >
-                                        <img src="images/training.png" style="height: 100px;width: 100px;opacity: 0.9;">
+                                    <div class="ym-g50 ym-gr left-float" >
+                                        <img src="images/training.png" class="careers-slide1-img">
 
-                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                        <p class="margin-top-neg6 margin-left-7">
                                             <span>Training & Development</span> VIT believes in providing total support to its people in providing opportunities to enhance their skill sets and also for acquisition of innovative skills by way of training and development programs to meet the growing needs of the industry.</p>                            
                                     </div>
-                                    <div style="float: right;" class="ym-g50 ym-gr">
-                                        <img src="images/development_culture1.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+                                    <div class="ym-g50 ym-gr right-float">
+                                        <img src="images/development_culture1.jpg" class="careers-slide1-img">
 
-                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                        <p class="margin-top-neg6 margin-left-7">
                                             <span>Our Culture</span> At VIT, you work with some of the brightest people. We believe it's a place where you can live your dreams and pursue a career that reflects your skills and passions. Our culture is built on core values that promote learning and inclusiveness. Fair and equitable opportunities are given to each performer for their career growth.</p>                            
                                     </div>
                                 </div>  
                                 <div class="ym-grid ym-equalize">
-                                    <div style="float: left;" class="ym-g50 ym-gr" >
-                                        <img src="images/self-career.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
-                                        <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                    <div class="ym-g50 ym-gr left-float" >
+                                        <img src="images/self-career.jpg" class="careers-slide1-img">
+                                        <p class="margin-top-neg6 margin-left-7">
                                             <span>Self-Directed Career Path</span> VIT has tools and process rigor that facilitate personal and professional development. These include:</p>
-                                        <ul style="list-style: cross-fade;margin-left: 7em ! important;">
+                                        <ul class="li-style-cross-fade margin-left-7">
                                             <li>A 360-Degree Feedback program, in which your teammates, peers and customers provide feedback on all aspects of your performance.</li>
                                             <li>An annual organizational and developmental review, where your strengths and development needs are reviewed with your immediate manager, along with your individual career plan.</li>
                                         </ul> 
                                     </div>   
-                                    <div style="float: right;" class="ym-g50 ym-gr" >
+                                    <div class="ym-g50 ym-gr right-float" >
                                         <div class="ym-grid ym-equalize">
-                                            <img src="images/1team-growth.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
-                                            <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                            <img src="images/1team-growth.jpg" class="careers-slide1-img">
+                                            <p class="margin-top-neg6 margin-left-7">
                                                 <span>Key Growth Initiatives</span> VIT's ongoing business strategy centers on four key growth initiatives as
                                                 Technical Leadership, 
                                                 Customer Focus, 
                                                 Growth Platforms, 
                                                 Globalization.</p>   
                                         </div>
-                                        <div class="ym-grid ym-equalize" style="margin-top: 1em;">
-                                            <img src="images/our-people.jpg" style="height: 100px;width: 100px;opacity: 0.9;">
+                                        <div class="ym-grid ym-equalize margin-top-1em">
+                                            <img src="images/our-people.jpg" class="careers-slide1-img">
 
-                                            <p style="margin-top: -6em;margin-left: 7em ! important; ">
+                                            <p class="margin-top-neg6 margin-left-7">
                                                 <span>Our People</span> VIT people are some of the best in the world with a desire to learn and stretch beyond their limits. Our people make VIT a great company and an exciting place to work.</p>                            
                                         </div>
                                     </div>
@@ -144,19 +144,19 @@
                         </div>                     
                         <div class="LMcontent" id="slide2" data-anchor="rewards">
                             <div>
-                                <img src="images/banner_benefits.jpg" width="100%" style="height: 12em; margin-bottom: 12px;">
+                                <img src="images/banner_benefits.jpg" class="careers-banner-img">
                                 <p>Whether you are considering a career move or looking for your first job opportunity, we understand that you will weigh the rewards and benefits a company has to offer.</p>
 
 
                                 <p>At VIT, we offer competitive salary and benefits packages.</p>
                                 <div class="ym-grid ym-equalize">
-                                    <img src="images/Areas-we-work-in-Health-Care.jpg" style="width: 120px;height: 100px;margin-left: 0.5em;"/>
-                                    <p style="margin-top: -6em;margin-left:9em;"><span>Managing Your Health</span> All employees along with their dependent parents, spouse and children are covered under Health Care Insurance which totally covered for any kind of illness including major hospitalization like heart attacks, surgeries, maternity care etc. All employees are insured for any permanent or temporary disablement or for any injuries being caused due to accident while on duty.</p>
+                                    <img src="images/Areas-we-work-in-Health-Care.jpg" class="careers-slide2-type1-img"/>
+                                    <p class="margin-top-neg6 margin-left-9"><span>Managing Your Health</span> All employees along with their dependent parents, spouse and children are covered under Health Care Insurance which totally covered for any kind of illness including major hospitalization like heart attacks, surgeries, maternity care etc. All employees are insured for any permanent or temporary disablement or for any injuries being caused due to accident while on duty.</p>
                                 </div>
                                 <div class="ym-grid ym-equalize">
-                                    <img src="images/Planning-for-your-Future-1.jpg" style="width: 120px;height: 100px;margin-left: 0.5em;"/>
-                                    <p style="margin-top: -6em;margin-left: 9em;"><span>Planning for Your Future</span> Our HR team provides constant guidance to the employees to work towards comfortable living. They provide guidance to employees towards</p>
-                                    <ul style="list-style: cross-fade;margin-left: 9em;"">
+                                    <img src="images/Planning-for-your-Future-1.jpg" class="careers-slide2-type1-img"/>
+                                    <p class="margin-top-neg6 margin-left-9"><span>Planning for Your Future</span> Our HR team provides constant guidance to the employees to work towards comfortable living. They provide guidance to employees towards</p>
+                                    <ul class="li-style-cross-fade margin-left-9">
                                         <li>Housing Plan.</li>
                                         <li>Education Plan for the employee's children.</li>
                                         <li>Professional education for grown up children of employees.</li>
@@ -165,9 +165,9 @@
                                     </ul>
                                 </div>
                                 <div class="ym-grid ym-equalize">
-                                    <img src="images/security.jpg" style="width: 120px;height: 100px;margin-left: 0.5em;"/>
-                                    <p style="margin-top: -6em;margin-left: 9em;"><span>Providing Security for Your Family</span> All employees and their family members are protected under various Social Security Laws like</p>
-                                    <ul style="margin-left: 9em;list-style: cross-fade">
+                                    <img src="images/security.jpg" class="careers-slide2-type1-img"/>
+                                    <p class="margin-top-neg6 margin-left-9"><span>Providing Security for Your Family</span> All employees and their family members are protected under various Social Security Laws like</p>
+                                    <ul class="li-style-cross-fade margin-left-9">
                                         <li>Provident Fund Scheme.</li>
                                         <li>Employees Pension Scheme.</li>
                                         <li>Family Pension Scheme.</li>
@@ -175,21 +175,21 @@
                                         <li>Gratuity.</li>
                                         <li>Leave Salary Encashment.</li>
                                     </ul>                                
-                                    <p style="margin-left: 9em;">We also provide security to employees whenever they are assigned with overseas assignment with a suitable insurance cover.</p>
+                                    <p class="margin-left-9">We also provide security to employees whenever they are assigned with overseas assignment with a suitable insurance cover.</p>
                                 </div>
                                 <div class="ym-grid ym-equalize">
-                                    <img src="images/work-life-balance.jpg" style="width: 120px;height: 140px;margin-left: 0.5em;"/>
-                                    <p style="margin-top: -8em;margin-left: 9em;"><span >Achieving Work/Life Balance</span> In order to achieve balance between work and personal life, employees are encouraged to take vacations during year-end to be away from their work stress and to spend their time in relaxed mood with their family members away from all their daily hastes. VIT allocates substantial amount in the employee's compensation package towards leave travel assistance which can be utilized for making tours and trips to places of interest, tourist locations, hill stations, resorts etc. with their family members during vacations, which also provides substantial relief from payment of income tax.</p>
+                                    <img src="images/work-life-balance.jpg" class="careers-slide2-type2-img"/>
+                                    <p class="margin-top-neg8 margin-left-9"><span >Achieving Work/Life Balance</span> In order to achieve balance between work and personal life, employees are encouraged to take vacations during year-end to be away from their work stress and to spend their time in relaxed mood with their family members away from all their daily hastes. VIT allocates substantial amount in the employee's compensation package towards leave travel assistance which can be utilized for making tours and trips to places of interest, tourist locations, hill stations, resorts etc. with their family members during vacations, which also provides substantial relief from payment of income tax.</p>
                                 </div>
                                 <div class="ym-grid ym-equalize" style="margin-top: 1.3em;">
-                                    <img src="images/cartoons-birthday-party-4.jpg" style="width: 120px;height: 100px;margin-left: 0.5em;"/>
-                                    <p style="margin-top: -6em;margin-left: 9em;padding-bottom: 1.5em;"><span>Other Benefits and Programs</span> VIT also believes in arranging lot of recreational and vocational programmes by way of providing sports kits to play table tennis, carom and other indoor games. We also provide news papers and periodicals for refreshing employees during their leisure hours. VIT hosts birthday parties, month end lunch and also annual picnic to all employees.</p>
+                                    <img src="images/cartoons-birthday-party-4.jpg" class="careers-slide2-type1-img"/>
+                                    <p class="margin-top-neg6 margin-left-9" style="padding-bottom: 1.5em;"><span>Other Benefits and Programs</span> VIT also believes in arranging lot of recreational and vocational programmes by way of providing sports kits to play table tennis, carom and other indoor games. We also provide news papers and periodicals for refreshing employees during their leisure hours. VIT hosts birthday parties, month end lunch and also annual picnic to all employees.</p>
                                 </div>
                             </div>
                         </div>                    
                         <div class="LMcontent" id="slide3" data-anchor="openings">
                             <div >
-                                <img src="images/banner-CurrentOpenings.gif" width="100%" style="height: 12em; margin-bottom: 12px;">
+                                <img src="images/banner-CurrentOpenings.gif" class="careers-banner-img">
                                 <div class="ym-grid">
                                     <div class="ym-grid ym-equalize">
                                         <p> We believe that workplace is the seedbed of creativity. The facilities we give to our team shall pave the way for overall development of the company. We provide freedom to grow in pace with aspirations and capabilities and the opportunity to switch tracks and build a new professional profile. We are always on look out for talented, enthusiastic, and strongly focused individuals. Presently we are in pursuit of filling up the following job positions for India, USA and Canada location.</p>
@@ -199,13 +199,13 @@
 
                                         <p>Choose from the option below to search for current available positions</p>
 
-                                        <h5>Select a country</h5> <select id="country" style="width:15%;border: 1px solid black;">
+                                        <h5>Select a country</h5> <select id="country">
                                             <option value="selected" selected="yes">--Select--</option>
                                             <option value="India">India</option>
                                             <option value="USA">USA</option>
                                             <option value="Canada">Canada</option>
                                         </select>
-                                        <div id="India" class="job-openings" style="display: none;">
+                                        <div id="India" class="job-openings hide-element">
                                             Below are the Jobs details for India location
 
 
@@ -232,11 +232,11 @@
 
                                             <a href="mailto:jobs@vitinfotech.com">jobs@vitinfotech.com</a>
                                         </div>
-                                        <div id="USA" class="job-openings" style="display: none;">
+                                        <div id="USA" class="job-openings hide-element">
                                             <p>Jobs for the USA location will be updated soon...</p>
 
                                         </div>
-                                        <div id="Canada" class="job-openings" style="display: none;">
+                                        <div id="Canada" class="job-openings hide-element">
                                             Below are the Jobs details for Canada location
 
                                             <h5>Job Title</h5>
@@ -247,7 +247,7 @@
 
                                             <h5>Job Duties</h5>
                                             As a Software Developer, you would perform the following duties:
-                                            <ul style="list-style: cross-fade ! important;">
+                                            <ul class="li-style-cross-fade">
                                                 <li>Analyze the requirements and integrate VIT's product with third party tools.</li>
                                                 <li>Coordinate with end customers to assist them analyze their project management / tracking requirements, develop project management and tracking processes for VIT's product using third party tools.</li>
                                                 <li> Coordinate with the Development team and building any custom components required by the end customer.</li>
@@ -270,7 +270,7 @@
                         </div>
                         <div class="LMcontent" id="slide4" data-anchor="job-code">                                        
                             <div >
-                                <img src="images/banner-job.png" width="100%" style="height: 12em; margin-bottom: 12px;">
+                                <img src="images/banner-job.png" class="careers-banner-img">
                                 <table class="table table-striped">
                                     <tr>
                                         <!--                                       #CC3399-->
@@ -363,7 +363,7 @@
                         </div>
                         <div class="LMcontent" id="slide5" data-anchor="apply">
                             <div >  
-                                <img src="images/apply-job-banner1.jpg" width="100%" style="height: 12em; margin-bottom: 12px;">
+                                <img src="images/apply-job-banner1.jpg" class="careers-banner-img">
                                 <p>We prefer to receive resumes electronically. You may submit your resume and covering letter to the following email address: jobs@vitinfotech.com If you do not have access to email, you may use the following alternative methods:</p>
                                 <ul>
                                     <li><i class="fa fa-fw fa-fax fa-1x"></i>: (080) 2224-9715,Attention: Human Resources Department</li>

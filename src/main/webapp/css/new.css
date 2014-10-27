@@ -825,7 +825,7 @@ li.current {
 }
 
 .vit-logo{
-   height: 5em;width: 100%; 
+    height: 5em;width: 100%; 
 }
 
 #main-div{
@@ -845,15 +845,27 @@ li.current {
 }
 
 #slide1{
-   transform:rotateY(0deg);
+    transform:rotateY(0deg);
 }
 
 .products-slide1-img{
     height: 19em; margin-bottom: 12px;width: 100%;
 }
 
+.products-slide2-img{
+    height: 14em; margin-bottom: 12px;width: 100%;
+}
+
+.products-slide3-img{
+    height: 24em; margin-bottom: 12px;width: 100%;
+}
+
 .li-style-disc{
     list-style-type: disc;
+}
+
+.li-style-cross-fade{
+    list-style-type: cross-fade;
 }
 
 #slide2{
@@ -870,4 +882,71 @@ li.current {
 
 #slide5{
     transform: rotateY(-80deg);
+}
+
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+
+.careers-slide1-img{
+    height: 100px;width: 100px;opacity: 0.9;
+}
+
+.margin-top-neg6{
+    margin-top: -6em! important;
+}
+
+.margin-top-neg8{
+    margin-top: -8em! important;
+}
+
+.margin-left-7{
+    margin-left: 7em ! important; 
+}
+
+.margin-left-9{
+    margin-left: 9em ! important; 
+}
+.margin-top-1em{
+    margin-top: 1em;    
+}
+
+.careers-banner-img{
+    height: 12em; margin-bottom: 12px;width: 100%;
+}
+
+#country{
+    width:15%;border: 1px solid black;
+}
+
+.hide-element{
+    display:none;
+}
+
+.careers-slide2-type1-img{
+    width: 120px;height: 100px;margin-left: 0.5em;
+}
+
+.careers-slide2-type2-img{
+   width: 120px;height: 140px;margin-left: 0.5em;
+}
+
+.caseStudies-img{
+    height: 12em; margin-bottom: 12px;width: 70%;
+}
+
+.caseStudies-img2{
+    width:80%;height: 14em; margin-bottom: 12px;
+}
+
+.caseStudies-img3{
+    width:100%;height: 16em; margin-bottom: 12px;
+}
+
+.caseStudies-img4{
+    width:100%;height: 18em; margin-bottom: 12px;
 }
