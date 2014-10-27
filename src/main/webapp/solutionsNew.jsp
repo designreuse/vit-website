@@ -102,7 +102,7 @@
                                             <li>Migration from Microsoft Office SharePoint Portal Server 2003.
                                             </li>
                                         </ul></p>
-                                        <p>Custom SharePoint Development:</p>
+                                        <p id="sub-h">Custom SharePoint Development:</p>
                                         <p>We believe that SharePoint's out-of-the-box features can adequately meet most of many clients' requirements. We recommend thoroughly using and exploring SharePoint out-of-the box before considering custom development, as this will often save you unnecessary time and money spent.</p>
                                         <p>However, if you do realize, as many organizations do, that you have a need to extend the functionality of your SharePoint system above and beyond what the built-in features offer, we can work collaboratively with you to develop custom SharePoint solutions to meet your unique needs. Our SharePoint consultants can analyze your needs, provide recommendations in regard to which and how much SharePoint customization may be necessary and worth applying, and then implement such customizations.</p>
                                         <p>VIT Infortech’s custom SharePoint development services help clients realize the full capabilities of SharePoint. Our team of consultants is experienced in delivering customized solutions that are individually tailored to your business processes and that scale your solutions to meet your unique business needs.</p>
@@ -136,7 +136,7 @@
                                     <div class="ym-grid ym-equalize">
 
                                         <div class="ym-g50">
-                                            <p>BPM is essentially the practice of managing a company by focusing on defining business processes, describing them in detail, monitoring them with appropriate metrics, and then using this improved understanding coupled with automation to optimize the performance of the business. It is focused on aligning all operational aspects of an organization with the wants and needs of clients. It is a holistic management approach that promotes business effectiveness and efficiency while striving for innovation, flexibility, and integration with technology.</p>                               
+                                            <p style="margin-top: -4em;">BPM is essentially the practice of managing a company by focusing on defining business processes, describing them in detail, monitoring them with appropriate metrics, and then using this improved understanding coupled with automation to optimize the performance of the business. It is focused on aligning all operational aspects of an organization with the wants and needs of clients. It is a holistic management approach that promotes business effectiveness and efficiency while striving for innovation, flexibility, and integration with technology.</p>                               
                                             <p>BPM attempts to improve processes continuously and promotes a shift in the organizational culture. It is argued that BPM enables organizations to be more efficient, more effective and more capable of change than organizations that use functionally focused, traditional hierarchical management approaches.</p>                               
                                         </div>
                                         <div class="ym-g50">
@@ -166,7 +166,7 @@
                                 <p>Content Management System refers to the system of managing the information from creation to its destruction. It includes the management of process for updates, approvals, indexing, publishing, storage, archival etc.</p>
 
                                 <p>Information typically passes through this lifecycle for a finite period of time. A content management system (CMS) provides the necessary infrastructure for multiple persons to effectively contribute content and collaborate throughout these lifecycles Content Management System essentially consists of Document Management, Records Management and Document Capture.</p>
-                                <p> VIT has the expertise in implementing Content Management systems based on the following technology stacks:</p>
+                                <p id="sub-h"> VIT has the expertise in implementing Content Management systems based on the following technology stacks:</p>
 
                                 <p>
                                 <ul style="ist-style-type:disc;">
@@ -196,7 +196,7 @@
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <p><ul style="list-style-type:disc;">
-                                            <li><p id="sub-h">Smart Inspection</p> – This application is used for performing field inspections. This application will help the inspectors to collect the inspection relation information directly in the device and sync them with the server. The application can also pre-fetch any information that may be required during the inspection. Each inspection records are encoded with GPS coordinates and date/time stamp in the background so that the location of inspection site can be verified. User can also click multiple pictures at inspection site and write notes related to each picture. The inspection can also be performed in disconnected mode in which case the inspection records are saved locally and pushed to server when the network is restored.</li></ul></p>                                            
+                                            <li><p id="sub-h">Smart Inspection</p>  This application is used for performing field inspections. This application will help the inspectors to collect the inspection relation information directly in the device and sync them with the server. The application can also pre-fetch any information that may be required during the inspection. Each inspection records are encoded with GPS coordinates and date/time stamp in the background so that the location of inspection site can be verified. User can also click multiple pictures at inspection site and write notes related to each picture. The inspection can also be performed in disconnected mode in which case the inspection records are saved locally and pushed to server when the network is restored.</li></ul></p>                                            
 
                                     </div>
                                     <div class="ym-grid ym-equalize">
@@ -205,13 +205,14 @@
                                         </div>
                                         <div class="ym-g50">
                                             <p><ul style="list-style-type:disc;">
-                                                <li><p id="sub-h">Depot Management Application</p> – This application is used to manage end to end operations of a depot by collecting information right from the point where the truck enters to the point where the commodities are dumped. Due to the remoteness of the locations, network connectivity in depots is a challenge, so till date depot staff relies on manual way of stock keeping. VITMobile framework resolves this issue and allows user to collect the informations at the point of occurrence in both connected as well as disconnected mode. Using this application only new information needs to be entered at different stage of depot operations. The depot in charge can view any kind of reports or generate receipts at a click of a button and if needed print them via portable Bluetooth printers.</li></ul></p>                                           
+                                                <li><p id="sub-h">Depot Management Application</p> This application is used to manage end to end operations of a depot by collecting information right from the point where the truck enters to the point where the commodities are dumped. Due to the remoteness of the locations, network connectivity in depots is a challenge, so till date depot staff relies on manual way of stock keeping. VITMobile framework resolves this issue and allows user to collect the informations at the point of occurrence in both connected as well as disconnected mode. Using this application only new information needs to be entered at different stage of depot operations. The depot in charge can view any kind of reports or generate receipts at a click of a button and if needed print them via portable Bluetooth printers.</li></ul></p>                                           
                                         </div>
 
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                        <li><p id="sub-h">Sales Management & Automation</p> – This application is used by industries where sales department needs to visit their vendors on frequent basis. Using this application, sales representative can view the past orders given by the vendor along with the current status of delivery & payment. They can also take the new order and check their inventory before committing a delivery date. The disconnected framework makes sure that the salesman performs the job uninterrupted even if the vendor is remotely located with limited or no network connectivity. The interface with the external Bluetooth printer comes handy to print the order or payment receipt.</li>
-                                        </p>
+                                        <p><ul style="list-style-type:disc;">
+                                        <li><p id="sub-h">Sales Management & Automation</p> This application is used by industries where sales department needs to visit their vendors on frequent basis. Using this application, sales representative can view the past orders given by the vendor along with the current status of delivery & payment. They can also take the new order and check their inventory before committing a delivery date. The disconnected framework makes sure that the salesman performs the job uninterrupted even if the vendor is remotely located with limited or no network connectivity. The interface with the external Bluetooth printer comes handy to print the order or payment receipt.</li>
+                                        </ul></p>
                                     </div>
                                 </div>
 
