@@ -42,7 +42,7 @@
             <div id="Header"></div>
             <div class="section clearfix" id="firstPage">
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-grid  "style="padding: 0.8em;" >
+                    <div class="ym-grid  "id="sub-menu">
                         <div class="ym-g25 ym-gl">
                             <a href="#Sharepoint"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >SharePoint Solutions</li></a></div>
                         <div class="ym-g25 ym-gl">

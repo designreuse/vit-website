@@ -10,21 +10,43 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-                <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>-->
-        <script src="js/bootstrap.js" type="text/javascript"></script>
-        <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
-        <script src="js/jquery-ui.js" type="text/javascript"></script>
+
         <link rel="stylesheet" type="text/css" href="css/admin.css" />        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/vendor/jquery.easings.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+
+        <script content ="text/javscript" src="js/LMSlider.js" ></script>
+        <script type="text/javascript" src="js/thumbnail.js"></script>    
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/flexslider.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+        <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+        <script type="text/javascript" src="js/jquery.slitslider.js"></script>
+
+<!--        <script type="text/javascript" src="js/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/carousel.js"></script>
+        <script type="text/javascript" src="js/fancybox.js"></script>
+        <script type="text/javascript" src="js/isotope.js"></script>
+        <script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/stats.min.js"></script>
+        <script type="text/javascript" src="js/three.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/twitter.js"></script>
+        <script defer="defer" src="js/custom.js"></script>
         <script type="text/javascript" src="js/jquery.fullPage.js"></script>
         <script type="text/javascript" src="js/jquery.easings.min.js"></script>
         <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
-        <script type="text/javascript" src="js/slick.min.js"></script>
-        <!--        <script type="text/javascript" src="js/stats.min.js"></script>
-                <script type="text/javascript" src="js/three.min.js"></script>-->
-        <title>VIT-Infotech</title>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>-->
+        
         <script>
 
             $(document).ready(function () {
@@ -44,13 +66,13 @@
             });
         </script>
         <script>
-            $(function() {
+            $(function () {
                 $("#Header").load("header.jsp");
                 $("#Footer").load("footer.jsp");
 
             });
         </script> 
-
+        <title>VIT-Infotech</title>
     </head>
     <body >
 
@@ -165,9 +187,7 @@
             <div class="section clearfix" id="services" data-anchor="services"  >
 
                 <div class="ym-grid  menuTop" >
-                    <div class="ym-grid" > <!-- Menu at Top of Second Page -->
-                        <!--                    <div class="ym-g20 ym-gl" >
-                                                <li class="menuItem" data-menuanchor="home"  id="home_t" ><a href="#home">Home</a></li></div>-->
+                    <div class="ym-grid" > <!-- Menu at Top of Second Page -->                      
                         <div class="ym-g25 ym-gl">
                             <li class="menuItem " data-menuanchor="services"  id="services_t" ><a href="#firstPage">Services</a></li></div>
                         <div class="ym-g25 ym-gl">
@@ -394,48 +414,31 @@
 
     </body>
 
-    <!--   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
-
-    <script src="js/LMSlider.js" content ="text/javscript"></script>
-    <script type="text/javascript" src="js/thumbnail.js"></script>
-    <script type="text/javascript" src="js/isotope.js"></script>
-    <script type="text/javascript" src="js/jquery.imagesloaded.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/flexslider.js"></script>
-
-    <script type="text/javascript" src="js/carousel.js"></script>
-    <script type="text/javascript" src="js/fancybox.js"></script>
-    <script type="text/javascript" src="js/twitter.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-    <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
-    <script type="text/javascript" src="js/jquery.slitslider.js"></script>
-
-    <script defer="defer" src="js/custom.js"></script>
     <script type="text/javascript">
 
-            $(function() {
+        $(function () {
 
-                var Page = (function() {
+            var Page = (function () {
 
-                    var $navArrows = $('#nav-arrows'),
-                            $nav = $('#nav-dots > span'),
-                            $blockquote = $('blockquote'),
-                            $mousetimeoutid = 10000,
-                            $playing = true,
-                            slitslider = $('#slider').slitslider({
-                        onBeforeChange: function(slide, pos) {
+                var $navArrows = $('#nav-arrows'),
+                        $nav = $('#nav-dots > span'),
+                        $blockquote = $('blockquote'),
+                        $mousetimeoutid = 10000,
+                        $playing = true,
+                        slitslider = $('#slider').slitslider({
+                    onBeforeChange: function (slide, pos) {
 
-                            $nav.removeClass('nav-dot-current');
-                            $nav.eq(pos).addClass('nav-dot-current');
+                        $nav.removeClass('nav-dot-current');
+                        $nav.eq(pos).addClass('nav-dot-current');
 
-                        }
-                    }),
-                    init = function() {
+                    }
+                }),
+                        init = function () {
 
-                        initEvents();
+                            initEvents();
 
-                    },
-                            initEvents = function() {
+                        },
+                        initEvents = function () {
 
 //                                $('#slider').on('mousemove', function (event) {
 //                                    if (!$playing)
@@ -464,49 +467,49 @@
 //                                });
 //
 
-                        $navArrows.children(':last').on('click', function() {
-                            $playing = false;
-                            slitslider.next();
-                            return false;
-
-                        });
-
-                        $navArrows.children(':first').on('click', function() {
-                            $playing = false;
-                            slitslider.previous();
-                            return false;
-
-                        });
-
-                        $nav.each(function(i) {
-
-                            $(this).on('click', function(event) {
+                            $navArrows.children(':last').on('click', function () {
                                 $playing = false;
-                                var $dot = $(this);
-
-                                if (!slitslider.isActive()) {
-
-                                    $nav.removeClass('nav-dot-current');
-                                    $dot.addClass('nav-dot-current');
-
-                                }
-
-                                slitslider.jump(i + 1);
+                                slitslider.next();
                                 return false;
 
                             });
 
-                        });
+                            $navArrows.children(':first').on('click', function () {
+                                $playing = false;
+                                slitslider.previous();
+                                return false;
 
-                    };
+                            });
 
-                    return {init: init};
+                            $nav.each(function (i) {
 
-                })();
+                                $(this).on('click', function (event) {
+                                    $playing = false;
+                                    var $dot = $(this);
 
-                Page.init();
+                                    if (!slitslider.isActive()) {
+
+                                        $nav.removeClass('nav-dot-current');
+                                        $dot.addClass('nav-dot-current');
+
+                                    }
+
+                                    slitslider.jump(i + 1);
+                                    return false;
+
+                                });
+
+                            });
+
+                        };
+
+                return {init: init};
+
+            })();
+
+            Page.init();
 
 
-            });
+        });
     </script>
 </html>
