@@ -1,265 +1,278 @@
 <%-- 
-    Document   : services
-    Created on : 25 Aug, 2014, 5:59:49 PM
-    Author     : sangeetac
+    Document   : ServicesNew
+    Created on : 6 Oct, 2014, 2:43:58 PM
+    Author     : amitj
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<html>
     <head>
-        <title>Services - VIT</title>   
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">       
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-        <meta name="description" content="Moleskine Notebook with jQuery Booklet" />
-        <meta name="keywords" content="jquery, book, flip, pages, moleskine, booklet, plugin, css3 "/>
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>         
-        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">        
-        <link rel="stylesheet" type="text/css" href="css/admin.css">
-        <!--      <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-                        <script src="js/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>-->
-        <!--<script src="js/vendor/jquery-1.9.1.min.js"></script>-->
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
-        <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-        <script src="js/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
-
-        <link href="css/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
-
-        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
-        <script src="js/cufon-yui.js" type="text/javascript"></script>
-        <script src="js/ChunkFive_400.font.js" type="text/javascript"></script>
-        <script src="js/Note_this_400.font.js" type="text/javascript"></script>
-        <!--		<script type="text/javascript">
-                                Cufon.replace('h1,p,.b-counter');
-                                Cufon.replace('.book_wrapper a', {hover:true});
-                                Cufon.replace('.title', {textShadow: '1px 1px #C59471', fontFamily:'ChunkFive'});
-                                Cufon.replace('.reference a', {textShadow: '1px 1px #C59471', fontFamily:'ChunkFive'});
-                                Cufon.replace('.loading', {textShadow: '1px 1px #000', fontFamily:'ChunkFive'});
-                        </script>-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Services</title>
+        <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/admin.css" /> 
+        <link rel="stylesheet" type="text/css" href="css/LearnMoreSlider.css" /> 
+        <script src="js/LMSlider.js" content ="text/javscript"></script>
+        <script src="js/thumbnail.js" content ="text/javscript"></script>
         <script>
-            var zoomlevel = 1;
 
-            $("body").dblclick(function(ev) {
-                zoomlevel = zoomlevel == 1 ? 2 : 1;
+            $(document).ready(function () {
+                $('#singlePage').fullpage({
+                    anchors: ['firstPage'],
+                    menu: "#menus"
 
-
-
-                $(this).css({
-                    "-moz-transform": "scale(" + zoomlevel + ")",
-                    "-webkit-transform": "scale(" + zoomlevel + ")",
-                    "-o-transform": "scale(" + zoomlevel + ")",
-                    "-ms-transform": "scale(" + zoomlevel + ")"
                 });
-
+                FirstExe();
 
             });
         </script>
+        <script>
+            $(function () {
+                $("#Header").load("header.jsp");
+                $("#Footer").load("footer.jsp");
+            });
+        </script> 
+        <script>
+        </script>
     </head>
-    <body >        
-        <nav class="navbar navbar-default navbar-fixed-top" style="margin-top: -10px;" ng-app  class="{{active}}" >
-            <div class="container"> 
-                <div class="clickableBox1">  
-                    <a href="<%=request.getContextPath()%>"></a>
-                    <!--<a class="navbar-brand" href="#page-top"><img src="img/logo_banner_1.png" style="height:40px; visibility: visible; "/></a>-->
-                </div>
-                <!--                <div class="navbar-header page-scroll">                   
-                                    <a class="navbar-brand" href="<%=request.getContextPath()%>"><img src="img/VITLogoFinal.png" style="height:30px; "/></a>
-                                </div>                -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden active">
-                            <a href="<%=request.getContextPath()%>"></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="<%=request.getContextPath()%>/services.jsp?id=1">Services</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="<%=request.getContextPath()%>/solutions.jsp?id=1" style="color: #18bc9c !important;">Solutions</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="<%=request.getContextPath()%>/products.jsp">Products</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="<%=request.getContextPath()%>/careers.jsp">Careers</a>                       
-                    </ul>                   
-                </div>
-            </div>
-        </nav>
+    <body>
 
-    <main style="background-image: url('img/BACK_services.png');background-size: cover;">       
-        <div class="book_wrapper">
-            <a id="next_page_button"></a>
-            <a id="prev_page_button"></a>
-            <div id="loading" class="loading">Loading pages...</div>
-            <div id="mybook" style="display:none;">
-                <div class="b-load">
-                    <div>
-                        <div class="titlePage">
-                        <h2>Our Services</h2>
-                        <p>Let VIT use our IT, business-process and SharePoint consulting capabilities to help you transform your business, with minimal risk and disruption.</p>
+        <div id="singlePage"> 
+            <div id="Header"></div>
+            <div class="section clearfix" id="firstPage"    
+                 style="background-image: url('images/back2.jpg') !important;background-size: cover;">
+
+                <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
+                    <div class="ym-grid  "style="padding: 0.8em;" >
+                        <div class="ym-g20 ym-gl">
+                            <a href="#Onsite-Offshore"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >Onsite/Offshore</li></a></div>
+                        <div class="ym-g20 ym-gl">
+                            <a href="#Testing" ><li class="menuItem" data-val="1" id="LMmenuOpt2" >Testing Services</li></a></div>
+                        <div class="ym-g20 ym-gl">
+                            <a href="#EAD"  ><li class="menuItem"  data-val="2" id="LMmenuOpt3" >EAD</li></a></div>
+                        <div class="ym-g20 ym-gl">
+                            <a href="#PD"  ><li  class="menuItem"   data-val="3" id="LMmenuOpt4" >Product Dev.</li></a></div>
+                        <div class="ym-g20 ym-gl">
+                            <a href="#OE"  ><li  class="menuItem"   data-val="4" id="LMmenuOpt5" >Our Experise</li></a></div>
+                    </div>
+                </div>
+                <div id ="backToHome">
+                    <a href="<%=request.getContextPath()%>"  title="Back To Home"><i class="fa fa-fw fa-home fa-2x"></i></a> 
+                </div>
+                <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
+
+                    <div class ="LMwrapper"id="LMwrapperServices">
+                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="Onsite-Offshore">
+                            <div > 
+                                <h1>Onsite-Offshore approach</h1>
+                                <div class="ym-grid">
+
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g45">
+                                            <img src="images/onsite-offshore.jpg" width="100%" style="height: 16em; margin-bottom: 12px;">
+                                        </div>
+                                        <div class="ym-g55">
+                                            <p style="margin-top: -2em;">Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
+                                            <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery and improve logistics and communication.</p> 
+                                        </div>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g55">
+                                            <p>Through our application development and systems integration services, you can gain consulting and delivery expertise in both end-to-end systems integration and custom application development.</p>	
+                                            <p>Centered on the needs of your organization, our onsite/offshore model is designed specifically to help you quickly reduce IT budgets, revamp IT operations and re-deploy freed-up assets to more strategic initiatives that generate business value. We work in lockstep to ensure that our team operates as an extension of your organization.</p>
+                                        </div>
+                                        <div class="ym-g45"><img src="images/Delivery-Model-V1.jpg" width = "100%" style="height: 16em; margin-bottom: 12px;">
+                                        </div>
+                                    </div>
+                                    <div class="ym-grid">
+                                        <p>Through our application development and systems integration services, you can gain consulting and delivery expertise in both end-to-end systems integration and custom application development.</p>	
+                                        <p>Centered on the needs of your organization, our onsite/offshore model is designed specifically to help you quickly reduce IT budgets, revamp IT operations and re-deploy freed-up assets to more strategic initiatives that generate business value. We work in lockstep to ensure that our team operates as an extension of your organization.</p>
+                                        <p id="sub-h">Our unique onsite/offshore global services delivery model is designed for speed, cost savings and client satisfaction.</p>
+                                        <p>You are assured the best result through dedicated resources that work on your project from start to finish. The VIT Client Manager is available to work with you onsite to for planning, requirements definition and project management. This resource is paired with the Delivery Manager who may be located at any of our offshore development centers. One team is assigned to work on your project from start to finish, becoming an extension of your staff.</p>
+                                        <p>With an advanced global delivery capability, we efficiently manage projects, availing your staff to focus on more strategic activities. Our model allows us to provide you with comprehensive, end-to-end, advanced solutions, in many cases at a fraction of the time and cost of other firms.</p>
+                                        <p>As client needs dictate, VIT can access the specialized skills of our deep talent pool to solve any challenge. Enhanced project collaboration tools and our company-wide processes assure consistent, well-planned, measurable and reliable delivery from any and all locations.</p>
+                                        <p style="font-weight: 800;">Let VIT use our IT, business-process and SharePoint consulting capabilities to help you transform your business, with minimal risk and disruption.</p>
+                                    </div> 
+                                </div>
+                            </div> 
+                            <!--                                                    <div class="LMreflection"> </div>-->
                         </div>
-                    </div>
-                    <div>
-                        <img src="images/onsite2.jpg" alt=""/>
-                        <h1>Our Onsite/Offshore Approach</h1>
-                        <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. our approach is designed to speed up the overall project delivery and improve logistics and communication</p><br>
-                        <p>Our unique onsite/offshore global services delivery model is designed for speed, cost savings and client satisfaction.</p><br>
-                        
+
+
+
+
+                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="Testing">
+                            <div > 
+                                <h1>Testing Services</h1>
+                                <div class="ym-grid">
+
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g38">
+                                            <p>Software Development has been through major changes in the last few years from developing monolithic native or n-tier applications to applications on cloud and mobile applications. The emergence of Social, Mobile, Cloud and Big Data has had a disruptive effect on Software Testing leading to a spurt of new innovations in testing tools and technologies.</p>
+                                            <p>VIT, a pioneer in Outsourced Software Services, has been in the forefront of these emerging trends in Software Testing. VIT's Test Engineering team has expertise on wide range of emerging testing tools and technologies that include Jenkins for continuous integration, SauceLabs for mobile cloud testing, Selenium etc.</p> 
+                                        </div>
+                                        <div class="ym-g60">
+                                            <img src="images/TestAuto.png" width="100%" style="height: 16em; margin-bottom: 12px;">
+                                        </div>
+
+                                    </div> 
+                                    <div class="ym-grid ym-equalize">
+                                        <p> Our range of Test Services Offerings includes Test case and Test framework development, Test Automation and Continuous Integration Testing, Regression testing, Release Management etc</p>
+
+                                        <p> We have delivered Testing services for multiple domains including Business Process Management, Digital Rights Management, Stock Market Technical Analysis etc. We have experience in Testing native Desktop applications, Web Applications, Mobile applications and Cloud-based applications.</p>
+
+                                        <p>We have a team of Strong Test Engineers and Managers with expertise on the following Testing Tools and Technologies:</p>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g38">
+                                            <p><ul style="list-style-type:disc;">
+                                                <li>Web Application Testing: : QTP, WinRunner, RFT, RPT, Quality Center, Selenium</li>
+                                                <li>Mobile Apps Test Automation: Appium, Robotium</li>
+                                                <li>Mobile Compatibility Testing Cloud Suite: Testdroid, SauceLabs</li>
+                                                <li>Performance & Load Testing: JProbe, Grinder, Load Runner, JMeter</li>
+                                                <li> API Testing: JUnit, Regression Framework (In-house)</li>
+                                                <li>Continuous Integration: Jenkins</li>
+                                                <li>Profiling Tools: Bullseye Coverage, Valgrind, Bounds Checker, Rational Purify, Emma</li>
+                                                <li>Scripting: Python, Perl, AppleScript</li>
+                                                <li>Build Tool: Ant, Maven</li>
+                                            </ul></p>
+                                        </div>
+                                        <div class="ym-g60">
+                                            <img src="images/SoftwareTestAutomation.jpg" width="100%" style="height: 18em; margin-bottom: 12px;"> 
+                                        </div>
+                                    </div>
+                                    <p>The following are few of the case studies of the Testing Services that was delivered by VIT to the esteemed customers.</p>
+                                    <p><ul style="list-style-type:disc;">
+                                        <li> Conformance Test Tool for a Digital Rights Management Company</li>
+                                        <li>Continuous Integration Testing and Release Management for a DRM SDK and Reference Implementation</li>
+                                        <li>Continuous Integration Testing and Release Management for cloud-based Collaborative Document Management application.</li>
+                                        <li>Test Framework development for Stock Market Technical Analysis tools</li>
+                                        <li>Test Automation of Android & iOS applications.</li>
+                                    </ul></p>
+                                </div>	
+                            </div>	
+                            <!--                                                  <div class="LMreflection"> </div>		 -->
+                        </div>
+
+
+
+                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="EAD">
+                            <div >  
+                                <h1>Enterprise application development</h1>
+                                <div class="ym-grid">
+
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g60">
+                                            <img src="images/SoftDev.png" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                        </div>
+                                        <div class="ym-g38">
+                                            <p id="sub-h">Delivering business value with applications development and quality assurance</p>
+                                            <p>VIT Infotech provides application consulting, custom application development, testing and quality assurance services. We develop high quality business applications that help you increase operational efficiency and sustain your competitive advantage.We use agile methods to quickly build high quality business applications for standard technology platforms like Microsoft® .NET, Java and open source.</p>
+                                        </div>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">    
+
+                                        <p>Our tools, processes and best practices streamline development and apply automation and accelerators that increase the productivity and quality of software development.  </p>
+
+                                        <p>Our application development services accelerate the delivery of high quality business applications with fewer defects and lower cost. With broad technology skills across all major platforms, frameworks and technologies, we develop software applications that cost you less to build and less to run over their lifetime.</p>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g40">
+                                            <p id="sub-h">Service Areas</p>
+                                            <p>
+                                            <ul style="ist-style-type:disc;">
+                                                <li> New Application Development</li>
+                                                <li>Existing Development Enhancement</li>
+                                                <li>Application Consolidation</li>
+                                                <li>Application Migration</li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                        <div class="ym-g60">
+                                            <img src="images/EAD_Mindmap1.png" width="60%" style="height: 14em; margin-bottom: 12px;">
+                                        </div>
+                                        <!--<div class="ym-g10"></div>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                            <div class="reflection"> </div>-->
+                        </div>
+
+
+
+                        <div class=" LMcontent" id="slide4" style="transform: rotateY(-80deg) " data-anchor="PD">
+                            <div >
+                                <h1>Product development</h1>
+                                <img src="images/productDev.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                <p>VIT offers professional services for companies that need product differentiation to get better market share and wider product acceptance. Such services help rationalize their product portfolio in accordance with fluctuating technology and market needs.</p>
+
+                                <p>VIT's pool of certified professionals work with our clients to understand their specific needs and help them develop products from ground up. The experience and knowledge gained from products developed for our previous clients brings you a number of benefits:</p>
+                                <p><ul style="ist-style-type:disc;">
+                                    <li>A good understanding of standards, regulatory considerations and geography specific needs</li>
+
+                                    <li>Ability to map the gap between market need and the product and continuously refine product ideas for applicability of product in newer domains</li>
+
+                                    <li>Product-specific services such as Customization, Porting, Data migration, Standards compliance, Localization and Internationalization support, and Web enabling of the product</li>
+                                    </p>
+
+                                    <p>VIT's strength in increasing the platform availability, enhancing the features, quality performance, maintainability, portability, usability and security of the product.</p>
+
+                            </div>	
+                            <!--                            <div class="reflection"> </div>-->
+                        </div>
+
+                        <div class=" LMcontent" id="slide5" style="transform: rotateY(-80deg) " data-anchor="OE">
+                            <div>
+                                <h1>Our Expertise</h1>
+                                <div class="ym-grid">
+
+                                    <div class="ym-grid ym-equalize">
+                                        <p style="font-weight: 700; ">VIT has a strong team of skilled developers and managers with the following Domain and Technology Expertise.</p>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <div class="ym-g50">
+                                            <p id="sub-h">Domain Expertise</p>
+                                            <p><ul style="ist-style-type:disc;">
+                                                <li>Enterprise & Collaborative Applications</li>
+
+                                                <li>Business Process Management</li>
+
+                                                <li>Digital Rights Management</li>
+                                                <li>Wireless applications</li>
+                                                <li>Web Applications</li>
+                                                <li>Computer Graphics</li>
+                                                </p>
+                                        </div>
+                                        <div class="ym-g50">
+                                            <img src="images/expertise_banner.jpg" width="90%" style="height: 12em; margin-bottom: 12px;">
+                                        </div>
+                                    </div>
+                                    <div class="ym-grid ym-equalize">
+                                        <p id="sub-h">Technology Expertise</p>
+                                        <p><ul style="ist-style-type:disc;">
+                                            <li>Java/J2EE Technologies : Java, JSP, EJB, Hibernate, Ajax, jQuery, JavaScript, SWT, Websphere, Weblogic, JBoss, JUnit</li>
+
+                                            <li>.NET Technologies: C#, VB.NET, ASP.NET, ADO.NET, .NET Framework, .NET Compact Framework, WPF, WCF, Silverlight, WinForms, BizTalk Server, Visual Studio.NET</li>
+
+                                            <li>Mobile Applications: Android, iOS, Windows Phone, J2ME</li>
+                                            <li>Open Source Technologies: LAMP, Mason, Mod_Perl, PostgresSQL, Lighttpd</li>
+                                            <li>SharePoint: Workflows, InfoPath, Enterprise Content Management, Business Connectivity Services, Variations</li>
+
+                                            </p>
+                                    </div>	
+                                </div>
+                            </div>	
+                            <!--                            <div class="reflection"> </div>-->
+                        </div>
 
                     </div>
-                    <div>
-                        <!--                                           <img src="images/onsite2.jpg" alt=""/>-->
-                        <h1>VIT Provide : </h1>
-                        <ul>
-                            <li><p>Application Development</p></li>
-                            <li><p>Systems Integration Services</p></li>
-                            <li><p>Consulting</p></li>
-
-                            <li><p>Custom Application Development</p></li>
-                        </ul>
-                        <h1>We help you to : </h1>
-                        <ul>
-                            <li><p>Quickly Reduce IT Budgets</p></li>
-                            <li><p>Revamp IT Operations</p></li>
-                            <li><p>Re-deploy freed-up assets to more strategic initiatives that generate business value</p></li>
-
-                            <li><p>Ensure that our team operates as an extension of your organization</p></li>
-                        </ul>
-                        <h1>You are benefited: </h1>
-                        <ul>
-                            <li><p>The VIT Client Manager is available to work with you onsite to for planning, requirements definition and project management</p></li>
-                            <li><p>Get best result through dedicated resources that work on your project from start to finish, becoming an extension of your staff</p></li>
-                            <li><p>We assure consistent, well-planned, measurable and reliable delivery</p></li>
-                        </ul>
-                    </div>
-                    <div>
-
-
-                    </div>
-                    <div>
-                        <img src="images/5.jpg" alt="" />
-
-                    </div>
-                    <div>
-                        <img src="images/6.jpg" alt="" />
-
-                    </div>
-
-
-
-
-
 
 
                 </div>
             </div>
-        </div>
 
-
-
-
-    </main>  
-
-    <script src="js/imagesloaded.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/skrollr.js"></script>
-
-    <script src="js/_main.js"></script>   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
-
-    <script type="text/javascript">
-                $(function() {
-                    var $mybook = $('#mybook');
-                    var $bttn_next = $('#next_page_button');
-                    var $bttn_prev = $('#prev_page_button');
-                    var $loading = $('#loading');
-                    var $mybook_images = $mybook.find('img');
-                    var cnt_images = $mybook_images.length;
-                    var loaded = 0;
-                    //preload all the images in the book,
-                    //and then call the booklet plugin
-
-                    $mybook_images.each(function() {
-    //                                    alert("Before image loading");
-                        var $img = $(this);
-                        var source = $img.attr('src');
-                        $('<img/>').load(function() {
-    //                                            alert("loading");
-                            ++loaded;
-                            if (loaded == cnt_images) {
-    //                                                    alert("Loaded all images");
-                                $loading.hide();
-                                $bttn_next.show();
-                                $bttn_prev.show();
-    //                                                        alert("Before function call");
-                                $mybook.show().booklet({
-                                    name: null, // name of the booklet to display in the document title bar
-                                    width: 1150, // container width
-                                    height: 650, // container height
-                                    speed: 600, // speed of the transition between pages
-                                    direction: 'LTR', // direction of the overall content organization, default LTR, left to right, can be RTL for languages which read right to left
-                                    startingPage: 0, // index of the first page to be displayed
-                                    easing: 'easeInOutQuad', // easing method for complete transition
-                                    easeIn: 'easeInQuad', // easing method for first half of transition
-                                    easeOut: 'easeOutQuad', // easing method for second half of transition
-
-                                    closed: true, // start with the book "closed", will add empty pages to beginning and end of book
-                                    closedFrontTitle: null, // used with "closed", "menu" and "pageSelector", determines title of blank starting page
-                                    closedFrontChapter: null, // used with "closed", "menu" and "chapterSelector", determines chapter name of blank starting page
-                                    closedBackTitle: null, // used with "closed", "menu" and "pageSelector", determines chapter name of blank ending page
-                                    closedBackChapter: null, // used with "closed", "menu" and "chapterSelector", determines chapter name of blank ending page
-                                    covers: false, // used with  "closed", makes first and last pages into covers, without page numbers (if enabled)
-
-                                    pagePadding: 10, // padding for each page wrapper
-                                    pageNumbers: true, // display page numbers on each page
-
-                                    hovers: false, // enables preview pageturn hover animation, shows a small preview of previous or next page on hover
-                                    overlays: false, // enables navigation using a page sized overlay, when enabled links inside the content will not be clickable
-                                    tabs: false, // adds tabs along the top of the pages
-                                    tabWidth: 60, // set the width of the tabs
-                                    tabHeight: 20, // set the height of the tabs
-                                    arrows: false, // adds arrows overlayed over the book edges
-                                    cursor: 'pointer', // cursor css setting for side bar areas
-
-                                    hash: false, // enables navigation using a hash string, ex: #/page/1 for page 1, will affect all booklets with 'hash' enabled
-                                    keyboard: true, // enables navigation with arrow keys (left: previous, right: next)
-                                    next: $bttn_next, // selector for element to use as click trigger for next page
-                                    prev: $bttn_prev, // selector for element to use as click trigger for previous page
-
-                                    menu: null, // selector for element to use as the menu area, required for 'pageSelector'
-                                    pageSelector: false, // enables navigation with a dropdown menu of pages, requires 'menu'
-                                    chapterSelector: false, // enables navigation with a dropdown menu of chapters, determined by the "rel" attribute, requires 'menu'
-
-                                    shadows: true, // display shadows on page animations
-                                    shadowTopFwdWidth: 166, // shadow width for top forward anim
-                                    shadowTopBackWidth: 166, // shadow width for top back anim
-                                    shadowBtmWidth: 50, // shadow width for bottom shadow
-
-                                    before: function() {
-                                    }, // callback invoked before each page turn animation
-                                    after: function() {
-                                    }                     // callback invoked after each page turn animation
-                                });
-                                Cufon.refresh();
-                            }
-                        }).attr('src', source);
-                    });
-
-                });
-    </script>
-
-</body>
+            <div id="Footer"></div>
+    </body>
 </html>
