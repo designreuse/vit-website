@@ -40,9 +40,7 @@
 
         <div id="singlePage"> 
             <div id="Header"></div>
-            <div class="section clearfix" id="firstPage"    
-                 style="background-image: url('images/back2.jpg') !important;background-size: cover;">
-
+            <div class="section clearfix" id="firstPage">
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
                     <div class="ym-grid  "style="padding: 0.8em;" >
                         <div class="ym-g25 ym-gl">
@@ -61,7 +59,7 @@
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
                     <div class ="LMwrapper"id="LMwrapperSolutions">
-                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="Sharepoint">
+                        <div class="LMcontent" id="slide1" data-anchor="Sharepoint">
                             <div > 
                                 <h1>SharePoint Solutions</h1>
                                 <div class="ym-grid">
@@ -82,7 +80,7 @@
                                         <p id="sub-h">SharePoint Assessment and Planning:</p>
                                         <p>VIT can help you by conducting a detailed assessment and analysis of your needs and developing the best strategy to meet those needs. The assessment and planning activities ensure the best possible outcome for your SharePoint initiative.</p>
                                         <p>Our SharePoint assessment and planning services include:</p>
-                                        <p><ul style="list-style-type: disc;">
+                                        <p><ul class="li-style-disc">
                                             <li>Assessment of your current Knowledge Management System, Document Management System, etc.</li>
                                             <li>Conducting detailed requirements analysis</li>
                                             <li>Conducting interviews with end-users, IT personnel, management, and key stakeholders</li>
@@ -96,7 +94,7 @@
 
                                         <p id="sub-h">Our SharePoint migration services include:</p>
                                         <p>Migration to Microsoft SharePoint Server 2013</p>
-                                        <p><ul style="list-style-type: disc;">
+                                        <p><ul class="li-style-disc">
                                             <li>Migration to Microsoft SharePoint Server 2010</li>
                                             <li>Migration from Microsoft Office SharePoint Server (MOSS) 2007 and Microsoft SharePoint Server 2010</li>
                                             <li>Migration from Microsoft Office SharePoint Portal Server 2003.
@@ -128,7 +126,7 @@
 
 
 
-                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="BPM">
+                        <div class="LMcontent" id="slide2" data-anchor="BPM">
                             <div > 
                                 <h1>Business Process Management </h1>
                                 <div class="ym-grid">
@@ -158,7 +156,7 @@
 
 
 
-                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="CMS">
+                        <div class="LMcontent" id="slide3" data-anchor="CMS">
                             <div >  
 
                                 <img src="images/cms-solutions.jpg" width="100%" style="height: 16em; margin-bottom: 12px;">
@@ -180,7 +178,7 @@
 
 
 
-                        <div class=" LMcontent" id="slide4" style="transform: rotateY(-80deg) " data-anchor="Mobility">
+                        <div class=" LMcontent" id="slide4" data-anchor="Mobility">
                             <div >
                                 <h1>Mobility Solutions</h1>
                                 <div class="ym-grid">

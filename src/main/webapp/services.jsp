@@ -18,7 +18,7 @@
         <script src="js/thumbnail.js" content ="text/javscript"></script>
         <script>
 
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#singlePage').fullpage({
                     anchors: ['firstPage'],
                     menu: "#menus"
@@ -29,7 +29,7 @@
             });
         </script>
         <script>
-            $(function () {
+            $(function() {
                 $("#Header").load("header.jsp");
                 $("#Footer").load("footer.jsp");
             });
@@ -41,11 +41,9 @@
 
         <div id="singlePage"> 
             <div id="Header"></div>
-            <div class="section clearfix" id="firstPage"    
-                 style="background-image: url('images/back2.jpg') !important;background-size: cover;">
-
+            <div class="section clearfix" id="firstPage">
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-grid  "style="padding: 0.8em;" >
+                    <div class="ym-grid" id="sub-menu" >
                         <div class="ym-g20 ym-gl">
                             <a href="#Onsite-Offshore"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >Onsite/Offshore</li></a></div>
                         <div class="ym-g20 ym-gl">
@@ -64,7 +62,7 @@
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
                     <div class ="LMwrapper"id="LMwrapperServices">
-                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="Onsite-Offshore">
+                        <div class="LMcontent" id="slide1" data-anchor="Onsite-Offshore">
                             <div > 
                                 <h1>Onsite-Offshore approach</h1>
                                 <div class="ym-grid">
@@ -103,7 +101,7 @@
 
 
 
-                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="Testing">
+                        <div class="LMcontent" id="slide2" data-anchor="Testing">
                             <div > 
                                 <h1>Testing Services</h1>
                                 <div class="ym-grid">
@@ -158,7 +156,7 @@
 
 
 
-                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="EAD">
+                        <div class="LMcontent" id="slide3" data-anchor="EAD">
                             <div >  
                                 <h1>Enterprise application development</h1>
                                 <div class="ym-grid">
@@ -202,7 +200,7 @@
 
 
 
-                        <div class=" LMcontent" id="slide4" style="transform: rotateY(-80deg) " data-anchor="PD">
+                        <div class=" LMcontent" id="slide4" data-anchor="PD">
                             <div >
                                 <h1>Product development</h1>
                                 <img src="images/productDev.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
@@ -223,7 +221,7 @@
                             <!--                            <div class="reflection"> </div>-->
                         </div>
 
-                        <div class=" LMcontent" id="slide5" style="transform: rotateY(-80deg) " data-anchor="OE">
+                        <div class=" LMcontent" id="slide5" data-anchor="OE">
                             <div>
                                 <h1>Our Expertise</h1>
                                 <div class="ym-grid">
