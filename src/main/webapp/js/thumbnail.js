@@ -230,7 +230,7 @@ $(document).ready(function() {
         $("#career1").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 700);
         $("#career2").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
         $("#career3").animate({marginLeft: fac + "%", marginTop: "-6%"}, 600);
-        $("#career4").animate({marginLeft: fac + "%", marginTop: "-12%"}, 700);
+        $("#career4").animate({marginLeft: fac + "%", marginTop: "2%"}, 700);
         $("#career5").animate({marginLeft: fac + "%", marginTop: "8%"}, 600);
 
     });

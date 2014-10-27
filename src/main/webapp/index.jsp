@@ -355,7 +355,7 @@
                     </div>
 
                     <div class="ym-g25 ym-gl" style="pointer-events: none;">
-                        <div class="service_1" id="career3"style="margin-top: -2%;">
+                        <div class="service_1" id="career3"style="margin-top: 2%;">
                             <div > <h1>IT Openings</h1>
                                 <p>Search for jobs at VIT</p>
                                 <a href="<%=request.getContextPath()%>/careers.jsp#openings">
@@ -366,7 +366,7 @@
                     </div>
 
                     <div class="ym-g25 ym-gl" style="pointer-events: none;">
-                        <div class="service_1" id="career4" style="margin-top: 2%;">
+                        <div class="service_1" id="career4" style="margin-top: 6%;">
                             <div >  <h1>JOB Code & Profiles</h1> 
                                 <p>Know our job descriptions</p>
                                 <a href="<%=request.getContextPath()%>/careers.jsp#job-code">
@@ -377,7 +377,7 @@
                     </div>
 
                     <div class="ym-g25 ym-gl" style="pointer-events: none;">
-                        <div class=" service_1" id="career5" style="margin-top: 6%;">
+                        <div class=" service_1" id="career5" style="margin-top: 10%;">
                             <div ><h1> Apply </h1>
                                 <p>How to apply</p>
                                 <a href="<%=request.getContextPath()%>/careers.jsp#apply">
