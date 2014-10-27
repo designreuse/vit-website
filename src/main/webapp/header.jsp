@@ -52,16 +52,16 @@
                 </div>
 
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="e-gov-menu">
-                    <div class="ym-g50 " ><a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob"><img src="images/fa-university.png"/></a></div>
-                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/productsNew.jsp#VITMob"> <p>E-Gov</p> </a></div>
+                    <div class="ym-g50 " ><a href="<%=request.getContextPath()%>/products.jsp#VITMob"><img src="images/fa-university.png"/></a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/products.jsp#VITMob"> <p>E-Gov</p> </a></div>
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="sharepoint-menu">
-                    <div class="ym-g50 "><a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint"><img src="images/sp.png"/></a></div>
-                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/solutionsNew.jsp#Sharepoint"><p>Sharepoint</p></a></div>
+                    <div class="ym-g50 "><a href="<%=request.getContextPath()%>/solutions.jsp#Sharepoint"><img src="images/sp.png"/></a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/solutions.jsp#Sharepoint"><p>Sharepoint</p></a></div>
                 </div> 
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="testing-menu">
-                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing"><img src="images/fa-search.png"/></a></div>
-                    <div class="ym-g50"> <a href="<%=request.getContextPath()%>/servicesNew.jsp#Testing"><p>Testing</p></a></div>
+                    <div class="ym-g50"><a href="<%=request.getContextPath()%>/services.jsp#Testing"><img src="images/fa-search.png"/></a></div>
+                    <div class="ym-g50"> <a href="<%=request.getContextPath()%>/services.jsp#Testing"><p>Testing</p></a></div>
                 </div>
                 <div class="ym-g15 HeaderItem ym-equalize main-menu" id="e-gov-menu">
                     <div class="ym-g50 " ><a href="<%=request.getContextPath()%>/CaseStudies.jsp#CS1"><img src="images/fa-briefcase.png"/></a></div>
