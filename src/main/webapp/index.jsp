@@ -336,7 +336,7 @@
                         <div class="service_1" id="career1" style="margin-top: -6%;">
                             <div>  <h1>Why VIT</h1>
                                 <p>Reasons why you should join VIT</p>
-                                <a href="<%=request.getContextPath()%>/careers.jsp">
+                                <a href="<%=request.getContextPath()%>/careers.jsp#why">
                                     <img src="images/learnSym.png" />
                                 </a></div> 
                             <div class="reflection"> </div>
