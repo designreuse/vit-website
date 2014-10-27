@@ -129,8 +129,8 @@ and open the template in the editor.
     top:45%;
     padding: 15px;    
     background: rgba(96, 68, 123, 1);
-    width:50px;
-    height:100px;
+    width:3em;
+    height:4.5em;
     /*    border-top:2px solid red;
         border-bottom:2px solid red;*/
     /*    border-left:2px solid red;*/
@@ -145,8 +145,8 @@ and open the template in the editor.
 }
 
 #backToHome>a>i{
-    margin-top: 0.6em;
-    margin-left: -17px;
+    margin-top: 75%;
+    margin-left: -0.5em;
 }
 #backToHome:hover{
 

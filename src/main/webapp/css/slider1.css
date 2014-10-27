@@ -161,6 +161,7 @@
     top: 3px;
     left: 3px;
     border-radius: 50%;
+    background: rgb(255,255,255);
     background: rgba(255,255,255,0.8);
 }
 
@@ -281,7 +282,7 @@
 /* First Slide */
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
-    /*	background: rgba(178,205,224,0.6);*/
+    background: rgb(156, 235, 249);
     background: -webkit-radial-gradient(circle,rgba(9, 220, 255, 0.5), rgba(83, 62, 101, 0.4));
     background: -moz-radial-gradient(circle,rgba(9, 220, 255, 0.5), rgba(83, 62, 101, 0.5));
     background: -o-radial-gradient(circle,rgba(9, 220, 255, 0.5), rgba(83, 62, 101, 0.5));
@@ -296,6 +297,7 @@
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
+    background: rgb(236, 189, 90);
     background: -webkit-radial-gradient(circle,rgba(222, 164, 40, 0.1), rgba(83, 62, 101, 0.4));
     background: -moz-radial-gradient(circle,rgba(222, 164, 40, 0.1), rgba(83, 62, 101, 0.4));
      background: -ms-radial-gradient(circle,rgba(222, 164, 40, 0.1), rgba(83, 62, 101, 0.4));
@@ -317,6 +319,7 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
+    background: rgb(240, 236, 119);
    background: -webkit-radial-gradient(circle,rgba(219, 212, 32, 0.6), rgba(83, 62, 101, 0.4));
     background: -moz-radial-gradient(circle,rgba(219, 212, 32, 0.6), rgba(83, 62, 101, 0.4));
     background: -o-radial-gradient(circle,rgba(219, 212, 32, 0.6), rgba(83, 62, 101, 0.4));
@@ -350,6 +353,7 @@
 /* Forth Slide */
 .demo-1 .bg-4 .sl-slide-inner,
 .demo-1 .bg-4 .sl-content-slice {
+    background: rgb(253, 187, 134);
       background: -webkit-radial-gradient(circle,rgba(255, 122, 17, 0.68), rgba(83, 62, 101, 0.4));
     background: -moz-radial-gradient(circle,rgba(255, 122, 17, 0.68), rgba(83, 62, 101, 0.4));
     background: -o-radial-gradient(circle,rgba(255, 122, 17, 0.68), rgba(83, 62, 101, 0.4));
