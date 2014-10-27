@@ -45,10 +45,9 @@
 
         <div id="singlePage"> 
             <div id="Header"></div>
-            <div class="section clearfix" id="firstPage" data-anchor="firstPage"      
-                 style="background-image: url('images/back2.jpg') !important;background-size: cover;">
+            <div class="section clearfix" id="firstPage" data-anchor="firstPage">                
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-grid  "style="padding: 0.8em;" >
+                    <div class="ym-grid" id="sub-menu" >
                         <div class="ym-g20 ym-gl">
                             <a href="#why"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >Why VIT</li></a></div>
                         <div class="ym-g20 ym-gl">
@@ -67,7 +66,7 @@
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
                     <div class ="LMwrapper"id="LMwrapperServices">
-                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg);" data-anchor="why">
+                        <div class="LMcontent" id="slide1" data-anchor="why">
                             <div >
                                 <img src="images/why_us_banner.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
                                 <div class="ym-grid ym-equalize">
@@ -144,7 +143,7 @@
                                 </div>  
                             </div>
                         </div>                     
-                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg); " data-anchor="rewards">
+                        <div class="LMcontent" id="slide2" data-anchor="rewards">
                             <div>
                                 <img src="images/banner_benefits.jpg" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <p>Whether you are considering a career move or looking for your first job opportunity, we understand that you will weigh the rewards and benefits a company has to offer.</p>
@@ -189,7 +188,7 @@
                                 </div>
                             </div>
                         </div>                    
-                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg); " data-anchor="openings">
+                        <div class="LMcontent" id="slide3" data-anchor="openings">
                             <div >
                                 <img src="images/banner-CurrentOpenings.gif" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <div class="ym-grid">
@@ -270,7 +269,7 @@
                             </div>	
                             <!--                                                  <div class="LMreflection"> </div>		 -->
                         </div>
-                        <div class="LMcontent" id="slide4" style="transform:rotateY(-80deg);" data-anchor="job-code">                                        
+                        <div class="LMcontent" id="slide4" data-anchor="job-code">                                        
                             <div >
                                 <img src="images/banner-job.png" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <table class="table table-striped">
@@ -363,7 +362,7 @@
 
                             </div> 
                         </div>
-                        <div class="LMcontent" id="slide5" style="transform:rotateY(-80deg);" data-anchor="apply">
+                        <div class="LMcontent" id="slide5" data-anchor="apply">
                             <div >  
                                 <img src="images/apply-job-banner1.jpg" width="100%" style="height: 12em; margin-bottom: 12px;">
                                 <p>We prefer to receive resumes electronically. You may submit your resume and covering letter to the following email address: jobs@vitinfotech.com If you do not have access to email, you may use the following alternative methods:</p>

@@ -823,3 +823,51 @@ li.current {
     color: white;
     font-weight: bold;
 }
+
+.vit-logo{
+   height: 5em;width: 100%; 
+}
+
+#main-div{
+    margin-left: -1em;
+}
+
+#main-div>div>li>img{
+    height: 3em;width: 12em;       
+}
+
+#firstPage{
+    background-image: url('../images/back2.jpg') !important;background-size: cover;
+}
+
+#firstPage >div>div>div#sub-menu{
+    padding: 0.8em;
+}
+
+#slide1{
+   transform:rotateY(0deg);
+}
+
+.products-slide1-img{
+    height: 19em; margin-bottom: 12px;width: 100%;
+}
+
+.li-style-disc{
+    list-style-type: disc;
+}
+
+#slide2{
+    transform:rotateY(-80deg);
+}
+
+#slide3{
+    transform:rotateY(-80deg);
+}
+
+#slide4{
+    transform: rotateY(-80deg);
+}
+
+#slide5{
+    transform: rotateY(-80deg);
+}

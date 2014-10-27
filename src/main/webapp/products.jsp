@@ -18,7 +18,7 @@
         <script src="js/thumbnail.js" content ="text/javscript"></script>
         <script>
 
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#singlePage').fullpage({
                     anchors: ['firstPage'],
                     menu: "#menus"
@@ -29,7 +29,7 @@
             });
         </script>
         <script>
-            $(function () {
+            $(function() {
                 $("#Header").load("header.jsp");
                 $("#Footer").load("footer.jsp");
             });
@@ -41,11 +41,9 @@
 
         <div id="singlePage"> 
             <div id="Header"></div>
-            <div class="section clearfix" id="firstPage"    
-                 style="background-image: url('images/back2.jpg') !important;background-size: cover;">
-
+            <div class="section clearfix" id="firstPage">
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-grid  "style="padding: 0.8em;" >
+                    <div class="ym-grid" id="sub-menu" >
                         <div class="ym-g33 ym-gl">
                             <a href="#VITMob"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" > VITMobile Framework</li></a></div>
                         <div class="ym-g33 ym-gl">
@@ -61,32 +59,30 @@
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
                     <div class ="LMwrapper"id="LMwrapperSolutions">
-                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="VITMob">
+                        <div class="LMcontent" id="slide1" data-anchor="VITMob">
                             <div > 
                                 <h1>VITMobile Framework</h1>
                                 <div class="ym-grid">
-
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g50">
-                                <p>VITMobile™ framework is a mobile middleware disconnected technology that is used for rapid development of efficient & smart B2B, B2E and B2C mobile applications. VITMobile framework provides integration, authentication, security and management capabilities to the mobile applications. VITMobile applications can work effectively even with limited or no network connectivity. VITMobile framework enables Mobile solutions to be effective in disconnected mode using the state of the art synchronization technology of the runtime engine. This advanced synchronization technology enables VITMobile framework to be used even in 3 tier architectures, where there is no direct access to the database. The engine intelligently pre-fetches required data when in connected mode so that it can be presented to the user when required in disconnected mode. The engine also stores the data updated in disconnected mode locally in a structured manner, and synchronized with the server when connectivity is available. The data stored locally can be accessed by the Mobile application for subsequent operations. Also, the data can be exchanged with another device using short range communications like Bluetooth, NFC etc.</p>
+                                            <p>VITMobile™ framework is a mobile middleware disconnected technology that is used for rapid development of efficient & smart B2B, B2E and B2C mobile applications. VITMobile framework provides integration, authentication, security and management capabilities to the mobile applications. VITMobile applications can work effectively even with limited or no network connectivity. VITMobile framework enables Mobile solutions to be effective in disconnected mode using the state of the art synchronization technology of the runtime engine. This advanced synchronization technology enables VITMobile framework to be used even in 3 tier architectures, where there is no direct access to the database. The engine intelligently pre-fetches required data when in connected mode so that it can be presented to the user when required in disconnected mode. The engine also stores the data updated in disconnected mode locally in a structured manner, and synchronized with the server when connectivity is available. The data stored locally can be accessed by the Mobile application for subsequent operations. Also, the data can be exchanged with another device using short range communications like Bluetooth, NFC etc.</p>
                                         </div>
                                         <div class="ym-g50">
-                                            <img src="images/mobile-fmw.jpg" width="100%" style="height: 19em; margin-bottom: 12px;">
+                                            <img src="images/mobile-fmw.jpg" class="products-slide1-img">
                                         </div>
-
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                <p>With VITMobile framework, creating a mobile application is a matter of aggregating UI extensions and user configurations. VITMobile framework integrates with Apache Cordova and JQuery Mobile for multichannel app development to support multiple operating systems and multiple deployment methods (Native, HTML5/mobile web, mixed mode).</p>
-                                <p id="sub-h">Key Differentiators</p>
+                                        <p>With VITMobile framework, creating a mobile application is a matter of aggregating UI extensions and user configurations. VITMobile framework integrates with Apache Cordova and JQuery Mobile for multichannel app development to support multiple operating systems and multiple deployment methods (Native, HTML5/mobile web, mixed mode).</p>
+                                        <p id="sub-h">Key Differentiators</p>
 
-                                <p>VITMobile based solutions are unique in nature and following are some of the key differentiators from other traditional mobile frameworks available in market.</p>
+                                        <p>VITMobile based solutions are unique in nature and following are some of the key differentiators from other traditional mobile frameworks available in market.</p>
 
-                                <p><ul style="list-style-type: disc;">
-                                    <li>Smartly stores data locally for easy access in disconnected mode.</li>
-                                    <li>Rules based configuration to manage local data</li>
-                                    <li>Ability to fetch information from past operations performed in disconnected mode in the same device.</li>
-                                    <li>Ability to share local data with a different device in proximity.</li>
-                                </ul></p>
+                                <p><ul class="li-style-disc">
+                                            <li>Smartly stores data locally for easy access in disconnected mode.</li>
+                                            <li>Rules based configuration to manage local data</li>
+                                            <li>Ability to fetch information from past operations performed in disconnected mode in the same device.</li>
+                                            <li>Ability to share local data with a different device in proximity.</li>
+                                        </ul></p>
                                     </div>
                                 </div>
 
@@ -97,7 +93,7 @@
 
 
 
-                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="VITCam">
+                        <div class="LMcontent" id="slide2" data-anchor="VITCam">
                             <div > <h1>VIT CaMPoint</h1>
                                 <img src="images/campoint.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
 
@@ -110,7 +106,7 @@
 
 
 
-                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="GPSFleet">
+                        <div class="LMcontent" id="slide3" data-anchor="GPSFleet">
                             <div > 
                                 <h1>GPS Fleet Management System</h1>
                                 <img src="images/VT.png" width="100%" style="height: 24em; margin-bottom: 12px;">

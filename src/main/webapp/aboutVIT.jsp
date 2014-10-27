@@ -78,11 +78,8 @@
 
         <div id="singlePage"> 
             <div id="Header"></div>
-            <div class="section clearfix" id="firstPage" data-anchor="firstPage"      
-                 style="background-image: url('images/back2.jpg') !important;background-size: cover;">
-
-                <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-grid  "style="padding: 0.8em;" >
+            <div class="section clearfix" id="firstPage" data-anchor="firstPage">                <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
+                     <div class="ym-grid" id="sub-menu" >
                         <div class="ym-g33 ym-gl">
                             <li class="menuItem  sel" data-menuanchor="about"  id="LMmenuOpt1" ><a href="#">About Us</a></li></div>
                         <div class="ym-g33 ym-gl">
@@ -97,7 +94,7 @@
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
                     <div class ="LMwrapper"id="LMwrapperAbout">
-                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg);" >
+                        <div class="LMcontent" id="slide1" >
                             <div >
                                 <img src="images/about-us.jpg" width="100%" style="height: 14em; margin-bottom: 20px;">
                                 <p>VIT is a CMMI Level-2, STPI licensed Software Services Company headquartered in Bangalore, India. Established in 2001, VIT has largely been serving its expanding base of clientele in US and Canada. VIT's primary business has been in providing technology services to renowned customers who are largely into product development.
@@ -113,7 +110,7 @@
 
 
 
-                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) scale(0.7); ">
+                        <div class="LMcontent" id="slide2">
                             <div >
                                 <img src="images/Contact-us1.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
                                 <div class="ym-grid">
@@ -175,7 +172,7 @@
 
 
 
-                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) scale(0.7);" >
+                        <div class="LMcontent" id="slide3" >
                             <div >
                                 <div id="googleMap" style="width:100%;height:100%;"></div>
                             </div>                            

@@ -41,11 +41,9 @@
 
         <div id="singlePage"> 
             <div id="Header"></div>
-            <div class="section clearfix" id="firstPage"    
-                 style="background-image: url('images/back2.jpg') !important;background-size: cover;">
-
+            <div class="section clearfix" id="firstPage">                
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-grid  "style="padding: 0.8em;" >
+                    <div class="ym-grid" id="sub-menu" >
                         <div class="ym-g20 ym-gl">
                             <a href="#CS1"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >Case Study 1</li></a></div>
                         <div class="ym-g20 ym-gl">
@@ -66,7 +64,7 @@
                 <div class="ym-grid ym-equalize" id="LMcontentContainer"> <!-- service -->
 
                     <div class ="LMwrapper"id="LMwrapperServices">
-                        <div class="LMcontent" id="slide1"  style="transform:rotateY(0deg) " data-anchor="CS1">
+                        <div class="LMcontent" id="slide1" data-anchor="CS1">
                             <div > 
                                 <h3>GPS Tracking for Mining/Manufacturing industries: Case Studies</h3>
                                 <div class="ym-grid">
@@ -113,7 +111,7 @@
 
 
 
-                        <div class="LMcontent" id="slide2" style="transform:rotateY(-80deg) " data-anchor="CS2">
+                        <div class="LMcontent" id="slide2" data-anchor="CS2">
                             <div > 
                                 <div class="ym-grid">
                                     <div class="ym-grid ym-equalize">
@@ -216,7 +214,7 @@
 
 
 
-                        <div class="LMcontent" id="slide3" style="transform:rotateY(-80deg) " data-anchor="CS3">
+                        <div class="LMcontent" id="slide3" data-anchor="CS3">
                             <div >  
                                 <div class="ym-grid">
                                     <div class="ym-grid ym-equalize">
@@ -258,7 +256,7 @@
 
 
 
-                        <div class=" LMcontent" id="slide4" style="transform: rotateY(-80deg) " data-anchor="CS4">
+                        <div class=" LMcontent" id="slide4" data-anchor="CS4">
                             <div >
                                 <div class="ym-grid">
                                     <h3>Android based Mobile-server application for integrated chronic disease management system: Case Studies</h3>
@@ -281,7 +279,7 @@
                             <!--                            <div class="reflection"> </div>-->
                         </div>
 
-                        <div class=" LMcontent" id="slide5" style="transform: rotateY(-80deg) " data-anchor="CS5">
+                        <div class=" LMcontent" id="slide5" data-anchor="CS5">
                             <div >
 
                                 <h3>Firmware Upload Utility & Diagnostic tool for Removable eSATA Hard Disk Drives: Case Studies</h3>
