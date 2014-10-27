@@ -10,10 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Solutions</title>
-        <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
-        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
         <link rel="stylesheet" type="text/css" href="css/admin.css" /> 
-        <link rel="stylesheet" type="text/css" href="css/LearnMoreSlider.css" /> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
         <script src="js/LMSlider.js" content ="text/javscript"></script>
         <script src="js/thumbnail.js" content ="text/javscript"></script>
         <script>
@@ -209,7 +209,7 @@
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <p><ul style="list-style-type:disc;">
-                                        <li><p id="sub-h">Sales Management & Automation</p> This application is used by industries where sales department needs to visit their vendors on frequent basis. Using this application, sales representative can view the past orders given by the vendor along with the current status of delivery & payment. They can also take the new order and check their inventory before committing a delivery date. The disconnected framework makes sure that the salesman performs the job uninterrupted even if the vendor is remotely located with limited or no network connectivity. The interface with the external Bluetooth printer comes handy to print the order or payment receipt.</li>
+                                            <li><p id="sub-h">Sales Management & Automation</p> This application is used by industries where sales department needs to visit their vendors on frequent basis. Using this application, sales representative can view the past orders given by the vendor along with the current status of delivery & payment. They can also take the new order and check their inventory before committing a delivery date. The disconnected framework makes sure that the salesman performs the job uninterrupted even if the vendor is remotely located with limited or no network connectivity. The interface with the external Bluetooth printer comes handy to print the order or payment receipt.</li>
                                         </ul></p>
                                     </div>
                                 </div>

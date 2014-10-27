@@ -10,10 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Case Studies</title>
-        <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
-        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
         <link rel="stylesheet" type="text/css" href="css/admin.css" /> 
-        <link rel="stylesheet" type="text/css" href="css/LearnMoreSlider.css" /> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
         <script src="js/LMSlider.js" content ="text/javscript"></script>
         <script src="js/thumbnail.js" content ="text/javscript"></script>
         <script>
