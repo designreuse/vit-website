@@ -165,7 +165,7 @@
             <div class="section clearfix" id="services" data-anchor="services"  >
 
                 <div class="ym-grid  menuTop" >
-                    <div class="ym-grid  "style="padding: 0.8em;" > <!-- Menu at Top of Second Page -->
+                    <div class="ym-grid" > <!-- Menu at Top of Second Page -->
                         <!--                    <div class="ym-g20 ym-gl" >
                                                 <li class="menuItem" data-menuanchor="home"  id="home_t" ><a href="#home">Home</a></li></div>-->
                         <div class="ym-g25 ym-gl">

@@ -45,7 +45,7 @@
                  style="background-image: url('images/back2.jpg') !important;background-size: cover;">
 
                 <div class="ym-grid  menuTop" > <!-- Menu at Top of Second Page -->
-                    <div class="ym-grid  "style="padding: 0.8em;" >
+                    <div class="ym-grid  " >
                         <div class="ym-g20 ym-gl">
                             <a href="#CS1"  ><li class="menuItem "  data-val="0"  id="LMmenuOpt1" >Case Study 1</li></a></div>
                         <div class="ym-g20 ym-gl">

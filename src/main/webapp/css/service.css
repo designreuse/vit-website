@@ -211,6 +211,9 @@
     text-align: -moz-center;
     text-align: center;
 }
+.menuTop >div{
+    padding: 0.8em;
+}
 .menuTop *>a:hover{ 
     text-decoration: none;
     color: rgba(220, 27, 133, 0.50);
