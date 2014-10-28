@@ -7,6 +7,7 @@
     /*height: 100%*/
 }
 #services{
+    background-image: url("../images/background.png");
     background: -webkit-radial-gradient(circle, rgba(18, 216, 248, 0.670588),
         rgba(159, 93, 209, 0.592157), rgba(16, 15, 18, 0.670588))!important;
     background: radial-gradient(circle 55em, rgba(18, 216, 248, 0.670588),
@@ -36,6 +37,7 @@
     padding-right: 20%;
     margin-left: -3%;
     padding-bottom: 25%;
+    overflow: visible;
     /*    perspective: 1000px;*/
 }
 #solution{
@@ -62,20 +64,21 @@
 }
 #career{
     /*z-index: 1;*/
-    display: none;
     position: absolute;
     padding:20%; 
     padding-top: 8em;
-    padding-right: 26%; /* Ratio of 1.2 must be maintained between the padding and middle tabs*/
-    padding-left: 18%;  /* i.e ratio of num. of tabs to allocated space(100%-L_padd%-R_padd%)  */
-    margin-left: -60px;
+    padding-right: 20%;
+    margin-left: -3%;
+    padding-bottom: 25%;
     overflow: visible;
 }
 
 /* ----------------- TABS STYLE INDIVIDUAL-------------*/
 .service_1{
     position: relative;
-    border: 3px solid rgba(220, 27, 133, 0.25);
+    border: 3px solid rgba(220, 27, 133, 0.25) !important;
+    border: 3px solid rgb(253,207,232) ;
+    background-image: url("../images/selector-tab-back.png");
     background: rgba(255,255,255,0.7);
     /*    transform: rotateY(15deg);*/
     height: 15em;
@@ -95,7 +98,8 @@
 .service_1:hover{
     /*background: rgba(201, 244, 145, 0.6);*/
     box-shadow: 0 0 155px 15px rgba(0, 190, 255, 0.57);
-    border-color: rgba(169, 233, 255, 0.71);
+    border-color: rgba(169, 233, 255, 0.71)!important;
+    border-color: rgb(204,239,251);
 }
 
 
@@ -103,6 +107,9 @@
     text-align: center;
     margin-top: 6.2em;  
     font-size: 1em;
+/*    padding: 2em;
+    padding-top: 5em;
+    padding-bottom: 0;*/
     min-width: 10em;
     max-width: 18em;
     line-height: normal !important;
@@ -153,6 +160,7 @@
     -o-transform: scaleY(-1);
     -ms-transform: scaleY(-1);
     transform: scaleY(-1);
+    /*background-image: url("../images/selector-reflection-back.png");*/
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.65));
     background: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.65));
     background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.65)); /* For Opera 11.1 to 12.0 */
@@ -163,7 +171,8 @@
     margin-top:2.3em;
     position: relative;
     pointer-events: none;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ------- MENU AT BOTTOM OF first PAGE -------------*/
@@ -199,7 +208,8 @@
 .menuTop{
     position: fixed;
     margin-top: 5em;
-    background: rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.4) !important;
+    background-image: url("../images/selector-tab-back.png");
     /*    padding: 0.8em;*/
     /*    padding-top: 0.8em;
         padding-bottom: 0.8em;*/
@@ -265,7 +275,7 @@
 #footer .footer-below {
     /*background: -webkit-radial-gradient(circle,rgba(215, 175, 230, 0.5), rgba(215, 175, 230, 0.8));
             background: -moz-radial-gradient(circle,rgba(215, 175, 230, 0.5), rgba(215, 175, 230, 0.8));*/
-    background:rgba(83, 62, 103, 0.8);
+    background:rgb(83, 62, 101);
     color:white;
     -webkit-box-shadow: -6px 5px 6px 5px rgba(0, 0, 0, 1);
     box-shadow:0 0 9px -1px black;
