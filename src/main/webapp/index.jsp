@@ -47,7 +47,7 @@
 
                             <div class="sl-slide bg-1" datarientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
                                 <div class="sl-slide-inner">
-                                    <div class="deco" id="div1" data-icon=""><i class=" fa fa-thumbs-o-up fa-5x " style="margin: 49% 0 0 33%;"></i></div>
+                                    <div class="deco" id="div1" data-icon=""><img src="images/fa-thumbsup.png" style=""/></div>
                                     <h2>Our Values</h2>
                                     <blockquote><p><i class="fa fa-check-circle fa-check-circle-style"></i>Serious passion towards technology<br>
 
@@ -64,7 +64,7 @@
 
                             <div class="sl-slide bg-2" datarientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
                                 <div class="sl-slide-inner">
-                                    <div class="deco" data-icon=""><i class=" fa fa-tags fa-5x " style="margin: 49% 0 0 33%;"></i></div>
+                                    <div class="deco" data-icon=""><img src="images/fa-tags.png"/></div>
                                     <h2 style="margin-left: -40px;">Our Aim</h2>
                                     <blockquote><p> <i class="fa fa-check-circle fa-check-circle-style"></i>Achieving sustainable & quality growth <br>
                                             <i class="fa fa-check-circle fa-check-circle-style"></i>Provide strategic business services <br>
@@ -76,7 +76,7 @@
 
                             <div class="sl-slide bg-3" datarientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
                                 <div class="sl-slide-inner">
-                                    <div class="deco" data-icon=""><i class="fa fa-heart fa-5x " style="margin: 49% 0 0 33%;"></i></div>
+                                    <div class="deco" data-icon=""><img src="images/fa-heart.png"/></div>
                                     <h2>Our Clients</h2>
                                     <blockquote> 
                                         <div class="autoplay" style="width: 55%;left: 25%;">
@@ -96,7 +96,7 @@
 
                             <div class="sl-slide bg-4" datarientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
                                 <div class="sl-slide-inner">
-                                    <div class="deco" data-icon=""><i class="fa fa-eye fa-5x " style="margin: 49% 0 0 33%;"></i></div>
+                                    <div class="deco" data-icon=""><img src="images/fa-eye.png"/></div>
                                     <h2>Our Vision</h2>
                                     <blockquote><p> <i class="fa fa-check-circle fa-check-circle-style"></i>Be a great place to work <br>
                                             <i class="fa fa-check-circle fa-check-circle-style"></i>Bring Quality software to world <br>
