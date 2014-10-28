@@ -36,9 +36,9 @@ $(function () {
 
         var $navArrows = $('#nav-arrows'),
                 $nav = $('#nav-dots > span'),
-                $blockquote = $('blockquote'),
-                $mousetimeoutid = 10000,
-                $playing = true,
+//                $blockquote = $('blockquote'),
+//                $mousetimeoutid = 10000,
+//                $playing = true,
                 slitslider = $('#slider').slitslider({
             onBeforeChange: function (slide, pos) {
 

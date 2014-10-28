@@ -52,7 +52,7 @@ and open the template in the editor.
 }
 .LMcontent>div{
     padding: 2.5em;
-    padding-left: 3em;
+    padding-left: 4em;
 /*    border: 3px solid rgba(215, 175, 230, 0.8);*/
     background: rgba(255,255,255,0.3);
     font-size: 16px;
@@ -132,7 +132,7 @@ and open the template in the editor.
     position: fixed;
     margin-left: 0;
     top:45%;
-    padding: 15px;    
+    padding: 10px;    
     background: rgba(96, 68, 123, 1);
     width:3em;
     height:4.5em;
@@ -149,9 +149,11 @@ and open the template in the editor.
     color: white;
 }
 
-#backToHome>a>i{
-    margin-top: 75%;
+#backToHome>a>img{
+    margin-top: 45%;
     margin-left: -0.5em;
+    height: 1.5em;
+/*    width: 3em;*/
 }
 #backToHome:hover{
 
