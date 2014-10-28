@@ -63,7 +63,7 @@ function AdjustTheLMElements() {
     var HeightContainer = $("#LMcontentContainer").height();
     var htHdr = $(".navbar-header").height() + $(".menuTop").height();
     var htFtr = $("#footer").height();
-    var htFinal = 0.94 * (heightHtml - htHdr - htFtr);
+    var htFinal = 0.96 * (heightHtml - htHdr - htFtr);
     //console.log(":"+htHdr+":"+htFtr+":"+heightHtml);
     $(".LMcontent").css("width", WidthContainer);
     $(".LMcontent>div").css("height", htFinal);
