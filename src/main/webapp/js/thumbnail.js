@@ -277,14 +277,14 @@ $(document).ready(function() {
     {
 //        $("#services_t").addClass('sel');
         $("#solution").fadeOut(fadOutTime);
-        $("#service").fadeIn(fadInTime);
+        $("#service").fadeIn(fadInTime).css('display','table');
         $("#product").fadeOut(fadOutTime);
         $("#career").fadeOut(fadOutTime);
     });
     $("#solutions_t").click(function()
     {
 //        $("#solutions_t").addClass('sel');
-        $("#solution").fadeIn(fadInTime);
+        $("#solution").fadeIn(fadInTime).css('display','table');
         $("#service").fadeOut(fadOutTime);
         $("#product").fadeOut(fadOutTime);
         $("#career").fadeOut(fadOutTime);
@@ -295,7 +295,7 @@ $(document).ready(function() {
 //        $("#products_t").addClass('sel');
         $("#solution").fadeOut(fadOutTime);
         $("#service").fadeOut(fadOutTime);
-        $("#product").fadeIn(fadInTime);
+        $("#product").fadeIn(fadInTime).css('display','table');
         $("#career").fadeOut(fadOutTime);
 
     });
@@ -305,7 +305,7 @@ $(document).ready(function() {
         $("#solution").fadeOut(fadOutTime);
         $("#service").fadeOut(fadOutTime);
         $("#product").fadeOut(fadOutTime);
-        $("#career").fadeIn(fadInTime);
+        $("#career").fadeIn(fadInTime).css('display','table');
 
     });
 
