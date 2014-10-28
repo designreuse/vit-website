@@ -47,8 +47,8 @@
     padding:20%; 
     padding-top: 8em;
     padding-right: 26%; /* Ratio of 1.2 must be maintained between the padding and middle tabs*/
+    margin-left: -3%;
     padding-left: 23%;  /* i.e ratio of num. of tabs to allocated space(100%-L_padd%-R_padd%)  */
-    margin-left: -60px;
     overflow: visible;
 }
 #product{
@@ -58,12 +58,13 @@
     padding:20%; 
     padding-top: 8em;
     padding-right: 28%; /* Ratio of 1.2 must be maintained between the padding and middle tabs*/
+    margin-left: -5%; 
     padding-left: 31%;  /* i.e ratio of num. of tabs to allocated space(100%-L_padd%-R_padd%)  */
-    margin-left: -75px;
     overflow: visible;
 }
 #career{
     /*z-index: 1;*/
+    display: none;
     position: absolute;
     padding:20%; 
     padding-top: 8em;
@@ -107,9 +108,9 @@
     text-align: center;
     margin-top: 6.2em;  
     font-size: 1em;
-/*    padding: 2em;
-    padding-top: 5em;
-    padding-bottom: 0;*/
+    /*    padding: 2em;
+        padding-top: 5em;
+        padding-bottom: 0;*/
     min-width: 10em;
     max-width: 18em;
     line-height: normal !important;

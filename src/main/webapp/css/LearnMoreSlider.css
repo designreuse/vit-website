@@ -54,7 +54,8 @@ and open the template in the editor.
     padding: 2.5em;
     padding-left: 4em;
 /*    border: 3px solid rgba(215, 175, 230, 0.8);*/
-    background: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.3) !important;
+    background-image: url("../images/selector-tab-back.png");
     font-size: 16px;
     overflow-y: auto;
 }
