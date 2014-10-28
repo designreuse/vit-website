@@ -95,7 +95,7 @@
                     <div class ="LMwrapper"id="LMwrapperAbout">
                         <div class="LMcontent" id="slide1" >
                             <div >
-                                <img src="images/about-us.jpg" width="100%" style="height: 14em; margin-bottom: 20px;">
+                                <img src="images/about-us.jpg" class="about-us-img1">
                                 <p>VIT is a CMMI Level-2, STPI licensed Software Services Company headquartered in Bangalore, India. Established in 2001, VIT has largely been serving its expanding base of clientele in US and Canada. VIT's primary business has been in providing technology services to renowned customers who are largely into product development.
 
                                 </p>
@@ -111,7 +111,7 @@
 
                         <div class="LMcontent" id="slide2">
                             <div >
-                                <img src="images/Contact-us1.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                <img src="images/Contact-us1.jpg" class="products-slide2-img">
                                 <div class="ym-grid">
                                     <div class="ym-grid ym-equalize">  
                                         <div class="ym-g20 ym-gr"></div>
@@ -173,7 +173,7 @@
 
                         <div class="LMcontent" id="slide3" >
                             <div >
-                                <div id="googleMap" style="width:100%;height:100%;"></div>
+                                <div id="googleMap"></div>
                             </div>                            
                         </div>
                     </div>
