@@ -18,7 +18,7 @@
         <script src="js/thumbnail.js" content ="text/javscript"></script>       
         <script>
 
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#singlePage').fullpage({
                     anchors: ['firstPage'],
                     menu: "#menus"
@@ -29,7 +29,7 @@
             });
         </script>
         <script>
-            $(function () {
+            $(function() {
                 $("#Header").load("header.jsp");
                 $("#Footer").load("footer.jsp");
             });
@@ -69,10 +69,10 @@
 
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g45">
-                                            <img src="images/onsite-offshore.jpg" width="100%" style="height: 16em; margin-bottom: 12px;">
+                                            <img src="images/onsite-offshore.jpg" class="services_img1">
                                         </div>
                                         <div class="ym-g55">
-                                            <p style="margin-top: -2em;">Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
+                                            <p class="margin-top-neg2">Traditional offshore development has been available for many years. In many cases, logistical and communication challenges prevented companies to realize the full potential benefit.</p>
                                             <p>VIT's unique Onsite/Offshore project approach provides our clients with significant benefits, traditionally unrealized by offshore services. Using agile methodologies and a blend of onsite resources coupled with resources from any of our three development centers in India, our approach is designed to speed up the overall project delivery and improve logistics and communication.</p> 
                                         </div>
                                     </div>
@@ -81,7 +81,7 @@
                                             <p>Through our application development and systems integration services, you can gain consulting and delivery expertise in both end-to-end systems integration and custom application development.</p>	
                                             <p>Centered on the needs of your organization, our onsite/offshore model is designed specifically to help you quickly reduce IT budgets, revamp IT operations and re-deploy freed-up assets to more strategic initiatives that generate business value. We work in lockstep to ensure that our team operates as an extension of your organization.</p>
                                         </div>
-                                        <div class="ym-g45"><img src="images/Delivery-Model-V1.jpg" width = "100%" style="height: 16em; margin-bottom: 12px;">
+                                        <div class="ym-g45"><img src="images/Delivery-Model-V1.jpg" class="services_img1">
                                         </div>
                                     </div>
                                     <div class="ym-grid">
@@ -91,7 +91,7 @@
                                         <p>You are assured the best result through dedicated resources that work on your project from start to finish. The VIT Client Manager is available to work with you onsite to for planning, requirements definition and project management. This resource is paired with the Delivery Manager who may be located at any of our offshore development centers. One team is assigned to work on your project from start to finish, becoming an extension of your staff.</p>
                                         <p>With an advanced global delivery capability, we efficiently manage projects, availing your staff to focus on more strategic activities. Our model allows us to provide you with comprehensive, end-to-end, advanced solutions, in many cases at a fraction of the time and cost of other firms.</p>
                                         <p>As client needs dictate, VIT can access the specialized skills of our deep talent pool to solve any challenge. Enhanced project collaboration tools and our company-wide processes assure consistent, well-planned, measurable and reliable delivery from any and all locations.</p>
-                                        <p style="font-weight: 800;">Let VIT use our IT, business-process and SharePoint consulting capabilities to help you transform your business, with minimal risk and disruption.</p>
+                                        <p><strong>Let VIT use our IT, business-process and SharePoint consulting capabilities to help you transform your business, with minimal risk and disruption.</strong></p>
                                     </div> 
                                 </div>
                             </div> 
@@ -112,7 +112,7 @@
                                             <p>VIT, a pioneer in Outsourced Software Services, has been in the forefront of these emerging trends in Software Testing. VIT's Test Engineering team has expertise on wide range of emerging testing tools and technologies that include Jenkins for continuous integration, SauceLabs for mobile cloud testing, Selenium etc.</p> 
                                         </div>
                                         <div class="ym-g60">
-                                            <img src="images/TestAuto.png" width="100%" style="height: 16em; margin-bottom: 12px;">
+                                            <img src="images/TestAuto.png" class="services_img1">
                                         </div>
 
                                     </div> 
@@ -125,7 +125,7 @@
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g38">
-                                            <p><ul style="list-style-type:disc;">
+                                            <p><ul class="li-style-cross-fade">
                                                 <li>Web Application Testing: : QTP, WinRunner, RFT, RPT, Quality Center, Selenium</li>
                                                 <li>Mobile Apps Test Automation: Appium, Robotium</li>
                                                 <li>Mobile Compatibility Testing Cloud Suite: Testdroid, SauceLabs</li>
@@ -138,11 +138,11 @@
                                             </ul></p>
                                         </div>
                                         <div class="ym-g60">
-                                            <img src="images/SoftwareTestAutomation.jpg" width="100%" style="height: 18em; margin-bottom: 12px;"> 
+                                            <img src="images/SoftwareTestAutomation.jpg" class="services_img2"> 
                                         </div>
                                     </div>
                                     <p>The following are few of the case studies of the Testing Services that was delivered by VIT to the esteemed customers.</p>
-                                    <p><ul style="list-style-type:disc;">
+                                    <p><ul class="li-style-disc">
                                         <li> Conformance Test Tool for a Digital Rights Management Company</li>
                                         <li>Continuous Integration Testing and Release Management for a DRM SDK and Reference Implementation</li>
                                         <li>Continuous Integration Testing and Release Management for cloud-based Collaborative Document Management application.</li>
@@ -163,7 +163,7 @@
 
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g60">
-                                            <img src="images/SoftDev.png" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                            <img src="images/SoftDev.png" class="services_img3">
                                         </div>
                                         <div class="ym-g38">
                                             <p id="sub-h">Delivering business value with applications development and quality assurance</p>
@@ -180,7 +180,7 @@
                                         <div class="ym-g40">
                                             <p id="sub-h">Service Areas</p>
                                             <p>
-                                            <ul style="ist-style-type:disc;">
+                                            <ul class="li-style-disc">
                                                 <li> New Application Development</li>
                                                 <li>Existing Development Enhancement</li>
                                                 <li>Application Consolidation</li>
@@ -189,7 +189,7 @@
                                             </p>
                                         </div>
                                         <div class="ym-g60">
-                                            <img src="images/EAD_Mindmap1.png" width="60%" style="height: 14em; margin-bottom: 12px;">
+                                            <img src="images/EAD_Mindmap1.png" class="services_img4">
                                         </div>
                                         <!--<div class="ym-g10"></div>-->
                                     </div>
@@ -203,19 +203,19 @@
                         <div class=" LMcontent" id="slide4" data-anchor="PD">
                             <div >
                                 <h1>Product development</h1>
-                                <img src="images/productDev.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                <img src="images/productDev.jpg" class="services_img3">
                                 <p>VIT offers professional services for companies that need product differentiation to get better market share and wider product acceptance. Such services help rationalize their product portfolio in accordance with fluctuating technology and market needs.</p>
 
                                 <p>VIT's pool of certified professionals work with our clients to understand their specific needs and help them develop products from ground up. The experience and knowledge gained from products developed for our previous clients brings you a number of benefits:</p>
-                                <p><ul style="ist-style-type:disc;">
+                                <ul class="li-style-disc">
                                     <li>A good understanding of standards, regulatory considerations and geography specific needs</li>
 
                                     <li>Ability to map the gap between market need and the product and continuously refine product ideas for applicability of product in newer domains</li>
 
                                     <li>Product-specific services such as Customization, Porting, Data migration, Standards compliance, Localization and Internationalization support, and Web enabling of the product</li>
-                                    </p>
-
-                                    <p>VIT's strength in increasing the platform availability, enhancing the features, quality performance, maintainability, portability, usability and security of the product.</p>
+                                </ul>  
+                                
+                                <p>VIT's strength in increasing the platform availability, enhancing the features, quality performance, maintainability, portability, usability and security of the product.</p>
 
                             </div>	
                             <!--                            <div class="reflection"> </div>-->
@@ -227,12 +227,12 @@
                                 <div class="ym-grid">
 
                                     <div class="ym-grid ym-equalize">
-                                        <p style="font-weight: 700; ">VIT has a strong team of skilled developers and managers with the following Domain and Technology Expertise.</p>
+                                        <p><strong>VIT has a strong team of skilled developers and managers with the following Domain and Technology Expertise.</strong></p>
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g50">
                                             <p id="sub-h">Domain Expertise</p>
-                                            <p><ul style="ist-style-type:disc;">
+                                            <ul class="li-style-disc">
                                                 <li>Enterprise & Collaborative Applications</li>
 
                                                 <li>Business Process Management</li>
@@ -241,15 +241,15 @@
                                                 <li>Wireless applications</li>
                                                 <li>Web Applications</li>
                                                 <li>Computer Graphics</li>
-                                                </p>
+                                            </ul>
                                         </div>
                                         <div class="ym-g50">
-                                            <img src="images/expertise_banner.jpg" width="90%" style="height: 12em; margin-bottom: 12px;">
+                                            <img src="images/expertise_banner.jpg" class="services_img5">
                                         </div>
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <p id="sub-h">Technology Expertise</p>
-                                        <p><ul style="ist-style-type:disc;">
+                                        <p><ul class="li-style-cross-fade">
                                             <li>Java/J2EE Technologies : Java, JSP, EJB, Hibernate, Ajax, jQuery, JavaScript, SWT, Websphere, Weblogic, JBoss, JUnit</li>
 
                                             <li>.NET Technologies: C#, VB.NET, ASP.NET, ADO.NET, .NET Framework, .NET Compact Framework, WPF, WCF, Silverlight, WinForms, BizTalk Server, Visual Studio.NET</li>
