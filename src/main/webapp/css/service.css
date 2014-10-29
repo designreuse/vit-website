@@ -161,7 +161,7 @@
     -o-transform: scaleY(-1);
     -ms-transform: scaleY(-1);
     transform: scaleY(-1);
-    /*background-image: url("../images/selector-reflection-back.png");*/
+    background-image: url("../images/selector-reflection-back.png");
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.65));
     background: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.65));
     background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.65)); /* For Opera 11.1 to 12.0 */
@@ -172,7 +172,7 @@
     margin-top:2.3em;
     position: relative;
     pointer-events: none;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
 }
 
@@ -195,7 +195,7 @@
     text-align: -moz-center;
     line-height: normal !important;
     overflow-wrap: break-word;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
     /*font-size: 20px;*/
     transition:all 0.41s ease-in-out;
 
@@ -240,7 +240,7 @@
     line-height: normal !important;
     overflow-wrap: break-word;
     font-size: 1em;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
     transition:all 0.9s ease-in-out;
     padding: 3px;
     margin-right: 1.5em;
@@ -250,10 +250,11 @@
 
 .sel {
     background:rgba(83, 62, 101, 0.4)!important;
+    background: rgb(178,150,203);
     /*    box-shadow: -2px 6px 52px rgba(242, 11, 100, 0.63);*/
 }
 .sel>a{
-    color: rgba(255,255,255,1) ;
+    color: rgb(255,255,255) ;
     text-decoration: none;
 }
 
@@ -286,12 +287,12 @@
 
 }
 #footer-border{
-    color: rgba(255,255,255,1);
+    color: rgb(255,255,255);
     text-decoration: none;
 }
 #footer-border:hover{
     text-decoration: none;
-    color: rgba(0,200,200,1);
+    color: rgb(0,200,200);
 }
 .Inline{
     padding-right: 1em;
@@ -335,7 +336,7 @@
 /* ----------------------------  Header Styles ---------------------------------*/
 .HeaderItem{
     /*    padding-top: 10%;*/
-    color:rgba(255,255,255,1);
+    color:rgb(255,255,255);
     overflow-wrap: break-word;
     line-height: normal !important;
     text-align: center;
@@ -344,7 +345,7 @@
 }
 .HeaderItem *>a{
     font-size: 1em;
-    color:rgba(255,255,255,1);
+    color:rgb(255,255,255);
     transition :all 0.4s ease-in-out;
 
 }
@@ -365,7 +366,7 @@
 
 }
 .HeaderItem *>a:hover{
-    color: rgba(220, 27, 133, 0.9) ;
+    color: rgb(220, 27, 133) ;
     text-decoration: none;
 }
 .HeaderItem *>p{
