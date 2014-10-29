@@ -896,6 +896,14 @@ li.current {
     height: 100px;width: 100px;opacity: 0.9;
 }
 
+.margin-top-neg2{
+    margin-top: -2em! important;
+}
+
+.margin-top-neg4{
+    margin-top: -4em! important;
+}
+
 .margin-top-neg6{
     margin-top: -6em! important;
 }
@@ -964,4 +972,63 @@ li.current {
     height: 5em;
     margin: 28% 0 0 26.5%;
     opacity: 0.9;
+}
+
+.autoplay{
+    width: 55% ! important;left: 25% ! important;
+}
+
+.no-pointer{
+    pointer-events: none ! important;
+}
+
+#service1,#solution1,#career1,#product1{
+    margin-top: -6% ! important;
+}
+
+#service2,#career2,#product2,#solution2{
+    margin-top: -2% ! important;
+}
+
+#service3,#career3,#product3,#solution3{
+    margin-top: 2% ! important;
+}
+
+#service4,#career4,#solution4{
+    margin-top: 6% ! important;
+}
+
+#service5,#career5{
+    margin-top: 10% ! important;
+}
+
+.services_img1{
+    width:100%;height: 16em; margin-bottom: 12px;
+}
+
+.services_img2{
+    width:100%;height: 18em; margin-bottom: 12px;
+}
+
+.services_img3{
+    width:100%;height: 14em; margin-bottom: 12px;
+}
+
+.services_img4{
+    width:60%;height: 14em; margin-bottom: 12px;
+}
+.services_img5{
+    width:90%;height: 12em; margin-bottom: 12px;
+}
+
+.solutions_img1{
+    width:100%;height: 24em; margin-bottom: 12px;
+}
+
+.solutions_img2{
+    width:100%;height: 22em; margin-bottom: 12px;
+}
+
+.solutions_img3{
+    width:100%;height: 20em; margin-bottom: 12px;
 }

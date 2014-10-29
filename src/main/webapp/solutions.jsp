@@ -18,7 +18,7 @@
         <script src="js/thumbnail.js" content ="text/javscript"></script>
         <script>
 
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#singlePage').fullpage({
                     anchors: ['firstPage'],
                     menu: "#menus"
@@ -29,7 +29,7 @@
             });
         </script>
         <script>
-            $(function () {
+            $(function() {
                 $("#Header").load("header.jsp");
                 $("#Footer").load("footer.jsp");
             });
@@ -72,7 +72,7 @@
                                             <p>We work with companies across industries and sizes as a trusted advisor to help clients leverage the power of Microsoft SharePoint. VIT recognizes that every situation and client is unique which is why we gear our SharePoint consulting services towards meeting your organization's unique needs. We are dedicated to working collaboratively with clients to deliver individually tailored SharePoint services that meet their exact SharePoint and business needs.</p>
                                         </div>
                                         <div class="ym-g50">
-                                            <img src="images/sp2.jpg" width="100%" style="height: 24em; margin-bottom: 12px;">
+                                            <img src="images/sp2.jpg" class="solutions_img1">
                                         </div>
                                     </div>   
                                     <div class="ym-grid ym-equalize">
@@ -134,11 +134,11 @@
                                     <div class="ym-grid ym-equalize">
 
                                         <div class="ym-g50">
-                                            <p style="margin-top: -4em;">BPM is essentially the practice of managing a company by focusing on defining business processes, describing them in detail, monitoring them with appropriate metrics, and then using this improved understanding coupled with automation to optimize the performance of the business. It is focused on aligning all operational aspects of an organization with the wants and needs of clients. It is a holistic management approach that promotes business effectiveness and efficiency while striving for innovation, flexibility, and integration with technology.</p>                               
+                                            <p class="margin-top-neg4">BPM is essentially the practice of managing a company by focusing on defining business processes, describing them in detail, monitoring them with appropriate metrics, and then using this improved understanding coupled with automation to optimize the performance of the business. It is focused on aligning all operational aspects of an organization with the wants and needs of clients. It is a holistic management approach that promotes business effectiveness and efficiency while striving for innovation, flexibility, and integration with technology.</p>                               
                                             <p>BPM attempts to improve processes continuously and promotes a shift in the organizational culture. It is argued that BPM enables organizations to be more efficient, more effective and more capable of change than organizations that use functionally focused, traditional hierarchical management approaches.</p>                               
                                         </div>
                                         <div class="ym-g50">
-                                            <img src="images/bpm2.jpg" width="100%" style="height: 22em; margin-bottom: 12px;">
+                                            <img src="images/bpm2.jpg" class="solutions_img2">
                                         </div>
                                     </div>
                                     <div class="ym-grid ym-equalize">
@@ -159,25 +159,18 @@
                         <div class="LMcontent" id="slide3" data-anchor="CMS">
                             <div >  
 
-                                <img src="images/cms-solutions.jpg" width="100%" style="height: 16em; margin-bottom: 12px;">
+                                <img src="images/cms-solutions.jpg" class="services_img1">
 
                                 <p>Content Management System refers to the system of managing the information from creation to its destruction. It includes the management of process for updates, approvals, indexing, publishing, storage, archival etc.</p>
 
                                 <p>Information typically passes through this lifecycle for a finite period of time. A content management system (CMS) provides the necessary infrastructure for multiple persons to effectively contribute content and collaborate throughout these lifecycles Content Management System essentially consists of Document Management, Records Management and Document Capture.</p>
-                                <p id="sub-h"> VIT has the expertise in implementing Content Management systems based on the following technology stacks:</p>
-
-                                <p>
-                                <ul style="ist-style-type:disc;">
+                                <p id="sub-h"> VIT has the expertise in implementing Content Management systems based on the following technology stacks:</p>                              
+                                <ul class="li-style-disc">
                                     <li>Microsoft Technology stack using Microsoft SharePoint and commercial capture tools like Kofax Capture or KnowledgeLake Capture.</li>
                                     <li>Open source stack using Alfresco and Tesseract OCR.</li>
-                                </ul> </p>
-
-                            </div>
-                            <!--                            <div class="reflection"> </div>-->
+                                </ul> 
+                            </div>                          
                         </div>
-
-
-
                         <div class=" LMcontent" id="slide4" data-anchor="Mobility">
                             <div >
                                 <h1>Mobility Solutions</h1>
@@ -185,7 +178,7 @@
 
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g66">
-                                            <img src="images/mobility_banner.jpg" width="100%" style="height: 14em; margin-bottom: 12px;">
+                                            <img src="images/mobility_banner.jpg" class="services_img3">
                                         </div>
                                         <div class="ym-g33  ">
                                             <p>Using VITMobile(TM) framework several world class application and solutions has been developed few of which are listed below:</p>
@@ -193,32 +186,27 @@
 
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                        <p><ul style="list-style-type:disc;">
+                                        <p><ul class="li-style-disc">
                                             <li><p id="sub-h">Smart Inspection</p>  This application is used for performing field inspections. This application will help the inspectors to collect the inspection relation information directly in the device and sync them with the server. The application can also pre-fetch any information that may be required during the inspection. Each inspection records are encoded with GPS coordinates and date/time stamp in the background so that the location of inspection site can be verified. User can also click multiple pictures at inspection site and write notes related to each picture. The inspection can also be performed in disconnected mode in which case the inspection records are saved locally and pushed to server when the network is restored.</li></ul></p>                                            
 
                                     </div>
                                     <div class="ym-grid ym-equalize">
                                         <div class="ym-g50">
-                                            <img src="images/mob2.jpg" width="100%" style="height: 20em; margin-bottom: 12px;">
+                                            <img src="images/mob2.jpg" class="solutions_img3">
                                         </div>
                                         <div class="ym-g50">
-                                            <p><ul style="list-style-type:disc;">
+                                            <p><ul class="li-style-disc">
                                                 <li><p id="sub-h">Depot Management Application</p> This application is used to manage end to end operations of a depot by collecting information right from the point where the truck enters to the point where the commodities are dumped. Due to the remoteness of the locations, network connectivity in depots is a challenge, so till date depot staff relies on manual way of stock keeping. VITMobile framework resolves this issue and allows user to collect the informations at the point of occurrence in both connected as well as disconnected mode. Using this application only new information needs to be entered at different stage of depot operations. The depot in charge can view any kind of reports or generate receipts at a click of a button and if needed print them via portable Bluetooth printers.</li></ul></p>                                           
                                         </div>
-
                                     </div>
                                     <div class="ym-grid ym-equalize">
-                                        <p><ul style="list-style-type:disc;">
+                                        <p><ul class="li-style-disc">
                                             <li><p id="sub-h">Sales Management & Automation</p> This application is used by industries where sales department needs to visit their vendors on frequent basis. Using this application, sales representative can view the past orders given by the vendor along with the current status of delivery & payment. They can also take the new order and check their inventory before committing a delivery date. The disconnected framework makes sure that the salesman performs the job uninterrupted even if the vendor is remotely located with limited or no network connectivity. The interface with the external Bluetooth printer comes handy to print the order or payment receipt.</li>
                                         </ul></p>
                                     </div>
                                 </div>
-
-
-                            </div>	
-                            <!--                            <div class="reflection"> </div>-->
+                            </div>	                           
                         </div>
-
                     </div>
 
 
