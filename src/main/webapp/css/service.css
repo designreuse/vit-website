@@ -221,6 +221,9 @@
     text-align: -webkit-center;
     text-align: -moz-center;
     text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(103, 103, 103);
 }
 .menuTop >div{
     padding: 0.8em;
@@ -272,6 +275,9 @@
     position: absolute;
     overflow-wrap: break-word;
     z-index: 3;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(0,0, 0);
 
 }
 #footer .footer-below {
