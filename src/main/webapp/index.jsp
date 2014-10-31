@@ -12,9 +12,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" type="text/css" href="css/admin.css" />        
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
-
+        <link rel="stylesheet" type="text/css" href="css/admin.css" />      
+        
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/vendor/jquery.easings.min.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.slimscroll.min.js"></script>
