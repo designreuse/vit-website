@@ -171,16 +171,16 @@
 .demo-1 .deco {
     width: 180px;
     height: 180px;
-    /*border: 2px dashed black;*/
-    /*border-style:dashed;*/
-    /*border-radius: 50%;*/
+    border: 2px dashed black;
+    border-style:dashed;
+    border-radius: 50%;
     position: absolute;
     bottom: 50%;
     left: 52%;
     margin: 0 0 0 -130px;
-    background-size: cover;
+/*    background-size: cover;
     background: 50%;
-    background-image: url(../images/sorround-circle.png);
+    background-image: url(../images/sorround-circle.png);*/
 }
 
 .demo-1 [data-icon]:after {
@@ -197,8 +197,8 @@
     top: 48%;
     left: 50%;
     margin: -72px 0 0 -74px;
-    /*box-shadow: inset 0 0 0 10px rgba(66, 58, 58, 0.55);*/
-    /*border-radius: 50%;*/
+    box-shadow: inset 0 0 0 10px rgba(66, 58, 58, 0.55);
+    border-radius: 50%;
 }
 
 .demo-1 .sl-slide h2 {
