@@ -24,7 +24,7 @@
 
                 <div class="ym-g20 ym-gl" >
                     <li  data-menuanchor="services">
-                        <img src="images/Microsoft_white.png"></li>
+                        <img src="images/Microsoft_certificate.png"></li>
                 </div>
                 <div class="ym-g5 HeaderItem ym-equalize ">
                 </div>
@@ -44,7 +44,7 @@
                 <div class="ym-g15 HeaderItem ym-equalize ">
                     <div class="ym-g50 ">
                         <a href="<%=request.getContextPath()%>/solutions.jsp#Sharepoint">
-                            <img src="images/sp.png"/>
+                            <img src="images/fa-sharepoint.png"/>
                         </a>
                     </div>
                     <div class="ym-g50">
