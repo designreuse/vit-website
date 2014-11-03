@@ -178,9 +178,11 @@
     bottom: 50%;
     left: 52%;
     margin: 0 0 0 -130px;
-/*    background-size: cover;
-    background: 50%;
-    background-image: url(../images/sorround-circle.png);*/
+    border:none\9;
+    background-size: cover\9;
+    background: 50%\9;
+    background-image: url(../images/sorround-circle.png)\9;
+
 }
 
 .demo-1 [data-icon]:after {
