@@ -1,11 +1,4 @@
-.hsContainer{
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    overflow: visible;
-    padding-top: 5%;
-    /*height: 100%*/
-}
+
 #services{
     background-image: url("../images/background.png");
     background: -webkit-radial-gradient(circle, rgba(18, 216, 248, 0.670588),
@@ -177,11 +170,11 @@
 }
 
 /* ------- MENU AT BOTTOM OF first PAGE -------------*/
-.menuBottom{
+/*.menuBottom{
     text-align: -webkit-center;
     text-align: -moz-center;
     text-align: center;
-    /*	margin-top: 5px;*/
+    	margin-top: 5px;
     bottom: 9px;
     position: absolute;
     z-index: 1;
@@ -196,14 +189,14 @@
     line-height: normal !important;
     overflow-wrap: break-word;
     color: rgb(255, 255, 255);
-    /*font-size: 20px;*/
+    font-size: 20px;
     transition:all 0.41s ease-in-out;
 
 }
 .menuItemB:hover{
     text-decoration: none;
     color:rgba(220, 27, 133, 0.50);
-}
+}*/
 
 /*--------------- MEnu AT TOP of Secod PAge-----------*/
 .menuTop{

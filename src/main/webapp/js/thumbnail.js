@@ -106,7 +106,7 @@ $(window).mouseenter(AdjustTheElements);
 $(document).ready(function() {
 
 //**************************************Services ************************************
-    var offset = $(".service_1").width();  // width() used to perform math calculations on Ht/Wt
+//    var offset = $(".service_1").width();  // width() used to perform math calculations on Ht/Wt
     var fac;
     fac = 45;
 
