@@ -18,19 +18,19 @@
         </div> 
         <div class="ym-g25 ym-gr">
             <div class="ym-grid ym-equalize">
-                <div class="ym-g10  Inline"><a target="_blank" href="https://www.facebook.com/pages/Vyshnavi-Information-Technologies-India-Pvt-Ltd/228604100487141" class="btn-social btn-outline">
+                <div class="ym-g10  "><a target="_blank" href="https://www.facebook.com/pages/Vyshnavi-Information-Technologies-India-Pvt-Ltd/228604100487141" class="btn-social btn-outline">
                         <i class="fa fa-fw fa-facebook"></i>
                     </a></div>  
-                <div class="ym-g10  Inline"><a target="_blank" href="#" class="btn-social btn-outline">
+                <div class="ym-g10  "><a target="_blank" href="#" class="btn-social btn-outline">
                         <i class="fa fa-fw fa-google-plus"></i>
                     </a></div> 
-                <div class="ym-g10  Inline"><a target="_blank" href="https://twitter.com/vittweets" class="btn-social btn-outline">
+                <div class="ym-g10  "><a target="_blank" href="https://twitter.com/vittweets" class="btn-social btn-outline">
                         <i class="fa fa-fw fa-twitter"></i>
                     </a></div>
-                <div class="ym-g10  Inline"><a target="_blank" href="http://www.linkedin.com/company/86733" class="btn-social btn-outline">
+                <div class="ym-g10  "><a target="_blank" href="http://www.linkedin.com/company/86733" class="btn-social btn-outline">
                         <i class="fa fa-fw fa-linkedin"></i>
                     </a></div>
-                <div class="ym-g40  Inline"></div>
+                <div class="ym-g40  "></div>
             </div>
 
         </div>
