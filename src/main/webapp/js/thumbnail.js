@@ -2,25 +2,25 @@
 function AdjustTheElements() {
     var widthHtml = $(document).width(); // returns width of HTML document
     var heightHtml = $(window).height();
-    AdjustTheLMElements();
+    //  AdjustTheLMElements();
     console.log("***************************************");
 
-    $("#slider").mouseenter(function() {
+    $("#slider").mouseenter(function () {
         $(".menuItem").removeClass('sel');
     });
-    $("#service").mouseenter(function() {
+    $("#service").mouseenter(function () {
         $(".menuItem").removeClass('sel');
         $("#services_t").addClass('sel');
     });
-    $("#solution").mouseenter(function() {
+    $("#solution").mouseenter(function () {
         $(".menuItem").removeClass('sel');
         $("#solutions_t").addClass('sel');
     });
-    $("#product").mouseenter(function() {
+    $("#product").mouseenter(function () {
         $(".menuItem").removeClass('sel');
         $("#products_t").addClass('sel');
     });
-    $("#career").mouseenter(function() {
+    $("#career").mouseenter(function () {
         $(".menuItem").removeClass('sel');
         $("#careers_t").addClass('sel');
     });
@@ -103,23 +103,21 @@ $(window).load(AdjustTheElements);  //execute on page refresh after the body Dat
 $(window).mouseenter(AdjustTheElements);
 
 
-$(document).ready(function() {
+$(document).ready(function () {
 
 //**************************************Services ************************************
-//    var offset = $(".service_1").width();  // width() used to perform math calculations on Ht/Wt
     var fac;
     fac = 45;
 
-    $("#service1").click(function()
+    $("#service1").click(function ()
     {
         $("#service1").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
-//$('#service1').animate({backgroundColor: 'rgba(0, 126, 243, 0.3)'},"slow");
         $("#service2").animate({marginLeft: fac + "%", marginTop: "-6%"}, 900);
         $("#service3").animate({marginLeft: fac + "%", marginTop: "2%"}, 800);
         $("#service4").animate({marginLeft: fac + "%", marginTop: "8%"}, 700);
         $("#service5").animate({marginLeft: fac + "%", marginTop: "14%"}, 600);
     });
-    $("#service2").click(function()
+    $("#service2").click(function ()
     {
         $("#service1").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 700);
         $("#service2").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
@@ -127,7 +125,7 @@ $(document).ready(function() {
         $("#service4").animate({marginLeft: fac + "%", marginTop: "2%"}, 700);
         $("#service5").animate({marginLeft: fac + "%", marginTop: "8%"}, 600);
     });
-    $("#service3").click(function()
+    $("#service3").click(function ()
     {
         $("#service1").animate({marginLeft: "-" + fac + "%", marginTop: "-12%"}, 700);
         $("#service2").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 600);
@@ -135,7 +133,7 @@ $(document).ready(function() {
         $("#service4").animate({marginLeft: fac + "%", marginTop: "-6%"}, 700);
         $("#service5").animate({marginLeft: fac + "%", marginTop: "-12%"}, 600);
     });
-    $("#service4").click(function()
+    $("#service4").click(function ()
     {
         $("#service1").animate({marginLeft: "-" + fac + "%", marginTop: "8%"}, 600);
         $("#service2").animate({marginLeft: "-" + fac + "%", marginTop: "2%"}, 700);
@@ -143,7 +141,7 @@ $(document).ready(function() {
         $("#service4").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
         $("#service5").animate({marginLeft: fac + "%", marginTop: "-6%"}, 600);
     });
-    $("#service5").click(function()
+    $("#service5").click(function ()
     {
         $("#service1").animate({marginLeft: "-" + fac + "%", marginTop: "14%"}, 600);
         $("#service2").animate({marginLeft: "-" + fac + "%", marginTop: "8%"}, 700);
@@ -154,16 +152,15 @@ $(document).ready(function() {
 //**********************************Solutions**************************************
 
 
-    $("#solution1").click(function()
+    $("#solution1").click(function ()
     {
         $("#solution1").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
-//$('#solution1').animate({backgroundColor: 'rgba(0, 126, 243, 0.3)'},"slow");
         $("#solution2").animate({marginLeft: fac + "%", marginTop: "-6%"}, 800);
         $("#solution3").animate({marginLeft: fac + "%", marginTop: "2%"}, 700);
         $("#solution4").animate({marginLeft: fac + "%", marginTop: "8%"}, 600);
 
     });
-    $("#solution2").click(function()
+    $("#solution2").click(function ()
     {
         $("#solution1").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 700);
         $("#solution2").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
@@ -171,7 +168,7 @@ $(document).ready(function() {
         $("#solution4").animate({marginLeft: fac + "%", marginTop: "-12%"}, 700);
 
     });
-    $("#solution3").click(function()
+    $("#solution3").click(function ()
     {
         $("#solution1").animate({marginLeft: "-" + fac + "%", marginTop: "-12%"}, 700);
         $("#solution2").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 600);
@@ -179,7 +176,7 @@ $(document).ready(function() {
         $("#solution4").animate({marginLeft: fac + "%", marginTop: "-6%"}, 700);
 
     });
-    $("#solution4").click(function()
+    $("#solution4").click(function ()
     {
         $("#solution1").animate({marginLeft: "-" + fac + "%", marginTop: "8%"}, 600);
         $("#solution2").animate({marginLeft: "-" + fac + "%", marginTop: "2%"}, 700);
@@ -188,16 +185,15 @@ $(document).ready(function() {
 
     });
 //**********************************Product**************************************
-    $("#product1").click(function()
+    $("#product1").click(function ()
     {
         $("#product1").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
-//$('#product1').animate({backgroundColor: 'rgba(0, 126, 243, 0.3)'},"slow");
         $("#product2").animate({marginLeft: fac + "%", marginTop: "-6%"}, 700);
         $("#product3").animate({marginLeft: fac + "%", marginTop: "2%"}, 600);
 
 
     });
-    $("#product2").click(function()
+    $("#product2").click(function ()
     {
         $("#product1").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 700);
         $("#product2").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
@@ -205,7 +201,7 @@ $(document).ready(function() {
 
 
     });
-    $("#product3").click(function()
+    $("#product3").click(function ()
     {
         $("#product1").animate({marginLeft: "-" + fac + "%", marginTop: "2%"}, 700);
         $("#product2").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 600);
@@ -215,17 +211,16 @@ $(document).ready(function() {
 
 
 //**********************************Careers**************************************
-    $("#career1").click(function()
+    $("#career1").click(function ()
     {
         $("#career1").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
-//$('#career1').animate({backgroundColor: 'rgba(0, 126, 243, 0.3)'},"slow");
         $("#career2").animate({marginLeft: fac + "%", marginTop: "-6%"}, 800);
         $("#career3").animate({marginLeft: fac + "%", marginTop: "2%"}, 700);
         $("#career4").animate({marginLeft: fac + "%", marginTop: "8%"}, 600);
         $("#career5").animate({marginLeft: fac + "%", marginTop: "14%"}, 600);
 
     });
-    $("#career2").click(function()
+    $("#career2").click(function ()
     {
         $("#career1").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 700);
         $("#career2").animate({marginLeft: "0%", marginTop: "0%"}, "fast");
@@ -234,7 +229,7 @@ $(document).ready(function() {
         $("#career5").animate({marginLeft: fac + "%", marginTop: "8%"}, 600);
 
     });
-    $("#career3").click(function()
+    $("#career3").click(function ()
     {
         $("#career1").animate({marginLeft: "-" + fac + "%", marginTop: "-12%"}, 700);
         $("#career2").animate({marginLeft: "-" + fac + "%", marginTop: "-6%"}, 600);
@@ -243,7 +238,7 @@ $(document).ready(function() {
         $("#career5").animate({marginLeft: fac + "%", marginTop: "-12%"}, 600);
 
     });
-    $("#career4").click(function()
+    $("#career4").click(function ()
     {
         $("#career1").animate({marginLeft: "-" + fac + "%", marginTop: "8%"}, 600);
         $("#career2").animate({marginLeft: "-" + fac + "%", marginTop: "2%"}, 700);
@@ -252,7 +247,7 @@ $(document).ready(function() {
         $("#career5").animate({marginLeft: fac + "%", marginTop: "-6%"}, 600);
 
     });
-    $("#career5").click(function()
+    $("#career5").click(function ()
     {
         $("#career1").animate({marginLeft: "-" + fac + "%", marginTop: "14%"}, 600);
         $("#career2").animate({marginLeft: "-" + fac + "%", marginTop: "8%"}, 700);
@@ -263,60 +258,47 @@ $(document).ready(function() {
 
     /*****************************************Menu Title CLICK***************************************/
 
-//    $("#home_t").click(function ()
-//    {
-//        $(".menuItem").removeClass('sel');
-//        $("#services_t").addClass('sel');
-//        $("#solution").fadeOut(fadOutTime);
-//        $("#service").fadeIn(fadInTime);
-//        $("#product").fadeOut(fadOutTime);
-//        $("#career").fadeOut(fadOutTime);
-//    });
-
-    $("#services_t").click(function()
+    $("#services_t").click(function ()
     {
-//        $("#services_t").addClass('sel');
         $("#solution").fadeOut(fadOutTime);
-        $("#service").fadeIn(fadInTime).css('display','table');
+        $("#service").fadeIn(fadInTime).css('display', 'table');
         $("#product").fadeOut(fadOutTime);
         $("#career").fadeOut(fadOutTime);
     });
-    $("#solutions_t").click(function()
+    $("#solutions_t").click(function ()
     {
-//        $("#solutions_t").addClass('sel');
-        $("#solution").fadeIn(fadInTime).css('display','table');
+
+        $("#solution").fadeIn(fadInTime).css('display', 'table');
         $("#service").fadeOut(fadOutTime);
         $("#product").fadeOut(fadOutTime);
         $("#career").fadeOut(fadOutTime);
 
     });
-    $("#products_t").click(function()
+    $("#products_t").click(function ()
     {
-//        $("#products_t").addClass('sel');
         $("#solution").fadeOut(fadOutTime);
         $("#service").fadeOut(fadOutTime);
-        $("#product").fadeIn(fadInTime).css('display','table');
+        $("#product").fadeIn(fadInTime).css('display', 'table');
         $("#career").fadeOut(fadOutTime);
 
     });
-    $("#careers_t").click(function()
+    $("#careers_t").click(function ()
     {
-//        $("#careers_t").addClass('sel');
         $("#solution").fadeOut(fadOutTime);
         $("#service").fadeOut(fadOutTime);
         $("#product").fadeOut(fadOutTime);
-        $("#career").fadeIn(fadInTime).css('display','table');
+        $("#career").fadeIn(fadInTime).css('display', 'table');
 
     });
 
-    $(".menuItem").click(function() {
+    $(".menuItem").click(function () {
         $('.menuItem').removeClass('sel');
         $(this).addClass('sel');
     });
 
 
 
-    $('.service_1').click(function(e) {
+    $('.service_1').click(function (e) {
         $('.service_1 div>a').css("opacity", "0.01");
         $('.service_1 div>h1, .service_1 div>h2').css("color", "rgba(220, 27, 133, 0.5)");
         $('.service_1 div>p').css("color", "rgba(220, 27, 133, 0.4)");
@@ -324,9 +306,6 @@ $(document).ready(function() {
         $(this).find('h1,h2').css("color", "rgba(220, 27, 133, 1)");
         $(this).find('p').css("color", "rgba(220, 27, 133, 0.8)");
     });
-
-//    var currentUrl = window.location.href;
-//    $(".HeaderItem[href='" + currentUrl + "'] *> div").addClass("hsel");
 
     //  console.log(window.location.pathname);
 });
