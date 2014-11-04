@@ -293,11 +293,11 @@
     text-decoration: none;
     color: rgb(0,200,200);
 }
-.Inline{
+/*.Inline{
     padding-right: 1em;
-    /*padding-left: 1.5em;*/
-    /*font-size: 0.7em;*/
-}
+    padding-left: 1.5em;
+    font-size: 0.7em;
+}*/
 .max-inline-padding{
     /*padding-right: 1.5em;*/
     padding-left: 5.5em;
