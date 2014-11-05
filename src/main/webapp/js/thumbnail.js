@@ -2,7 +2,7 @@
 function AdjustTheElements() {
     var widthHtml = $(document).width(); // returns width of HTML document
     var heightHtml = $(window).height();
-    //  AdjustTheLMElements();
+    AdjustTheLMElements();
     console.log("***************************************");
 
     $("#slider").mouseenter(function () {
